@@ -1,0 +1,1 @@
+Every file its not my own and every template in this folder is free to use

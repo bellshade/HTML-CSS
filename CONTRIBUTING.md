@@ -10,7 +10,7 @@ Semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 - Hasil kerja kamu akan berlisensi [MIT](LICENSE) ketika permintaan pull kamu sudah di merged.
 - Hasil kerja kamu wajib mengikuti standar dan style koding dari kami.
 - Penggunaan nama file bersifat `camelCase` dan berlaku juga untuk variable dan identifier.
-- Menggunakan output `console.log()`.
+- Menggunakan output `html`.
 
 ## Pull Request
 

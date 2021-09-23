@@ -11,3 +11,20 @@ Semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 - Hasil kerja kamu wajib mengikuti standar dan style koding dari kami.
 - Penggunaan nama file bersifat `camelCase` dan berlaku juga untuk variable dan identifier.
 - Menggunakan output `console.log()`.
+
+## Pull Request
+
+### Pull Request Yang Baik
+
+- Lakukan fork pada repository kami
+- Setelah melakukan fork kamu dibebaskan untuk mengubah atau menambah algoritma
+- Untuk pull request merubah diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah
+- Setelah merubah, menambah, atau perbaikan dokumentasi, usahakan kamu membuat branch baru
+
+```bash
+git checkout -b <branch_name>
+git add .
+git commit -m "add: menambahkan algoritma baru"
+```
+
+- Lakukan push ke branch kamu dan kemudian open pull request

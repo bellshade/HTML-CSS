@@ -4,7 +4,7 @@
 ![license](https://img.shields.io/github/license/bellshade/javaAlgorithm?style=for-the-badge)
 
 
-Repositori ini berisi kumpulan dari berbagai macam script struktur data dan algoritma yang diimplementasikan dengan menggunakan bahasa pemrograman HTML-CSS.
+Repositori ini berisi pembelajaran dan contoh-contoh dari impelementasi HTML dan CSS.
 
 ## Peraturan dan Pedoman Kontribusi
 

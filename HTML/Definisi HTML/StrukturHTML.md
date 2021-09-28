@@ -4,6 +4,8 @@ HTML menggunakan tiga tag untuk membuat struktur keseluruhan. yaitu <html>, <hea
 
 Contoh kriteria Web Sederhana :
 
+Contoh ke Definisi.html
+
 - DOCTYPE atau document type declaration (DTD) adalah keterangan yang ditulis untuk memberitahu web browser tentang aturan penulisan yan sedang dibuat
 - Pasangan tag <html> dan tag </html> menandakan bahwa di dalamnya adalah kode HTML.
 - Bagian di tag <html> dan </html> terbagi atas :

@@ -1,4 +1,6 @@
-# Dasar - dasar HTML
+# Dasar-Dasar
+
+## Dasar-Dasar HTML
 
 - Definisi HTML
 - Penjelasan tag HTML
@@ -13,7 +15,7 @@
 - Horizontal Line
 - Font-Style
 
-# Dasar - dasar CSS
+## Dasar-Dasar CSS
 
 - Definisi CSS
 -

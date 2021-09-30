@@ -1,1 +1,1 @@
-Every file its not my own and every template in this folder is free to use
+Every files aren't mine and every templates in this folder are free to use.

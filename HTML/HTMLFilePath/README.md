@@ -22,7 +22,7 @@ maka file tersebut terdapat pada folder ``picture``
 ```
 index.html
 picture
-├── gamba_saya.jpg
+├── gambar_saya.jpg
 ```
 
 ## file html terpisah dan file lainnya dengan url

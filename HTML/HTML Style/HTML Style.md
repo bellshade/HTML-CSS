@@ -1,6 +1,6 @@
 ## HTML Style
 
-### Apa Itu HTML Style
+### Apa Itu HTML Style ?
 HTML Style adalah atribut yang digunakan untuk memberikan style/gaya pada suatu elemen, seperti color, font, size, dan sebagainya.
 
 atribut Style memiliki sintaks seperti berikut:

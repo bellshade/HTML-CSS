@@ -8,9 +8,9 @@ Warna dapat ditentukan menggunakan:
 - Nama warna yang telah ditentukan
 - Nilai RGB
 - Nilai RGBA
-- Nilai HEX
 - Nilai HSL
 - Nilai HSLA
+- Nilai HEX
 
 ### Nama warna dalam CSS
 
@@ -59,20 +59,6 @@ Contoh:
 <p style="color: #fff; background: rgba(106, 90, 205, 1); padding: 1rem;">rgba(106, 90, 205, 1)</p>
 </div>
 
-### Nilai HEX
-
-Warna heksadesimal ditentukan dengan: #RRGGBB, di mana bilangan bulat heksadesimal RR (merah), GG (hijau) dan BB (biru) menentukan komponen warna.
-
-`#rrggbb`
-
-Contoh:
-
-<div>
-<p style="color: #fff; background: #ffa500; padding: 1rem;">#ffa500</p>
-<p style="color: #fff; background: #1e90ff; padding: 1rem;">#1e90ff</p>
-<p style="color: #fff; background: #6a5acd; padding: 1rem;">#6a5acd</p>
-</div>
-
 ### Nilai HSL
 
 Di CSS, warna dapat ditentukan menggunakan hue, saturation, dan lightness (HSL) dalam bentuk:
@@ -101,4 +87,18 @@ Contoh:
 <p style="color: #fff; background: hsla(248, 53%, 58%, 0); padding: 1rem;">hsla(248, 53%, 58%, 0)</p>
 <p style="color: #fff; background: hsla(248, 53%, 58%, 0.5); padding: 1rem;">hsla(248, 53%, 58%, 0.5)</p>
 <p style="color: #fff; background: hsla(248, 53%, 58%, 1); padding: 1rem;">hsla(248, 53%, 58%, 1)</p>
+</div>
+
+### Nilai HEX
+
+Warna heksadesimal ditentukan dengan: #RRGGBB, di mana bilangan bulat heksadesimal RR (merah), GG (hijau) dan BB (biru) menentukan komponen warna.
+
+`#rrggbb`
+
+Contoh:
+
+<div>
+<p style="color: #fff; background: #ffa500; padding: 1rem;">#ffa500</p>
+<p style="color: #fff; background: #1e90ff; padding: 1rem;">#1e90ff</p>
+<p style="color: #fff; background: #6a5acd; padding: 1rem;">#6a5acd</p>
 </div>

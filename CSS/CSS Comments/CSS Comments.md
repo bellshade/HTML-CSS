@@ -6,13 +6,13 @@ CSS Comments berfungsi untuk membantu menjelaskan serta mendokumentasikan style 
 Anda dapat menggunakan Comments pada CSS dengan bentuk penulisan style internal, external hingga inline style
 
 ```CSS
-/* ini adalah pengunaan comments menggunakan satu baris */
+/* ini adalah penggunaan comments menggunakan satu baris */
 div{
     background-color : red;
 }
 
 /*  ini adalah 
-    pengunaan 
+    penggunaan 
     comments menggunakan
     lebih dari satu baris 
 */

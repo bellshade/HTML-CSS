@@ -20,8 +20,8 @@ Anda dapat menambahkan Comments ke file CSS, dengan sintaks berikut:
 **Menjelaskan Style CSS**
 
 ```CSS
-h1{
-    color: red     /* Memberikan warna merah ke tulisan di H1   */
+tag{
+    color: red;    /* Memberikan warna merah ke tulisan di tag   */
 }
 ```
 

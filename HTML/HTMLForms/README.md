@@ -72,11 +72,15 @@ elemen `<input type="checkbox">` akan berupa pilihan yang berbentuk kotak yang n
 
 ```html
 <form>
-  <h5>Jenis Kelamin</h5>
-  <input type="radio" value="laki-laki" />
-  <label>Laki-Laki</label><br />
-  <input type="radio" value="perempuan" />
-  <label>Perempuan</label><br />
+  <h5>Hobi</h5>
+  <input type="checkbox" value="membaca" />
+  <label>Membaca</label><br />
+  <input type="checkbox" value="menyanyi" />
+  <label>Menyanyi</label><br />
+  <input type="checkbox" value="menulis" />
+  <label>Menulis</label><br />
+  <input type="checkbox" value="olahraga" />
+  <label>Olahraga</label><br />
 </form>
 ```
 

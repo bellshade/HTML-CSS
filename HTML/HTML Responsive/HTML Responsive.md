@@ -22,6 +22,6 @@ setelah menambahkan tag `<meta>` beserta attributenya, seharusnya di heading web
 
 # Contoh sebelum dan sesudah menambahkan viewport
 ## Sebelum
-![sebelum](./GAMBAR-sebelum.png)
+![sebelum](./GAMBAR-sesudah.png)
 ##  Sesudah
-![sesudah](./GAMBAR-sesudah.png)
+![sesudah](./GAMBAR-sebelum.png)

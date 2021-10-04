@@ -1,11 +1,11 @@
 ## HTML Attribute
 
-### Apa Itu HtML Attribute ?
+### Apa Itu HTML Attribute ?
 
 HTML Attribute adalah suatu atribut untuk melengkapi informasi dari suatu elemen HTML
 
 - Semua elemen HTML dapat memiliki Attribute.
-- Attribute HtML memberikan informasi tambahan terhadap elemen HTML.
+- Attribute HTML memberikan informasi tambahan terhadap elemen HTML.
 - Attribute selalu berada diawal tag, seperti: `<a href="google.com">Google</a>`
 - Attribute selalu berbapasangan dengan value/nilai, seperti: `href="google.com"`
 - Value/Nilai dari attribute harus selalu dibungkus menggunakan double quote/petik dua (").

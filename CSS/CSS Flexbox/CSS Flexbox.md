@@ -29,6 +29,13 @@ Untuk membuat elemen HTML menjadi flexbox kita bisa pilih elemen tersebut dengan
   - `justify-content`
   - `align-items`
   - `align-content`
+- Beberapa CSS properti di flex item:
+  - `order`
+  - `flex-grow`
+  - `flex-shrink`
+  - `flex-basis`
+  - `flex`
+  - `align-self`
 
 ## Properti di Flex Container
 
@@ -272,3 +279,149 @@ Berikut adalah beberapa properti CSS yang ada di flex container untuk mengatur f
     align-content: space-evenly;
   }
   ```
+
+## Properti di Flex Item
+
+Berikut adalah beberapa properti CSS yang ada di flex item:
+
+- `order` - Untuk menentukan urutan flex item di dalam container yang sama.
+
+  Contoh:
+
+  Flex item akan berurutan mulai dari flex-item-1, flex-item-2, flex-item-3 sesuai order yang diberikan. Nilai defaultnya adalah 0.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    order: 3;
+  }
+
+  .flex-container .flex-item-2 {
+    order: 2;
+  }
+
+  .flex-container .flex-item-3 {
+    order: 1;
+  }
+  ```
+
+- `flex-grow` - Untuk menentukan seberapa banyak flex item akan tumbuh relatif terhadap flex item lainnya di dalam container yang sama.
+
+  Contoh:
+
+  flex-item-1 akan memiliki ukuran lebih besar relatif terhadap flex item lainnya. Nilai defaultnya adalah 0.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    flex-grow: 3;
+  }
+
+  .flex-container .flex-item-2 {
+    flex-grow: 1;
+  }
+
+  .flex-container .flex-item-3 {
+    flex-grow: 1;
+  }
+  ```
+
+- `flex-shrink` - Untuk menentukan seberapa banyak flex item akan menyusut relatif terhadap flex item lainnya di dalam wadah yang sama.
+
+  Contoh:
+
+  flex-item-1 akan menyusut lebih kecil relatif terhadap ukuran flex item lainnya. Nilai defaultnya adalah 1.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    flex-shrink: 3;
+  }
+  ```
+
+- `flex-basis` - Untuk menentukan panjang awal flex item.
+
+  Contoh:
+
+  flex-item-1 akan memiliki panjang awal dengan ukuran 300px.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    flex-basis: 300px;
+  }
+  ```
+
+- `flex` - Untuk shorthand properti flex-grow, flex-shrink, dan flex-basis.
+
+  Contoh:
+
+  Tidak menggunakan shorthand.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 300px;
+  }
+  ```
+
+  Saat menggunakan shorthand.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    flex: 1 2 300px;
+  }
+  ```
+
+- `align-self` - Untuk menentukan perataan flex item secara spesifik untuk item tertentu (menimpa properti align-items container).
+
+  Contoh:
+
+  flex-item-1 akan berada di tengah cross axis, flex-item-2 akan berada di awal cross axis,
+  flex-item-3 akan berada di akhir cross axis.
+
+  ```css
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container .flex-item-1 {
+    align-self: flex-start;
+  }
+
+  .flex-container .flex-item-2 {
+    align-self: center;
+  }
+
+  .flex-container .flex-item-3 {
+    align-self: flex-end;
+  }
+  ```
+
+  ## Referensi
+
+  Untuk referensi lengkapnya, kalian bisa mengunjungi website berikut:
+
+  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+  - [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp)

@@ -122,5 +122,3 @@ Perhatikan bahwa kita telah mengulang-ulang penggunakan properti `background-col
   background-color: var(--main-bg-color);
 }
 ```
-
-Sumber : [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)

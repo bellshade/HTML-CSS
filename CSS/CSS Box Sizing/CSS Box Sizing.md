@@ -7,7 +7,7 @@ CSS Box Sizing adalah cara untuk menentukan bagaimana lebar dan tinggi suatu ele
 Jika ```box-sizing``` tidak ditentukan nilainya, maka secara default lebar dan tinggi suatu elemen akan dihitung seperti berikut :
 
 - lebar + padding + border = lebar asli dari elemen
-- tinggi + padding + border = tinggi asli dari 
+- tinggi + padding + border = tinggi asli dari elemen
 
 Ini berarti ketika kita menentukan lebar dan tinggi suatu elemen, maka seringkali elemen akan tampak lebih besar dari pada yang kita tentukan. Hal ini terjadi karena padding dan border juga dihitung ketika menentukan lebar atau tinggi elemen. 
 

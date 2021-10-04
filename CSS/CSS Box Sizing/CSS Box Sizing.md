@@ -12,7 +12,7 @@ Jika ```box-sizing``` tidak ditentukan nilainya, maka secara default lebar dan t
 Ini berarti ketika kita menentukan lebar dan tinggi suatu elemen, maka seringkali elemen akan tampak lebih besar dari pada yang kita tentukan. Hal ini terjadi karena padding dan border juga dihitung ketika menentukan lebar atau tinggi elemen. 
 
 ### Properti Box Sizing
-properti ```box-sizing``` memiliki 4 nilai yang dapat digunakan untuk menentukan bagaimana lebar dan tinggi suatu elemen 
+Properti ```box-sizing``` memiliki 4 nilai yang dapat digunakan untuk menentukan bagaimana lebar dan tinggi suatu elemen 
 - ```box-sizing: content-box``` - nilai default dari properti ```box-sizing```. Lebar dan tinggi elemen hanya mencakup konten di dalamnya saja, padding dan border belum termasuk.
 - ```box-sizing: border-box``` - Lebar dan tinggi elemen sudah mencakup konten, padding, dan border.
 - ```box-sizing: initial``` - mengatur nilai properti ke nilai defaultnya.

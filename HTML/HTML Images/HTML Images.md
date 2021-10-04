@@ -10,7 +10,7 @@ Nah cara penulisan tag `<img>` sendiri tidak memerlukan tag penutup, atau lebih 
 <img src="" alt="">
 ```
 
-## Atribut di dalam tag <img>
+## Atribut di dalam tag `<img>`
 
 Terdapat setidaknya dua atribut yang biasa digunakan.
 

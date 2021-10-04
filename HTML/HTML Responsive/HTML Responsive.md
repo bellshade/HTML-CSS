@@ -16,7 +16,7 @@ name="viewport" content="width=device-width, initial-scale=1.0"
 
 
 setelah menambahkan tag `<meta>` beserta attributenya, seharusnya di heading website kalian sudah memiliki ini:
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 

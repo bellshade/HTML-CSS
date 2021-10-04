@@ -12,3 +12,15 @@ Dipersilahkan bila ingin melakukan open pull request atau kontribusi pada reposi
 ## Quick Access (Akses Cepat)
 
 Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
+- [Introduction](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLIntroduction)
+- [Definisi](https://github.com/bellshade/HTML-CSS/tree/main/HTML/Definisi%20HTML)
+- [Editors](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLEditors)
+- [Basic](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLBasic)
+- [Elements](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLElements)
+- [Attributes](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Attributes)
+- [Headings](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Headings)
+- [Paragraphs](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Paragraphs)
+- [Style](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Style)
+- [Text Formatting](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Text%20Formatting)
+- [Quotation](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Quotation)
+- [Comments](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Comments) 

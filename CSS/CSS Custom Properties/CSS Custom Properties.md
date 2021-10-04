@@ -137,5 +137,5 @@ Berikut adalah data browser support dari [caniuse.com](caniuse.com) untuk ***cus
 
 Sumber dan Resorurce : 
 - [caniuse.com](https://caniuse.com/)
-- [developer.mozilla.org/](https://developer.mozilla.org/)
-- [css-tricks.com/](https://css-tricks.com/)
+- [developer.mozilla.org](https://developer.mozilla.org/)
+- [css-tricks.com](https://css-tricks.com/)

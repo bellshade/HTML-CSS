@@ -131,7 +131,7 @@ Kenapa kita harus menggunakan ***custom properties*** :
 
 ### Browser support
 
-Berikut adalah data dari browser support dari [caniuse.com](caniuse.com) untuk ***custom properties***.
+Berikut adalah data browser support dari [caniuse.com](caniuse.com) untuk ***custom properties***.
 
 ![Data browser support dari caniuse.com](https://res.cloudinary.com/ireaderinokun/image/upload/v1633265298932/caniuse-embed/all/CSS-Variables.webp)
 

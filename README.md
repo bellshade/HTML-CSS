@@ -48,5 +48,5 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
   - [Background](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Background)
   - [Box Sizing](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Box%20Sizing)
   - [Flexbox](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Flexbox)
-  - [Custom Properties](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Custom%20Properties)
   - [Comments](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Comments)
+  - [Custom Properties](https://github.com/bellshade/HTML-CSS/tree/main/CSS/CSS%20Custom%20Properties)

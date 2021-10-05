@@ -30,7 +30,7 @@ Dan ini adalah kode HTML yang menggunakan elemen semantik:
 Jika dibandingkan, kode HTML yang menggunakan elemen semantik lebih mudah untuk dibaca dan lebih ringkas dibandingkan dengan kode yang tidak menggunakan elemen semantik.
 
 ## SEO
-Karena sifat HTMl semantik yang mudah dibaca oleh manusia ataupun mesih, maka tidak dipungkiri bahwa HTML yang semantik lebih disukai oleh _search engine_ karena sifat HTML yang semantic yang bisa menginterpretasikan konten dengan baik. 
+Karena sifat HTMl semantik yang mudah dibaca oleh manusia ataupun mesin, maka tidak dipungkiri bahwa HTML yang semantik lebih disukai oleh _search engine_ karena sifat HTML yang semantic yang bisa menginterpretasikan konten dengan baik. 
 Hal ini tentunya akan berdampak baik pada website kita karena kemungkinan untuk mendapatkan ranking teratas di hasil pancarian seperti Google.
 
 ## Daftar elemen-elemen semantik

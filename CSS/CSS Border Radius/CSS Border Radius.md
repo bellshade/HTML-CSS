@@ -4,7 +4,7 @@
 
 CSS Border Radius adalah syntax untuk membuat lengkungan di tag HTMl.
 
-Jika ```border-radius``` tidak ditentukan propertinya, maka secara default semua sudut akan terbentuk lengkungan sesuai nilai yang telah tentukan :
+Jika `border-radius` tidak ditentukan propertinya, maka secara default semua sudut akan terbentuk lengkungan sesuai nilai yang telah tentukan :
 
 Contoh:
 ``` css
@@ -15,11 +15,11 @@ Contoh:
 ```
 
 ### Properti Border Radius
-Properti ```border-radius``` memiliki 4 nilai yang dapat digunakan untuk menentukan sudut dimana lengkungan yang ingin kita buat.
-- ```border-top-left-radius: 25px``` - sudut atas kiri menjadi lengkungan, sementara sudut lain akan tetap normal.
-- ```border-top-right-radius: 25px``` - sudut atas kanan menjadi lengkungan, sementara sudut lain akan tetap normal.
-- ```border-bottom-left-radius: 25px``` - sudut bawah kiri menjadi lengkungan, sementara sudut lain akan tetap normal.
-- ```border-bottom-right-radius: 25px``` - sudut bawah kanan menjadi lengkungan, sementara sudut lain akan tetap normal.
+Properti `border-radius` memiliki 4 nilai yang dapat digunakan untuk menentukan sudut dimana lengkungan yang ingin kita buat.
+- `border-top-left-radius: 25px` - sudut atas kiri menjadi lengkungan, sementara sudut lain akan tetap normal.
+- `border-top-right-radius: 25px` - sudut atas kanan menjadi lengkungan, sementara sudut lain akan tetap normal.
+- `border-bottom-left-radius: 25px` - sudut bawah kiri menjadi lengkungan, sementara sudut lain akan tetap normal.
+- `border-bottom-right-radius: 25px` - sudut bawah kanan menjadi lengkungan, sementara sudut lain akan tetap normal.
 
 Contoh:
 ```css

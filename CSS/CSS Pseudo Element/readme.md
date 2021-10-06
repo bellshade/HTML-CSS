@@ -18,7 +18,8 @@ selector::pseudo-element {
 
 ### Macam-macam pseudo element
 
-- ::first-line
+#### ::first-line
+ 
   Digunakan untuk menambahkan style pada baris pertama dalam sebuah text.
 
   contoh :
@@ -34,7 +35,8 @@ selector::pseudo-element {
   */
   ```
 
-- ::first-letter
+#### ::first-letter
+
   Digunakan untuk menambahkan style pada huruf pertama dalam sebuah text.
 
   contoh :
@@ -51,69 +53,71 @@ selector::pseudo-element {
   */
   ```
 
-  - ::before
-    Digunakan untuk menambahkan beberapa konten dan style di belakang/sebelum element. Pseudo element
-    ini termasuk yang paling sering digunakan karena fungsinya yang cukup unik yaitu bisa menambahkan sesuatu
-    pada element kita, bahkan kita bisa memasukkan icon pada pseudo element ini.
+#### ::before
+   
+  Digunakan untuk menambahkan beberapa konten dan style di belakang/sebelum element. Pseudo element
+  ini termasuk yang paling sering digunakan karena fungsinya yang cukup unik yaitu bisa menambahkan sesuatu
+  pada element kita, bahkan kita bisa memasukkan icon pada pseudo element ini.
 
-    contoh :
+  contoh :
 
-    ```css
-    h1::before {
-      content: "Before";
-      background-color: blue;
-    }
+  ```css
+  h1::before {
+    content: "Before";
+    background-color: blue;
+  }
 
-    /*
-      Akan muncul tulisan "Before" yang memiliki background color berwarna biru
-      di belakang element h1
-    */
-    ```
+  /*
+    Akan muncul tulisan "Before" yang memiliki background color berwarna biru
+    di belakang element h1
+  */
+  ```
 
-  - ::after
-    Pseudo element ini kebalikan dari ::before, digunakan untuk menambahkan beberapa
-    konten dan style di depan/setelah element. Pseudo element ini juga cukup sering digunakan.
+#### ::after
+   
+  Pseudo element ini kebalikan dari ::before, digunakan untuk menambahkan beberapa
+  konten dan style di depan/setelah element. Pseudo element ini juga cukup sering digunakan.
 
-    Contoh :
+  Contoh :
 
-    ```css
-    h1::after {
-      content: "After";
-      background-color: green;
-    }
+  ```css
+  h1::after {
+    content: "After";
+    background-color: green;
+  }
 
-    /*
-      Akan muncul tulisan "After" yang memiliki background color berwarna biru
-      di depan element h1
-    */
-    ```
+  /*
+    Akan muncul tulisan "After" yang memiliki background color berwarna biru
+    di depan element h1
+  */
+  ```
 
-    - ::marker
-      Pseudo element ini hanya bisa digunakan pada `list-item`, fungsinya untuk memberi style pada penanda dalam list.
+#### ::marker
+  Pseudo element ini hanya bisa digunakan pada `list-item`, fungsinya untuk memberi style pada penanda dalam list.
 
-      Contoh :
+  Contoh :
 
-      ```css
-      ul li::marker {
-        color: orange;
-      }
+  ```css
+  ul li::marker {
+    color: orange;
+  }
 
-      /*
-        Warna enanda dalam li akan berubah menjadi warna orange.
-      */
-      ```
+  /*
+    Warna enanda dalam li akan berubah menjadi warna orange.
+  */
+  ```
 
-    - ::selection
-      Digunakan untuk memberi style pada saat user menyorot suatu element seperti
-      meng-klik dan menyeret teks.
+#### ::selection
+  Digunakan untuk memberi style pada saat user menyorot suatu element seperti
+  meng-klik dan menyeret teks.
 
-      ```css
-      p::selection {
-        color: green;
-        background-color: lightblue;
-      }
+  ```css
+  p::selection {
+    color: green;
+    background-color: lightblue;
+  }
 
-      /*
-        Warna background dan warna font akan berubah saat user menyorot element p.
-      */
-      ```
+  /*
+    Warna background dan warna font akan berubah saat user menyorot element p.
+  */
+  ```

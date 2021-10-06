@@ -1,0 +1,482 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-scrolled {
+  background: white;
+}
+/* navbar */
+.container .navbar-brand{
+	font-size: 28px;
+	font-weight: 600;
+	color: #6C63FF;
+}
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler:active {
+  background-color: #6C63FF;
+  border: none;
+}
+.navbar-nav li{
+	font-size: 18px;
+	font-weight: 450;
+}
+.navbar-nav a:hover{
+	color: #6C63FF;
+}
+/* jumbotron */
+.jumbotron {
+	width: 100%;
+	height: 90vh;
+}
+.jumbotron .jumbotron-isi h1{
+	font-weight: 300;
+	padding-top: 5rem;
+	font-size: 45px;
+	width: 90%;
+	padding-bottom: 0.5rem;
+}
+.jumbotron .jumbotron-isi a{
+	background-color: transparent;
+	color: #6C63FF;
+	padding: 10px 20px;
+	border: 1.5px solid #6C63FF;
+}
+.jumbotron .jumbotron-isi .btn{
+	margin-bottom: 20px;
+}
+.jumbotron .jumbotron-isi p{
+	font-size: 18px;
+	padding-bottom: 0.1rem;
+}
+.jumbotron .jumbotron-isi span{
+	font-weight: 650;
+}
+.text .img{
+	padding-bottom: 5rem;
+}
+/*about*/
+#about{
+	padding: 14rem 0 6rem 0;
+}
+.about-text a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	color: #6C63FF;
+}
+.about-text h1{
+	font-weight: 500;
+}
+.about-text{
+	padding-bottom: 30px;
+}
+.isi-about h2{
+	text-align: left;
+	font-size: 26px;
+	padding-top: 25px;
+}
+.accordion .accordion-item{
+	border: none;
+}
+.accordion-header h6{
+	font-size: 18px;
+	text-transform: capitalize;
+	color: #6C63FF;
+}
+.accordion-header h6:hover{
+	color: #4f44fc;
+}
+/*services*/
+#services{
+	padding: 3rem 0;
+}
+.card-services .card-body{
+	padding: 2rem 2.2rem;
+}
+.service-text a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	color: #6C63FF;
+}
+.service-text h1{
+	font-weight: 500;
+}
+.service-text p{
+	padding-bottom: 2.5rem;
+}
+.card-services{
+	border: none;
+	background: #F6F5F6;
+	padding: 4rem 2rem;
+	border-radius: 14px;
+}
+.card-services:hover{
+	background: transparent;
+}
+.card-services img{
+	width: 100px;
+	height: 130px;
+}
+.col-lg-4 {
+	padding-bottom: 2rem;
+}
+.card-body h5{
+	font-size: 22px;
+	font-weight: 620;
+	padding-bottom: 1rem;
+}
+.isi-service-p{
+	text-align: left;
+	font-size: 16px;
+}
+.list-isi i{
+	font-size: 20.5px;
+	color: #6C63FF;
+	padding-right: 10px;
+}
+.list-isi p{
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.list-service{
+	padding: 0 13px;
+	color: #6C63FF;
+	padding-bottom: 4rem;
+}
+.list-service p{
+	color: black;
+	pointer-events: none;
+	text-decoration: none;
+}
+.card-body .btn{
+	background-color: #6C63FF;
+	padding: 8px 50px;
+	font-size: 16px;
+	color: white;
+}
+.card-body .btn-tengah{
+	box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+-webkit-box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+-moz-box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+}
+.card-body .btn:hover{
+	background-color: transparent;
+	border: 1.5px solid #6C63FF;
+	color: #6C63FF;
+}
+.card-body .btn-border{
+	background-color: transparent;
+	border: 1.5px solid #6C63FF;
+	color: #6C63FF;
+}
+.card-body .btn-border:hover{
+	background-color: #6C63FF;
+	padding: 8px 50px;
+	font-size: 16px;
+	color: white;
+}
+/*owl carousel */
+#team{
+	padding: 7rem 0;
+}
+.team-title a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	color: #6C63FF;
+}
+.team-title h1{
+	font-weight: 500;
+}
+.team-title p{
+	padding-bottom: 2.5rem;
+}
+.wrapper{
+   width: 100%;
+}
+.carousel{
+  max-width: 2100px;
+  border: none;
+}
+.carousel .card-1{
+    background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.icon i{
+	color: #bcb8ff;
+	font-size: 26px;
+}
+.isi-card-body p{
+	padding-top: 15px;
+	font-size: 17px;
+	font-weight: 400;
+}
+.isi-card-body h5{
+	font-size: 23px;
+	padding-top: 20px;
+}
+.carousel .card-2{
+    background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.carousel .card-3{
+   	background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+ }
+.carousel .card-4{
+   background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.carousel .card-5{
+    background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.carousel .card-6{
+    background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.carousel .card-7{
+    background: #f5f5f5;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 15px;
+}
+.owl-dots{
+    text-align: center;
+	margin-top: 40px;
+}
+.owl-dot{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #6C63FF!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+   background: #6C63FF!important;
+ }
+/*brand*/
+#brand{
+ 	padding: 2rem 0 2rem 0;
+ 	background: #f5f5f5;
+}
+.brand .container .row .col-lg-3 img{
+	filter: grayscale(100%);
+	padding-bottom: 25px;
+}
+.brand .container .row .col-lg-3 img:hover{
+	filter: grayscale(0%);
+}
+/*pricing*/
+#price{
+	padding: 4rem 0;
+}
+.price-title a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	color: #6C63FF;
+}
+.price-title h1{
+	font-weight: 500;
+}
+.price-title p{
+	padding-bottom: 2rem;
+}
+.card-price{
+	border: none;
+	background: #F6F5F6;
+	padding: 3rem 5rem;
+	border-radius: 14px;
+}
+.card-price:hover{
+	background: transparent;
+}
+.card-price img{
+	width: 100px;
+	height: 130px;
+}
+.col-lg-4{
+	padding-bottom: 2rem;
+}
+.card-body h5{
+	font-size: 22px;
+	font-weight: 620;
+	padding-bottom: 1rem;
+}
+.isi-service-p{
+	text-align: left;
+	font-size: 16px;
+}
+.list-isi i{
+	font-size: 20.5px;
+	color: #6C63FF;
+	padding-right: 10px;
+}
+.list-isi p{
+	text-transform: capitalize;
+	font-weight: 400;
+}
+.list-price{
+	padding: 0 13px;
+	color: #6C63FF;
+	padding-bottom: 2.5rem;
+}
+.list-price p{
+	color: black;
+	pointer-events: none;
+	text-decoration: none;
+}
+.price-isi{
+	color: black;
+	font-weight: 600;
+	font-size: 45px;
+	padding-bottom: 1rem;
+}
+.price-isi span{
+	color: #6c63ff;
+}
+.card-body .btn{
+	background-color: #6C63FF;
+	padding: 8px 50px;
+	font-size: 16px;
+	color: white;
+}
+.card-body .btn-tengah{
+	box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+-webkit-box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+-moz-box-shadow: -2px 9px 25px -10px rgba(108,99,255,0.87);
+}
+.card-body .btn:hover{
+	background-color: transparent;
+	border: 1.5px solid #6C63FF;
+	color: #6C63FF;
+}
+.card-body .btn-border{
+	background-color: transparent;
+	border: 1.5px solid #6C63FF;
+	color: #6C63FF;
+}
+.card-body .btn-border:hover{
+	background-color: #6C63FF;
+	padding: 8px 50px;
+	font-size: 16px;
+	color: white;
+}
+/*contact*/
+#contact{
+	padding: 7.2rem 0;
+}
+.contact-title a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	color: #6C63FF;
+}
+.contact-title h1{
+	font-weight: 500;
+}
+.contact-title p{
+	padding-bottom: 0rem;
+}
+form .btn-kirim{
+	background: #6C63FF;
+	color: white;
+	padding: 8px 15px;
+}
+/*Form Atas*/
+footer{
+	background: #f5f5f5;
+	overflow: hidden;
+}
+footer .container{
+	padding: 2.5rem 0;
+}
+.form-label{
+	float: left;
+}
+.btn-foo{
+	background: #6C63FF;
+	font-size: 16px;
+}
+.btn-foo:hover{
+	background: black;
+}
+strong{
+	font-size: 18px;
+	font-weight: 500;
+}
+footer a{
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+	color: black;
+}
+.textfooter-bawah{
+	color: white;
+}
+.textfooter-bawah a{
+	color: white;
+	font-size: 17px;
+}
+.textfooter-bawah a:hover{
+	color: white;
+}
+/*footer atas */
+@media (min-width: 992px){
+	/*navbar*/
+	.navbar{
+		padding: 6px 0;
+	}
+	.navbar-nav li{
+		padding: 0 15px;
+	}
+	.jumbotron-isi .row .img{
+		padding-left: 4rem;
+		padding-top: 8.5%;
+	}
+	/*jumbotron*/
+	.text{
+		padding-top: 8%;
+	}
+	.jumbotron .jumbotron-isi h1{
+		font-weight: 300;
+		font-size: 45px;
+		width: 90%;
+		padding-bottom: 0.1rem;
+	}
+	/*about*/
+	#about{
+		padding: 7rem 0 4rem 0;
+	}
+	/*brand*/
+	#brand{
+	 	padding: 2rem 0 1rem 0;
+	}
+	.brand .container .row .col-lg-2 img{
+		padding-bottom: 0;
+	}
+}

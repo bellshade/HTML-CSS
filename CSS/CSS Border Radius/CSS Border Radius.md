@@ -2,7 +2,7 @@
 
 ### Apa Itu CSS Border Radius?
 
-CSS Border Radius adalah syntax untuk membuat lengkungan di tag HTMl.
+CSS Border Radius adalah syntax untuk membuat lengkungan di tag HTML.
 
 Jika `border-radius` tidak ditentukan propertinya, maka secara default semua sudut akan terbentuk lengkungan sesuai nilai yang telah tentukan :
 

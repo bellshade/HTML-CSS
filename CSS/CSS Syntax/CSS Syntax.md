@@ -6,10 +6,10 @@ CSS Syntax sendiri mencerminkan tujuan dari penulisan Syntax CSS yang yang baku,
 
 ![CSS Syntax](css-syntax.jpg)
 
-Terdapat 2 unsur penting yaitu `selector` dan `declaration`, penggunaan dari masing-masing syntax diatas seperti : 
+Terdapat 2 unsur penting yaitu `selector` dan `declaration`, berikut penjelasannya : 
 
-- Selector : Selector sendiri digunakan untuk deklarasi attribute HTML yang ingin diberi style CSS kedalamnya
-- Declaration : Declaration digunkan untuk mendeklarasikan properti dan value didalam sebuah block element yang biasanya dipisahkan oleh `semicolon` atau `titik-koma`.
+- Selector : Selector sendiri digunakan untuk mendeklarasikan attribute HTML yang ingin diberi style CSS kedalamnya.
+- Declaration : Declaration digunakan untuk mendeklarasikan properti dan value didalam sebuah block element yang biasanya dipisahkan oleh `semicolon` atau `titik-koma`.
 
 Contoh lain : 
 

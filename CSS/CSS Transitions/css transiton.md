@@ -19,7 +19,7 @@ transition: {(property) (duration) (delay) (timing-function)}
 
 ## Pembahasan Property CSS Transition
 
-- transiton-delay
+- transition-delay
   tujuan: menunda element saat akan melakukan transisi
   **Contoh Penggunaan**
 
@@ -47,10 +47,10 @@ div {
 
 ```css
 div {
-  /* Yanf sering digunakan */
+  /* Yang sering digunakan */
   /* Pilih salah satu  */
   transition-property: all;
-  transiton-property: none;
+  transition-property: none;
   transition-property: margin-left;
   transition-property: margin-right;
 }
@@ -75,7 +75,7 @@ div {
   transiton-timing-function: ease-out;
 
   /* 5. (ease-in-out) merupakan gabungan dari (ease-in) dan (ease-out).(ease-in-out) kecepatan awal dak akhir lambat */
-  transiton-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 
   /* (cubic-bezier(n,n,n,n)) kecepatan bisa diatur sendiri sesuai kubutuhan */
   transition-timing-function: cubic-bezier(n, n, n, n);

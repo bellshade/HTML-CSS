@@ -1,7 +1,7 @@
 # HTML Button
 
 ## Apa Itu HTML Button
-`<button>` dalam HTML adalah elemen yang digunakan untuk membuat tombol yang bisa diklik. Kita bisa mengisi elemen `<button>` dengan text atau dengan elemen lainnya seperti `<p>`, `<i>`, `<b>`, `<strong>`, `<img>`, dan lain-lain. Namun elemen `<button>` tidak bisa dengan elemen `<input>`
+`<button>` dalam HTML adalah elemen yang digunakan untuk membuat tombol yang bisa diklik. Kita bisa mengisi elemen `<button>` dengan text atau dengan elemen lainnya seperti `<p>`, `<i>`, `<b>`, `<strong>`, `<img>`, dan lain-lain. Namun elemen `<button>` tidak bisa diisi dengan elemen `<input>`
 
 ## Atribut
 Berikut adalah atribut-atribut yang ada di dalam elemen `<button>`.

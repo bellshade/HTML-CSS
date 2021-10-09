@@ -1,0 +1,48 @@
+/* Base Css */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+/* Custom Css Class */
+.span-or{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-animate{
+    -webkit-clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 25% 100%, 0 100%);
+    clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 25% 100%, 0 100%);
+}
+
+.sign-up-form-section{
+    transform: translateX(-700px);
+    display: none;
+}
+
+.sign-up-content-section{
+    transform: translateX(700px);
+    display: none;
+}
+
+/* Responsive Query */
+@media (max-width: 768px) { 
+    .container-animate{
+        -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 11%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 10%);
+        clip-path: polygon(30% 0%, 70% 0%, 100% 11%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 10%);
+    }
+
+    .sign-up-content-section{
+        transform: translateX(-700px);
+    }
+}
+
+@media (max-width: 500px) {
+    .illustration{
+        display: none;
+    }
+}

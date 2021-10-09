@@ -24,5 +24,3 @@ Berikut adalah contoh penggunaan elemen `<button>`.
 ```html
 <button type="submit" name="test" value="Test Submit">Submit</button>
 ```
-Hasilnya : 
-<button type="submit" name="test" value="Test Submit">Submit</button>

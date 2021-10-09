@@ -1,9 +1,8 @@
-# CSS transitions
+# CSS TRANSITIONS
 
-CSS Transition Itu Apa Sih? CSS Transition Adalah format css Yang Memberikan Efek Smooth
-pada suatu Element.
+CSS transition itu apa sih ? CSS transition adalah format CSS yang memberikan efek smooth pada suatu elemennt  
 
-### Property Apa Aja Sih Yang Ada Di CSS Transitions ?
+### Property apa aja sih yang ada di CSS Transition  ?
 
 di CSS Transitions beberapa property yaitu
 
@@ -12,7 +11,7 @@ di CSS Transitions beberapa property yaitu
 - transtion-property
 - transtion-timing-function
 
-**semua property ini bisa digabung menjadi satu yaitu dengan**
+**Semua property ini bisa digabung menjadi satu yaitu dengan**
 
 ```css
 transition: {(property) (duration) (delay) (timing-function)}
@@ -27,18 +26,18 @@ transition: {(property) (duration) (delay) (timing-function)}
 ```css
 div {
   transition-delay: 1.2s;
-  /* Penggunaan Waktu Delay Bebas Sesuai Kebutuhan */
+  /* Penggunaan waktu delay sesuai kebutuhan  */
 }
 ```
 
 - transtion-duration
-  tujuan: untuk mengatur Waktu Suatu Element
+  tujuan: untuk mengatur waktu suatu element
   **Contoh Penggunaan**
 
 ```css
 div {
   transition-duration: 3s;
-  /* Penggunaan Durasi Bebas Sesuai Kebutuhan */
+  /* Penggunaan durasi bebas sesuai kebutuhan  */
 }
 ```
 
@@ -48,8 +47,8 @@ div {
 
 ```css
 div {
-  /* Yang Sering Di Gunakan */
-  /* Pilih Salah Satu */
+  /* Yanf sering digunakan */
+  /* Pilih salah satu  */
   transition-property: all;
   transiton-property: none;
   transition-property: margin-left;
@@ -79,7 +78,7 @@ div {
   transiton-timing-function: ease-in-out;
 
   /* (cubic-bezier(n,n,n,n)) kecepatan bisa diatur sendiri sesuai kubutuhan */
-  transiton-timing-function: cubic-bezier(n, n, n, n);
+  transition-timing-function: cubic-bezier(n, n, n, n);
 }
 ```
 

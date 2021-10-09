@@ -62,7 +62,7 @@ div {
 
 ```css
 div {
-  /* 1. (ease) Merupakan timing Defaul */
+  /* 1. (ease) Merupakan timing Default */
   transition-timing-function: ease;
 
   /* 2.(linear) kecepatan sama dari awal hingga akhir */

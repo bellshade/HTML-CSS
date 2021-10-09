@@ -4,13 +4,13 @@
 `<button>` dalam HTML adalah elemen yang digunakan untuk membuat tombol yang bisa diklik. Kita bisa mengisi elemen `<button>` dengan text atau dengan elemen lainnya seperti `<p>`, `<i>`, `<b>`, `<strong>`, `<img>`, dan lain-lain. Namun elemen `<button>` tidak bisa dengan elemen `<input>`
 
 ## Atribut
-Berikut adalah atribut-atribut yang ada dalam elemen `<button>`.
+Berikut adalah atribut-atribut yang ada di dalam elemen `<button>`.
 | Atribut | Nilai | Deskripsi |
 |--|--|--|
 | autofocus | autofocus | Membuat tombol secara otomatis mendapatkan fokus saat halaman pertama kali dimuat |
 | disabled | disabled | Membuat tombol tidak bisa diklik |
 | form | form_id | Menentukan form mana yang terkait dengan tombolnya |
-| type | button,  reset, submit | Menentukan tipe dari tombol |
+| type | button, reset, submit | Menentukan tipe dari tombol |
 | formaction | URL | Menentukan ke mana data dari form akan dikirim ketika form di submit. Atribut ini hanya digunakan jika `type="submit"` |
 | formenctype | application/x-www-form-urlencoded, multipart/form-data, text/plain | Menentukan bagaimana data form dikodekan/diencode sebelum dikirim ke server. Atribut ini hanya digunakan jika `type="submit"` |
 | formmethod | get, post | Menentukan metode HTTP apa yang digunakan ketika mengirim data form. Atribut ini hanya digunakan jika `type="submit"` |

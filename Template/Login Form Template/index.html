@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind Purge Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="grid grid-cols-1 md:grid-cols-2 min-h-screen overflow-hidden">
+        <!-- Start Form Section -->
+        <div class="flex justify-center flex-col items-center p-5">
+            <!-- Start Sign In Form Section -->
+            <div class="w-full md:w-8/12 sign-in-form-section transition duration-500">
+                <p class="text-center text-4xl font-bold">Sign In</p>
+                <!-- Start Input Section -->
+                <input type='text' placeholder="Email" class="px-3 w-full border rounded py-2 text-gray-700 focus:outline-none ring-1 ring-blue-400 focus:ring focus:ring-blue-300 dark:ring-yellow-500 mt-5"/>
+                <input type='password' placeholder="Password" class="px-3 w-full border rounded py-2 text-gray-700 focus:outline-none ring-1 ring-blue-400 focus:ring focus:ring-blue-300 dark:ring-yellow-500 mt-3"/>
+                <p class="mt-2 text-sm opacity-80">Forgot Your Password ? <a href="#" class="hover:text-gray-500 transition duration-150">Click Here!</a></p>
+                <button class="mt-5 w-full py-2 rounded bg-blue-500 text-white text-lg transition duration-200 hover:bg-blue-400">Sign In</button>
+                <!-- End Input Section -->
+                <div class="border relative mt-5 border-gray-300">
+                    <span class="span-or absolute -top-3 bg-white w-8 h-auto text-center text-gray-500">Or</span>
+                </div>
+                <!-- Start Connect Section -->
+                <button class="w-full py-2 mt-5 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-google absolute  left-3 text-xl"></i>
+                    Sign In With Google
+                </button>
+                <button class="w-full py-2 mt-2 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-github absolute  left-3 text-xl"></i>
+                    Sign In With Github
+                </button>
+                <button class="w-full py-2 mt-2 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-facebook absolute  left-3 text-xl"></i>
+                    Sign In With Facebook
+                </button>
+                <!-- End Connect Section -->
+            </div>
+            <!-- End Sign In Form Section -->
+            <!-- Start Sign Up Form Section -->
+            <div class="w-full md:w-8/12 sign-up-form-section transition duration-500">
+                <p class="text-center text-4xl font-bold">Sign Up</p>
+                <!-- Start Input Section -->
+                <input type='text' placeholder="Username" class="px-3 w-full border rounded py-2 text-gray-700 focus:outline-none ring-1 ring-blue-400 focus:ring focus:ring-blue-300 dark:ring-yellow-500 mt-5"/>
+                <input type='text' placeholder="Email" class="px-3 w-full border rounded py-2 text-gray-700 focus:outline-none ring-1 ring-blue-400 focus:ring focus:ring-blue-300 dark:ring-yellow-500 mt-5"/>
+                <input type='password' placeholder="Password" class="px-3 w-full border rounded py-2 text-gray-700 focus:outline-none ring-1 ring-blue-400 focus:ring focus:ring-blue-300 dark:ring-yellow-500 mt-3"/>
+                <button class="mt-5 w-full py-2 rounded bg-blue-500 text-white text-lg transition duration-200 hover:bg-blue-400">Sign Up</button>
+                <!-- End Input Section -->
+                <div class="border relative mt-5 border-gray-300">
+                    <span class="span-or absolute -top-3 bg-white w-8 h-auto text-center text-gray-500">Or</span>
+                </div>
+                <!-- Start Connect Section -->
+                <button class="w-full py-2 mt-5 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-google absolute  left-3 text-xl"></i>
+                    Sign Up With Google
+                </button>
+                <button class="w-full py-2 mt-2 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-github absolute  left-3 text-xl"></i>
+                    Sign Up With Github
+                </button>
+                <button class="w-full py-2 mt-2 border border-blue-400 rounded relative text-sm hover:bg-blue-500 hover:text-white transition duration-200 text-gray-600">
+                    <i class="fab fa-facebook absolute  left-3 text-xl"></i>
+                    Sign Up With Facebook
+                </button>
+                <!-- End Connect Section -->
+            </div>
+            <!-- End Sign Up Form Section -->
+        </div>
+        <!-- End Section Form -->
+
+
+        <div class="flex items-center justify-center container-animate bg-blue-400 w-full flex-col">
+            <div class="flex justify-center items-center w-full flex-col sign-in-content-section transition duration-500">
+                <p class="text-white text-3xl font-bold mt-10 md:mt-0">New Here ??</p>
+                <p class="w-7/12 text-center text-white opacity-80 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores, nihil magnam non et, quidem suscipit.</p>
+                <button class="px-6 py-2 bg-blue-700 rounded-full text-white mt-3" id="sign-in">Sign Up</button>
+                <!-- Animation Image -->
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_q5pk6p1k.json"  background="transparent"  speed="1" loop  autoplay class="illustration w-auto h-auto md:w-9/12 flex justify-center items-center"></lottie-player>
+            </div>
+            <div class="flex justify-center items-center w-full flex-col sign-up-content-section transition duration-500">
+                <p class="text-white text-3xl font-bold mt-10 md:mt-0">One Of Us ??</p>
+                <p class="w-7/12 text-center text-white opacity-80 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolores, nihil magnam non et, quidem suscipit.</p>
+                <button class="px-6 py-2 bg-blue-700 rounded-full text-white mt-3" id="sign-up">Sign In</button>
+                <!-- Animation Image -->
+                <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_jcikwtux.json"  background="transparent"  speed="1" loop  autoplay class="illustration w-auto h-auto md:w-9/12 flex justify-center items-center"></lottie-player>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f26c172191.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./animation.js"></script>
+</body>
+</html>

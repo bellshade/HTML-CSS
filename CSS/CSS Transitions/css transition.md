@@ -1,18 +1,17 @@
-# CSS transitions
+# CSS TRANSITIONS
 
-CSS Transition Itu Apa Sih? CSS Transition Adalah format css Yang Memberikan Efek Smooth
-pada suatu Element.
+CSS transition adalah format CSS yang memberikan efek smooth atau lembut pada sebuah elemennt  
 
-### Property Apa Aja Sih Yang Ada Di CSS Transitions ?
+### Property apa saja yang ada pada CSS Transition?
 
-di CSS Transitions beberapa property yaitu
+CSS Transitions memiliki beberapa property yaitu
 
 - transition-delay
-- transiton-duration
-- transtion-property
-- transtion-timing-function
+- transition-duration
+- transition-property
+- transition-timing-function
 
-**semua property ini bisa digabung menjadi satu yaitu dengan**
+**Semua property ini bisa digabung menjadi satu yaitu dengan sebuah shorthand sebagai berikut**
 
 ```css
 transition: {(property) (duration) (delay) (timing-function)}
@@ -20,25 +19,25 @@ transition: {(property) (duration) (delay) (timing-function)}
 
 ## Pembahasan Property CSS Transition
 
-- transiton-delay
+- transition-delay
   tujuan: menunda element saat akan melakukan transisi
   **Contoh Penggunaan**
 
 ```css
 div {
   transition-delay: 1.2s;
-  /* Penggunaan Waktu Delay Bebas Sesuai Kebutuhan */
+  /* Penggunaan waktu delay sesuai kebutuhan */
 }
 ```
 
 - transtion-duration
-  tujuan: untuk mengatur Waktu Suatu Element
+  tujuan: untuk mengatur waktu suatu element
   **Contoh Penggunaan**
 
 ```css
 div {
   transition-duration: 3s;
-  /* Penggunaan Durasi Bebas Sesuai Kebutuhan */
+  /* Penggunaan durasi bebas sesuai kebutuhan */
 }
 ```
 
@@ -48,10 +47,10 @@ div {
 
 ```css
 div {
-  /* Yang Sering Di Gunakan */
-  /* Pilih Salah Satu */
+  /* Yang sering digunakan */
+  /* Pilih salah satu  */
   transition-property: all;
-  transiton-property: none;
+  transition-property: none;
   transition-property: margin-left;
   transition-property: margin-right;
 }
@@ -63,23 +62,23 @@ div {
 
 ```css
 div {
-  /* 1. (ease) Merupakan timing Defaul */
+  /* 1. (ease) Merupakan timing Default */
   transition-timing-function: ease;
 
   /* 2.(linear) kecepatan sama dari awal hingga akhir */
   transition-timing-function: linear;
 
   /* 3. (ease-in) kecepatan lambat di awal */
-  transiton-timing-function: ease-in;
+  transition-timing-function: ease-in;
 
   /* 4. (ease-out) merupakan kebalikan dari (ease-in). (ease-out) kecepatan lambat di akhir */
-  transiton-timing-function: ease-out;
+  transition-timing-function: ease-out;
 
   /* 5. (ease-in-out) merupakan gabungan dari (ease-in) dan (ease-out).(ease-in-out) kecepatan awal dak akhir lambat */
-  transiton-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 
   /* (cubic-bezier(n,n,n,n)) kecepatan bisa diatur sendiri sesuai kubutuhan */
-  transiton-timing-function: cubic-bezier(n, n, n, n);
+  transition-timing-function: cubic-bezier(n, n, n, n);
 }
 ```
 

@@ -8,7 +8,7 @@ NOTE : Properti `overflow` digunakan untuk menentukan sifat dari sebuah element 
 
 CSS Overflow mempunyai beberapa value, antara lain :
 
-- `overflow: visible` - Default. Konten yang keluar container atau pembungkus akan ditampilkan diluar kotak elemen.
+- `overflow: visible` - Default. Konten yang keluar container atau pembungkus akan ditampilkan keluar kotak elemen.
 
 ![CSS Overflow](visible.jpg)
 

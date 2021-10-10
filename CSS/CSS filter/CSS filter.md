@@ -97,3 +97,4 @@ img {
   filter: initial;
 }
 ```
+###Referensi (https://developer.mozilla.org/en-US/docs/Web/CSS/filter), (https://www.w3schools.com/cssref/css3_pr_filter.asp)

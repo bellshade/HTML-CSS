@@ -8,7 +8,7 @@ Css filter adalah css property yang bisa memberikan efek pada suatu element
 
 ```css
 img {
-  /* Memberikan kaburnya  image */
+  /* Memberikan blur kepada image */
   /* Satuan yang digunakan dalam bentuk px */
   filter: blur(px);
 }
@@ -44,7 +44,7 @@ img {
   /* Penjelasan */
   /* offset-x : mengatur jarak horizontal/kesamping */
   /* offset-y : mengatur jarak vertikal/keatas  */
-  /* blur-radius : mengatur radius ketajaman/kabur-nya bayangan  */
+  /* blur-radius : mengatur radius blur bayangan  */
   /* color : mengatur warna */
   filter: drop-shadow(offset-x offset-y blur-radius color);
 }
@@ -53,7 +53,7 @@ img {
 ```css
 img {
   /* Mengatur rotasi gambar */
-  /* Satuan yang digunakan deg/derajat */
+  /* Satuan yang digunakan degree/derajat */
   /* Ex */
   /* hue-rotate(360deg) */
   filter: hue-rotate(deg);

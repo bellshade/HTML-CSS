@@ -24,3 +24,6 @@ Berikut adalah contoh penggunaan elemen `<button>`.
 ```html
 <button type="submit" name="test" value="Test Submit">Submit</button>
 ```
+## Referensi
+* [HTML <button> Tag](https://www.w3schools.com/tags/tag_button.asp)
+* [HTML <button> type Attribute](https://www.w3schools.com/tags/att_button_type.asp)

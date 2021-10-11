@@ -9,7 +9,7 @@ Properti ```scroll-behavior``` memiliki 4 nilai yang dapat digunakan untuk menen
 - ```scroll-behavior: smooth``` - Membuat scroll berpindah secara halus dari satu elemen ke elemen lain.
 - ```scroll-behavior: initial``` - Mengatur nilai properti ke nilai defaultnya.
 - ```scroll-behavior: inherit``` - Mewarisi nilai properti dari elemen induknya.
-- 
+
 ## Contoh
 ```css
 html {

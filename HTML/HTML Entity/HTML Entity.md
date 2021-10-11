@@ -32,27 +32,17 @@ Terlihat perbedaan keduanya, `Entity Name` lebih mudah diingat karena menggunaka
 
 Beberapa karakter entity lain yang dapat digunakan : 
 
-Char	|    Number    |  Entity    | 	Comment                 |
+Char	|    Number   |  Entity     | 	Comment                 |
 ---------------------------------------------------------------|
 `©`	|    `&#169;`  |  `&copy;`	 |  copyright icon            |
----------------------------------------------------------------|
-`®`	|    `&#174;`  |  `&reg;`	 |  registered trade          |
-      |              |            |  mark sign                 |
----------------------------------------------------------------|
+`®`	|    `&#174;`  |  `&reg;`	 |  registered trade mark sign|
 `™`	|    `&#8482;` |  `&trade;` |  trade mark sign           |
----------------------------------------------------------------|
 `@`	|    `&#64;`	|  `&commat;`|  at symbol                 |
----------------------------------------------------------------|
 `¶`	|    `&#182;`  |  `&para;`	 |  paragraph sign            |
----------------------------------------------------------------|
 `§`	|    `&#167;`  |  `&sect;`	 |  section sign              |
----------------------------------------------------------------|
 `&`   |    `&#38;`   |  `&amp;`   |  Ampersan                  |
----------------------------------------------------------------|
 `>`   |    `&#62;`   |  `&gt;`    |  Lebih besar               |
----------------------------------------------------------------|
 `<`   |    `&#60;`   |  `&lt;`    |  Lebih kecil               |
----------------------------------------------------------------|
 
 
 Selengkapnya mengenai simbol-simbol yang ada di `HTML Entity` bisa mengunjungi:

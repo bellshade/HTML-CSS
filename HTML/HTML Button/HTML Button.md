@@ -10,7 +10,7 @@ Berikut adalah atribut-atribut yang ada di dalam elemen `<button>`.
 | autofocus | autofocus | Membuat tombol secara otomatis mendapatkan fokus saat halaman pertama kali dimuat |
 | disabled | disabled | Membuat tombol tidak bisa diklik |
 | form | form_id | Menentukan form mana yang terkait dengan tombolnya |
-| type | button, reset, submit | Menentukan tipe dari tombol |
+| type | button, reset, submit | Menentukan tipe dari tombol. <br><br> - ```type="button"``` = Menandakan bahwa tombol tersebut adalah tombol yang dapat diklik <br><br> - ```type="submit"``` = Menandakan bahwa tombol tersebut berfungsi untuk melakukan submit form <br><br> - ```type="reset"``` = Menandakan bahwa tombol tersebut berfungsi untuk mereset data pada form |
 | formaction | URL | Menentukan ke mana data dari form akan dikirim ketika form di submit. Atribut ini hanya digunakan jika `type="submit"` |
 | formenctype | application/x-www-form-urlencoded, multipart/form-data, text/plain | Menentukan bagaimana data form dikodekan/diencode sebelum dikirim ke server. Atribut ini hanya digunakan jika `type="submit"` |
 | formmethod | get, post | Menentukan metode HTTP apa yang digunakan ketika mengirim data form. Atribut ini hanya digunakan jika `type="submit"` |

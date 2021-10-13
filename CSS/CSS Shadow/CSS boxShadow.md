@@ -1,7 +1,7 @@
 # BOX SHADOW
 
 Apa sih itu box shadow ? box shadow adalah sebuah property css yang digunakan untuk memberikan
-manyakan pada element
+Bayangan pada element
 
 ## Langsung saja ke demo nya
 

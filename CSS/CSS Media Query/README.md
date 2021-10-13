@@ -70,7 +70,7 @@ Misal, kita punya properti CSS seperti berikut:
 ```css
     body{
         width: 100%;
-        height: 100vh
+        height: 100vh;
         background-color: lightgreen;
         margin: 0 auto;
     }

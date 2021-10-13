@@ -21,7 +21,6 @@ div {
   float: right;
 }
 ```
-
 ### Contoh float right
 
 ![CSS Float](css-float_right.png)

@@ -2,9 +2,9 @@
 
 ## Apa itu text shadow?
 
-text shadow merupakan property css yang digunakan untuk memberikan bayangan text
+text shadow merupakan sebuah property CSS yang digunakan untuk memberikan bayangan pada text
 
-### Langsung ke kodenya
+### Langsung saja ke kodenya
 
 Contoh
 
@@ -12,7 +12,7 @@ Contoh
 <h1>Halo nama saya kuro</h1>
 ```
 
-di style menggunakan property text shadow
+di file style CSS menggunakan property text-shadow
 
 ```css
 h1 {
@@ -24,10 +24,10 @@ h1 {
 
 Untuk menggunakan property text-shadow maka yang harus diperlukan adalah
 
-- `offset-x` : untuk mengatur posisi ke samping/horizontal
-- `offset-y` : untuk mengatur posisi ke atas/vertikal
+- `offset-x` : untuk mengatur posisi ke kiri-kanan/horizontal
+- `offset-y` : untuk mengatur posisi ke atas-bawah/vertikal
 - `spread-radius` : untuk mengatur radius bayangan
-- `color` : untuk mengatur warna
+- `color` : untuk mengatur warna bayangan
 
 ### Penjelasan kode css
 

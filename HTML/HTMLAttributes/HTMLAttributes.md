@@ -112,3 +112,39 @@ id berfungsi untuk menentukan id unik untuk elemen HTML, dapat digunakan untuk m
   <h1 id="judulSaya">Judul Saya</h1>
 </html>
 ```
+
+**method Attribute**
+
+method berfungsi untuk menentukan cara mengirim data formulir (data formulir dikirim ke halaman yang ditentukan dalam atribut action).
+
+Form-data dapat dikirim sebagai variabel URL (dengan method="get") atau sebagai transaksi posting HTTP (dengan method="post").
+
+Catatan tentang GET:
+
+- Menambahkan data formulir ke dalam URL dalam pasangan nama/nilai
+- Panjang URL dibatasi (sekitar 3000 karakter)
+- Jangan pernah menggunakan GET untuk mengirim data sensitif! (akan terlihat di URL)
+- Berguna untuk pengiriman formulir di mana pengguna ingin menandai hasilnya
+- GET lebih baik untuk data yang tidak aman, seperti string kueri di Google
+
+```html
+<form action="/action_page.php" method="get">
+  Nama Depan: <input type="text" name="namaDepan" /><br />
+  Nama Belakang: <input type="text" name="namaBelakang" /><br />
+  <input type="submit" value="Submit" />
+</form>
+```
+
+Catatan tentang POST:
+
+- Menambahkan formulir-data di dalam isi permintaan HTTP (data tidak ditampilkan dalam URL)
+- Tidak memiliki batasan ukuran
+- Pengiriman formulir dengan POST tidak dapat di-bookmark
+
+```html
+<form action="/action_page.php" method="post">
+  Nama: <input type="text" name="nama" /><br />
+  Password: <input type="text" name="password" /><br />
+  <input type="submit" value="Submit" />
+</form>
+```

@@ -50,7 +50,7 @@ outline: #1043B2 solid;
 outline: #1043B2 solid 3px;
 ```
 
-### Contoh penggunaan
+## Contoh penggunaan
 
 **Kode HTML**
 

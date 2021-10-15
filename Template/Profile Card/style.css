@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
     margin     : 0;
     padding    : 0;
@@ -116,7 +117,7 @@ body {
 .social-container button.twitter {
     background: linear-gradient(45deg ,#00b6ffeb, #5ea9dd73);
 }
-.social-container button.github {
+.social-container button.github{
     background: linear-gradient(45deg, #477eff, #ce428d);
 }
 .action {

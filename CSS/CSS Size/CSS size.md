@@ -118,6 +118,6 @@ div {
 
 ### Cara kerja
 
-Jadi ketika element lebih kecil dari `200px`, maka element akan menyesuaikan kebawah.
+Jadi ketika element lebih kecil dari `200px`, maka element akan menyesuaikan ke bawah.
 
 ### Referensi https://www.w3schools.com/cssref/pr_dim_min-height.asp

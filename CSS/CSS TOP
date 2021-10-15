@@ -1,0 +1,102 @@
+#CSS WIDTH
+
+CSS width berfungsi untunk mengatur lebar elemen seperti gambar atau <input type="text">
+
+**CSS width memeliki beberapa properti yaitu:**
+-```auto```
+-```lenght```
+-```percent %```
+-```initial```
+-```inherit```
+
+###Width Auto :
+
+Sebuah elemen dengan width: auto; mengikuti width defaultnya , browser yang menentukan besar width
+####Contoh
+
+**HTML**
+```html
+<div></div>
+```
+**CSS**
+```css
+div{
+  width: auto;
+}
+```
+###Width lenght
+
+lenght dapat berupa px, cm, mm, ch, dll.
+####Contoh
+
+**HTML**
+```html
+<div></div>
+```
+**CSS**
+```css
+div{
+  width: 150px;
+}
+```
+###Width percent
+
+Elemen yang mengguanakan persen mengukiti berapa besar brwoser sehingga ukurannya akan berubah tergantung ukuran borwsernya
+####Contoh
+
+**HTML**
+```html
+<div></div>
+```
+**CSS**
+```css
+div{
+  width: 20%;
+}
+```
+###Width Initial
+
+Elemen dengan width: initial; mengkuti lebar defaultnya
+####Contoh
+
+**HTML**
+```html
+<div></div>
+```
+**CSS**
+```css
+div{
+  width: initial;
+}
+
+###Selain itu width juga bisa digunakan untuk animasi
+####Contoh
+
+**HTML**
+```html
+<h1>Animasi width</h1>
+
+<p>Mengubah elemen div dari 120px ke 500px, dan kembali lagi ke 120px:<p>
+
+<div id="myDIV">
+  <h1>animation</h1>
+</div>
+
+<p><strong>Note:</strong> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
+```
+**CSS**
+```css
+#myDIV {
+  width: 120px;
+  background-color: lightblue;
+  color: white;
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  50% {width: 500px;}
+}
+```
+
+Referensi: https://www.w3schools.com/cssref/pr_dim_width.asp
+

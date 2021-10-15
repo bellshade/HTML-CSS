@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+    margin     : 0;
+    box-sizing : border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    min-height     : 100vh;
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    background     : linear-gradient(25deg, #5600ffd1, #00adffd9);
+}
+.profileContainer {
+    position        : relative;
+    background-color: #fff;
+    size: 100px;
+    padding         : 100px 40px 45px;
+    border-radius   : 30px;
+    box-shadow      : 0 0 1px 2px rgb(0 8 255 / 19%);
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    bottom: -10px;
+}
+.img-container {
+    width        : 125px;
+    height       : 125px;
+    overflow     : hidden;
+    border       : 5px solid #5600ffd1;
+    border-radius: 50%;
+    box-shadow   : 0 2px 3px #28b5ff;
+    position     : absolute;
+    top          : 20px;
+    left         : 50%;
+    transform    : translate(-50%, -50%);
+}
+.img-container img {
+    width    : 100%;
+    max-width: 100%;
+}
+.place {
+    margin-bottom: 30px;
+}
+.full-name {
+    font-size     : 23px;
+    font-weight   : bold;
+    letter-spacing: 1px;
+    color         : #6440f4;
+    margin-bottom : 12px;
+}
+.skill {
+    margin-bottom: 5px;
+}
+.posts-info {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    font-size      : 16px;
+    letter-spacing : 0.5px;
+    margin-bottom  : 20px;
+    text-align     : center;
+}
+.posts-info span {
+    display      : block;
+    font-weight  : bold;
+    margin-bottom: 4px;
+}
+.sosmed {
+    font-size     : 17px;
+    align-items: center;
+    font-weight   : bold;
+    letter-spacing: 1px;
+    color         : #6440f4;
+    margin-bottom : 15px;
+}
+.social-container {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-bottom  : 20px;
+}
+.social-container button {
+    border          : none;
+    outline         : none;
+    width           : 45px;
+    height          : 45px;
+    border-radius   : 50%;
+    cursor          : pointer;
+    transition      : transform 0.3s;
+}
+.social-container button:hover {
+    transform: scale(1.1);
+}
+/* Social colors */
+.social-container button.facebook {
+    background: linear-gradient(45deg,  #0100ff80, #00ccff9c);
+}
+.social-container button.instagram {
+    background: linear-gradient(45deg, #e6683c7a 25%, #dc27438f 50%, #bc1888 100%);
+}
+.social-container button.twitter {
+    background: linear-gradient(45deg ,#00b6ffeb, #5ea9dd73);
+}
+.social-container button.github {
+    background: linear-gradient(45deg, #477eff, #ce428d);
+}
+.action {
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2aacfa;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    width: 50%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.action.message {
+    background-color: #6741ff;
+}
+.action a {
+    color: #fff;
+    text-decoration: none;
+}
+.action:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}

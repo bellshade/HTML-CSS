@@ -1,0 +1,47 @@
+# CSS WORD-WRAP
+### Apa itu CSS word-wrap ?
+
+CSS word-wrap adalah properti yang bertujuan untuk mengatur elemen tulisan dalam elemen parent-nya.
+
+**CSS word-wrap ada 4 jenis**
+-```normal``
+-```break-word```
+-```initial(default)```
+-```inherit(diwariskan dari elemen parent)```
+
+### Word-wrap normal
+
+Sebuah elemen dengan ```Word-wrap: normal;``` hanya akan bisa mengatur tulisan pada titik yang mengizinkan untuk diatur (spasi).
+#### Contoh
+
+**HTML**
+```html
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fuga reprehenderit earum natus cupiditate delenitirationeperspiciatisrepudiandaelaudantium vero. Reiciendis molestias ut exercitationem quasi rerum a quaerat sit! Assumenda!</div>
+```
+**CSS**
+```css
+div{
+  width: 50px
+  border: 1px solid black;
+  word-wrap: normal;
+}
+```
+### Word-wrap break-word
+
+Sebuah elemen dengan ```Word-wrap: break-wordl;``` mengizinkan tulisan untuk diatur.
+#### Contoh
+
+**HTML**
+```html
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fuga reprehenderit earum natus cupiditate deleniti ratione perspiciatis repudiandae laudantium vero. Reiciendis molestias ut exercitationem quasi rerum a quaerat sit! Assumenda!</div>
+```
+**CSS**
+```css
+div{
+  width: 50px
+  border: 1px solid black;
+  word-wrap: break-word;
+}
+```
+
+Referensi: https://www.w3schools.com/cssref/css3_pr_word-wrap.asp

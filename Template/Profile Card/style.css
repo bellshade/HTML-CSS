@@ -155,11 +155,9 @@ button.youtube img.fb
     letter-spacing: 2px;
     transition: transform 0.3s, opacity 0.3s;
 }
-
 .action.message {
     background-color: #6741ff;
 }
-
 .action a
 {
     color: #fff;

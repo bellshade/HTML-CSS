@@ -2,7 +2,7 @@
 
 ## Apa itu css size?
 
-Css size adalah property css yang digunakan untuk mengatur ukuran pada suatu element
+CSS size adalah property CSS yang digunakan untuk mengatur ukuran pada suatu element
 
 Ada beberapa property size yaitu
 
@@ -13,7 +13,7 @@ Ada beberapa property size yaitu
 - max-height
 - min-height
 
-## Lansung ke kodenya
+## Langsung ke kodenya
 
 ---
 

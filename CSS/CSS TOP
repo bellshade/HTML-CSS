@@ -1,4 +1,4 @@
-#CSS WIDTH
+# CSS WIDTH
 
 CSS width berfungsi untunk mengatur lebar elemen seperti gambar atau <input type="text">
 
@@ -9,10 +9,10 @@ CSS width berfungsi untunk mengatur lebar elemen seperti gambar atau <input type
 -```initial```
 -```inherit```
 
-###Width Auto :
+### Width Auto :
 
 Sebuah elemen dengan width: auto; mengikuti width defaultnya , browser yang menentukan besar width
-####Contoh
+#### Contoh
 
 **HTML**
 ```html
@@ -24,10 +24,10 @@ div{
   width: auto;
 }
 ```
-###Width lenght
+### Width lenght
 
 lenght dapat berupa px, cm, mm, ch, dll.
-####Contoh
+#### Contoh
 
 **HTML**
 ```html
@@ -42,7 +42,7 @@ div{
 ###Width percent
 
 Elemen yang mengguanakan persen mengukiti berapa besar brwoser sehingga ukurannya akan berubah tergantung ukuran borwsernya
-####Contoh
+#### Contoh
 
 **HTML**
 ```html
@@ -54,10 +54,10 @@ div{
   width: 20%;
 }
 ```
-###Width Initial
+### Width Initial
 
 Elemen dengan width: initial; mengkuti lebar defaultnya
-####Contoh
+#### Contoh
 
 **HTML**
 ```html
@@ -69,8 +69,8 @@ div{
   width: initial;
 }
 
-###Selain itu width juga bisa digunakan untuk animasi
-####Contoh
+### Selain itu width juga bisa digunakan untuk animasi
+#### Contoh
 
 **HTML**
 ```html

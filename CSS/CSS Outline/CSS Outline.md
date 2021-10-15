@@ -33,7 +33,7 @@ Value dari properti `outline-style` :
 - `none`
 - `hidden`
 
-### Sintaksis 
+## Sintaksis 
 
 ```css 
 /* style */

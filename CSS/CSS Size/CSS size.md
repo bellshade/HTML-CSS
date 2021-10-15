@@ -1,6 +1,6 @@
 # CSS SIZE
 
-## Apa itu css size?
+## Apa itu CSS size?
 
 CSS size adalah property CSS yang digunakan untuk mengatur ukuran pada suatu element
 

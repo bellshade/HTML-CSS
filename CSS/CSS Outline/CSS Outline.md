@@ -119,7 +119,7 @@ Meskipun terlihat sama, namun `outline` memiliki perbedaan sebagai berikut :
 
 
 
-### Untuk referensi lengkapnya, kalian bisa mengunjungi website berikut:
+## Untuk referensi lengkapnya, kalian bisa mengunjungi website berikut:
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
 - [W3Schools](https://www.w3schools.com/css/css_outline.asp)

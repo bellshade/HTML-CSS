@@ -18,7 +18,7 @@ Ilustrasi dari sebuah outline bisa dilihat pada gambar dibawah ini :
 ![Outline Ilustration](outline-ilustration.png)
 
 
-### CSS Outline Style
+## CSS Outline Style
 
 Value dari properti `outline-style` : 
 

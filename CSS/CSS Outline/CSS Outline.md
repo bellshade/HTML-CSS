@@ -1,6 +1,6 @@
 # CSS Outline
 
-### Apa itu CSS Outline?
+## Apa itu CSS Outline?
 
 Properti CSS `outline` adalah garis yang terletak setelah border dari sebuah elemen.
 

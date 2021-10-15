@@ -13,7 +13,7 @@ Perlu diketahui juga bahwa properti CSS `outline` adalah singkatan dari properti
 - `outline-width`
 
 
-Ilustrasi dari sebuah outline bisa dilihat pada gambar dibawah ini : 
+Ilustrasi dari sebuah outline bisa dilihat pada gambar di bawah ini : 
 
 ![Outline Ilustration](outline-ilustration.png)
 

@@ -134,3 +134,6 @@ div {
 # NOTE
 
 Penggunaan linear-gradient/radial-gradient bisa manampung warna sesuai keinginan kita bisa lebih dari 2 warna.jadi gunakanlah linear-gradient/radial-gradient sesuai kebutuhan kita.
+
+
+## Referensi (https://www.w3schools.com/css/css3_gradients.asp)

@@ -25,7 +25,7 @@ Buat HTML terlebih dahulu :
 Pada CSS gunakan seperti ini :
 
 ```css
-.boxModel1{
+.boxModel1 {
     width: 300px;
     padding: 15px;
     border: 5px solid rgb(255, 0, 0);
@@ -33,8 +33,8 @@ Pada CSS gunakan seperti ini :
     margin-bottom: 10px;
     text-align: center;
     font-size: 18px;
-  }
-.boxModel2{
+}
+.boxModel2 {
     width: 300px;
     padding: 15px;
     border: 5px solid rgb(238, 255, 0);
@@ -42,8 +42,8 @@ Pada CSS gunakan seperti ini :
     margin-bottom: 10px;
     text-align: center;
     font-size: 18px;
-  }
-.boxModel3{
+}
+.boxModel3 {
     width: 300px;
     padding: 15px;
     border: 5px solid rgb(0, 255, 21);

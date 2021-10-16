@@ -30,7 +30,6 @@ div{
 ### word-spacing: length;
 
 Sebuah elemen dengan ```word-spacing: length;``` memiliki jarak antar kata atau spasi yang bisa diatur length ada beberapa satuan (px, pt, cm, em, dll). Selain itu boleh juga 
-menggunakan angka negatif untuk memeberi jarak
 #### Contoh
 
 **HTML**

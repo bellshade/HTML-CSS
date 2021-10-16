@@ -7,11 +7,11 @@ CSS box model adalah sebuah desain yang dimana membuat pembungkus(kotak) untuk e
 - Padding : membuat jarak pada antar elemen, di bagian dalam.
 - border  : pembatas antara elemen dan elemen lainnya.
 - margin  : membuat jarak pada antar elemen, di bagian luar.
-- content : bagian isi pada CSS box model
+- content : bagian isi pada CSS box model.
 
 ### Penerapan CSS Box Model
 
-buat HTML terlebih dahulu :
+Buat HTML terlebih dahulu :
 
 ```html
 <body>
@@ -21,7 +21,8 @@ buat HTML terlebih dahulu :
     <div class="boxModel3">ini adalah box model 3</div>  
 </body>
 ```
-pada CSS gunakan seperti ini :
+
+Pada CSS gunakan seperti ini :
 
 ```css
 .boxModel1{

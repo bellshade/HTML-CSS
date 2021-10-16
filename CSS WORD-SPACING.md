@@ -47,7 +47,7 @@ div{
 
 ### word-spacing: initial;
 
-Sebuah elemen dengan ```word-spacing: initial;``` jarak antara kata atau spasinya akan disetting ke nilai default spasinya
+Sebuah elemen dengan ```word-spacing: initial;``` memiliki jarak antar kata atau spasinya akan di setting ke nilai default spasinya.
 #### Contoh
 
 **HTML**

@@ -1,7 +1,10 @@
 # HTML-CSS
 
-![javatesting](https://img.shields.io/github/workflow/status/bellshade/Java/build%20java?style=for-the-badge)
-![license](https://img.shields.io/github/license/bellshade/javaAlgorithm?style=for-the-badge)
+<p align="center">
+    <img width="20%" src="./assets/images/logo.png"><br/><br/>
+    <img src="https://img.shields.io/github/workflow/status/bellshade/PHP/CI%20PHP%20PSR-12%20Linting?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/bellshade/PHPAlgorithm?style=for-the-badge">
+</p>
 
 Repositori ini berisi pembelajaran dan contoh-contoh dari impelementasi HTML dan CSS.
 

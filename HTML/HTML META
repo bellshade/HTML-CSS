@@ -1,10 +1,10 @@
 # HTML META
 ### Apa itu HTML meta ?
 
-Tag ```<meta>``` dalam html mendefinisiakn metadata tentang dokumen HTML.
+Tag ```<meta>``` di dalam html mendefinisikan metadata tentang dokumen HTML.
 Metadata adalah informasi tentang data.
 
-Tag ```<meta>``` selalu berada dalam ```<head>``` elemen , dan biasanya digunakan untuk menspesifikasi karakter, 
+Tag ```<meta>``` selalu berada di dalam ```<head>``` elemen dan biasanya digunakan untuk menspesifikasikan karakter, 
 mendeskripsikan halaman, author dari dokumen dan settingan viewport. 
 
 Metadata tidak akan terlihat di halaman website namun akan terlihat didalam source code.
@@ -48,7 +48,7 @@ Setting viewport untuk membuat website terlihat bagus di semua divice
 Area pandang (Viewport) adalah area halaman web yang terlihat oleh pengguna. Area ini bervariasi dengan perangkat viewport akan 
 terlihat lebih kecil di layar ponsel daripada di layar komputer.
 
-elemen ```<meta>``` harus diseratakan disemua halaman web
+elemen ```<meta>``` harus disertakan disemua halaman web
 ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
 Ini memberi browser instruksi untuk mengontrol dimensi dan skala halaman web.
 

@@ -3,7 +3,7 @@
 
 Properti ```word-spacing``` pada CSS mengatur jarak spasi antara kata dalam suatu elemen.
 
-**CSS word-spacing memiliki beberpa value**
+**CSS word-spacing memiliki beberapa value**
 -```normal```
 -```lenght```
 -```initial```

@@ -23,11 +23,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    bottom: -10px;
+    bottom: -15px;
 }
 .img-container {
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
     overflow: hidden;
     border: 5px solid #5600ffd1;
     border-radius: 50%;
@@ -49,7 +49,7 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     color: #6440f4;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
 }
 .skill {
     margin-bottom: 5px;

@@ -87,8 +87,8 @@ body {
 .social-container button {
     border: none;
     outline: none;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;

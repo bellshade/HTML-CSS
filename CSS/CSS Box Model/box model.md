@@ -55,6 +55,6 @@ Pada CSS gunakan seperti ini :
 ```
 Maka output yang dihasilkan :
 
-![box model](https://user-images.githubusercontent.com/89055857/137604395-bece30f1-97b2-4a8b-9f84-a0e806d96f82.PNG)
+![box model](https://user-images.githubusercontent.com/89055857/137604792-d77ed2b3-9a6a-4032-b063-026c04d7561e.PNG)
 
 Referensi : https://www.w3schools.com/css/css_boxmodel.asp

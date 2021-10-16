@@ -26,15 +26,15 @@ Contoh Internal CSS:
 
 ```html
 <head>
-    <style>
-        p {
-            color: red;
-        }
-    <style>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
 
-        <body>
-            <p>Text warna merah</p>
-        </body>
+  <body>
+    <p>Text warna merah</p>
+  </body>
 </head>
 ```
 
@@ -42,7 +42,7 @@ Contoh Internal CSS:
 
 External CSS adalah code css yang ditulis pada sebuah file berekstensi `.css`.
 
-Disini saya sudah membuat file bernama `style.css`
+Di sini saya sudah membuat file bernama `style.css`
 
 Isi dari `style.css`
 
@@ -73,7 +73,7 @@ Penulisan full HTML.
 
   <body>
     <h1>Judul</h1>
-    <p>Paragraft</p>
+    <p>Paragraf</p>
   </body>
 </html>
 ```

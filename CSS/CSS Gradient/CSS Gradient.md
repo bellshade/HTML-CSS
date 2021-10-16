@@ -2,7 +2,7 @@
 
 ## Apa itu CSS gradient
 
-CSS gradient adalah sebuah proerty dari css untuk memberikan sebuah gradasi pada sebuah element. ada 2 properti dalam gradient, yaitu
+CSS gradient adalah sebuah property dari CSS untuk memberikan sebuah gradasi pada sebuah element, ada 2 property dalam gradient. yaitu
 
 - linear-gradient
 - radial-gradient
@@ -63,7 +63,7 @@ div {
 
 ```css
 div {
-  background-image: linear-gradient(to left, re, yellow);
+  background-image: linear-gradient(to left, red, yellow);
 }
 ```
 

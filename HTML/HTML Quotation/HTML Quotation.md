@@ -11,6 +11,7 @@ elemen-elemen tersebut adalah,
 - `<address>` - Mendefinisikan informasi kontak.
 - `<cite>` - Mendefinisikan judul karya.
 - `<bdo>` - Membalikan arah teks.
+- `<details>` - Menyembunyikan Elemen yang terdapat di dalamnnya dan menampilkannya ketika di klik.
 
 ### Contoh Penerapan Elemen Quotation Pada HTML
 **Elemen `<blockquote>`**
@@ -50,4 +51,12 @@ Indonesia
 **Elemen `<bdo>`**
 ```html
 <bdo dir="rtl">Elemen ini akan tertulis dari kanan ke kiri</bdo>
+```
+
+**Elemen `<details>`**
+```html
+<details>
+    <summary>Klik untuk melihat selengkapnya</summary>
+    Ini selengkapnya
+</details>
 ```

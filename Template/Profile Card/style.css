@@ -23,7 +23,7 @@ body {
     flex-direction  : column;
     justify-content : center;
     align-items     : center;
-    bottom: -10px;
+    bottom          : -10px;
 }
 .img-container {
     width        : 125px;
@@ -65,9 +65,9 @@ body {
     text-align     : center;
 }
 .posts-info span {
-    display      : block;
-    font-weight  : bold;
-    margin-bottom: 4px;
+    display       : block;
+    font-weight   : bold;
+    margin-bottom : 4px;
 }
 .sosmed {
     font-size     : 17px;

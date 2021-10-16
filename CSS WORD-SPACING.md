@@ -5,7 +5,7 @@ Properti ```word-spacing``` pada CSS mengatur jarak spasi antara kata dalam suat
 
 **CSS word-spacing memiliki beberapa value**
 -```normal```
--```lenght```
+-```length```
 -```initial```
 -```inhert/diwariskan```
 
@@ -27,9 +27,9 @@ div{
 }
 ```
 
-### word-spacing: lenght;
+### word-spacing: length;
 
-Sebuah elemen dengan ```word-spacing: lenght;``` memiliki jarak antar kata atau spasi yang bisa diatur lenght ada beberapa satuan (px, pt, cm, em, dll). Selain itu boleh juga 
+Sebuah elemen dengan ```word-spacing: length;``` memiliki jarak antar kata atau spasi yang bisa diatur length ada beberapa satuan (px, pt, cm, em, dll). Selain itu boleh juga 
 menggunakan angka negatif untuk memeberi jarak
 #### Contoh
 

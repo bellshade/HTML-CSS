@@ -11,7 +11,7 @@ Properti ```word-spacing``` pada CSS mengatur jarak spasi antara kata dalam suat
 
 ### word-spacing: normal;
 
-Sebuah lelemen dengan ```word-spacing: normal;``` spasi dengan jarak normal antar kata (0.25em). ini adalah nilai default.
+Sebuah elemen dengan ```word-spacing: normal;``` memiliki spasi dengan jarak normal antar kata (0.25em). ini adalah nilai default.
 #### Contoh
 
 **HTML**

@@ -7,7 +7,7 @@ Properti ```word-spacing``` pada CSS mengatur jarak spasi antara kata dalam suat
 -```normal```
 -```length```
 -```initial```
--```inhert/diwariskan```
+-```inherit/diwariskan```
 
 ### word-spacing: normal;
 
@@ -48,7 +48,7 @@ div{
 
 ### word-spacing: initial;
 
-Sebah elemen dengan ```word-spacing: initial;``` jarak anatar kata atau spasinya akan disetting ke nilai default spasinya
+Sebuah elemen dengan ```word-spacing: initial;``` jarak antara kata atau spasinya akan disetting ke nilai default spasinya
 #### Contoh
 
 **HTML**
@@ -64,7 +64,7 @@ div{
 }
 ```
 
-### Selain itu bisa juga digunakan sbegai animasi 
+### Selain itu bisa juga digunakan sebagai animasi 
 #### Contoh 
 
 **HTML**

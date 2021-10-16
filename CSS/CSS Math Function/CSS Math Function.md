@@ -1,13 +1,13 @@
 ## CSS Math Function 
 
 ### Apa Itu CSS Math Function?
-CSS Math Function memungkinkan perhitungan dengan matemetika pada properti.
+CSS Math Function memungkinkan perhitungan dengan matematika pada properti.
 
 ### Contoh Penerapan CSS Math Function
 
 **1. `calc()` Function**
 
-`calc()` berfungsi untuk melakukan perhtungan dan digunakan dalam nilai properti.
+`calc()` berfungsi untuk melakukan perhitungan dan digunakan dalam nilai properti.
 
 `calc()` memiliki syntaks: `calc(perhitungan)`.
 
@@ -25,7 +25,7 @@ Contoh Penggunaan `calc()`:
 
 **2. `max()` Function**
 
-`max()` Digunakan untuk menentukan nilai terbersar sebagai nilai dari properti.
+`max()` Digunakan untuk menentukan nilai terbesar sebagai nilai dari properti.
 
 `max()` memiliki syntaks: `max(nilai1, nilai2, ...)`
 

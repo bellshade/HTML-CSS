@@ -72,7 +72,11 @@ CSS
   }
 ```
 
-### Ouput dari codingan button diatas
+### Ouput yang dihasilkan
 
 - Class button1, button2, dan button3
 
+![button](https://user-images.githubusercontent.com/89055857/137604206-72b5bce2-47b7-4fbb-be87-472e0cd382f1.PNG)
+
+
+Referensi : https://www.w3schools.com/css/css3_buttons.asp

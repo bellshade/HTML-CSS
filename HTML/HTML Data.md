@@ -12,7 +12,7 @@ Tips: Jika konten berhubungan dengan waktu maka gunakan tag ```<time>```
 **HTMl**
 ```html
 <ul>
-  <li><data value="1">Ayam bakar</data></li>
+  <li><data value="1">Ayam Bakar</data></li>
   <li><data value="2">Nasi Goreng</data></li>
   <li><data value="3">Sate</data></li>
 </ul>

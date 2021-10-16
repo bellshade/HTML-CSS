@@ -61,3 +61,5 @@ p {
     text-align: justify;
 }
 ```
+
+Referensi : https://www.w3schools.com/Css/css_text.asp

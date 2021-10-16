@@ -28,7 +28,7 @@ div{
 ```
 ### Word-wrap break-word
 
-Sebuah elemen dengan ```Word-wrap: break-wordl;``` mengizinkan tulisan untuk diatur.
+Sebuah elemen dengan ```word-wrap: break-word;``` mengizinkan tulisan untuk diatur.
 #### Contoh
 
 **HTML**

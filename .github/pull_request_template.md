@@ -4,8 +4,10 @@
 
 # Checklist:
 ##### Umum:
-- [ ] Saya menambah algoritma terbaru.
-- [ ] Saya memperbaiki algoritma yang sudah ada.
+- [ ] Saya menambah kode basic terbaru.
+- [ ] Saya memperbaiki kode basic yang sudah ada.
+- [ ] Saya menambah template terbaru.
+- [ ] Saya memperbaiki template yang sudah ada.
 - [ ] Saya memperbaiki dokumentasi.
 - [ ] Saya menambah dokumentasi.
 

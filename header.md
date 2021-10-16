@@ -5,7 +5,7 @@ tag ```<header>``` dalam html berfungsi untuk menandakan suatu elemen sebagai ko
 
 tag ```<header>``` tidak bisa dipakai bersamaan dengan tag ```<footer>```, ```<address>``` atau elemen dengan tag ```<header>``` yang lain.
 
-###Contoh kode
+### Contoh kode
 **HTML**
 ```html
 <header>

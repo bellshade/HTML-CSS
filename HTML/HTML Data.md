@@ -5,7 +5,7 @@ Tag <data> digunakan untuk menambahkan terjemahan yang dapat dibaca mesin dari k
 
 Elemen ini memberikan nilai yang dapat dibaca mesin untuk memproses data, dan nilai yang dapat dibaca manusia untuk rendering di browser.
 
-Tips: JIka konten berhubungan dengan waktu maka gunakan tag ```<time>```
+Tips: Jika konten berhubungan dengan waktu maka gunakan tag ```<time>```
 
 ### Contoh kode
 

@@ -9,12 +9,12 @@ CSS writing-mode menentukan arah menulis teks apakah itu vertikal atau horizonta
 -```vertical-lr```
 
 ### Writing-mode horizontal-tb
-Sebuah elemen tulisan dengan ```writing-mode: horizontal-tb``` akan tertulis secara horizontal dari kiri kekanan, dan vertikal dari atas kebawah.
+Sebuah elemen tulisan dengan ```writing-mode: horizontal-tb``` akan tertulis secara horizontal dari kiri ke kanan, dan vertikal dari atas ke bawah.
 #### Contoh
 
 **HTML**
 ```html
-<p>Wiriting-Mode Horizontal-tb</p>
+<p>Writing-Mode horizontal-tb</p>
 ```
 **CSS**
 ```css
@@ -23,12 +23,12 @@ p{
 }
 ```
 ### Writing-mode vertical-rl
-Sebuah elemend tulisan dengan ```writing-mode: vertical-rl;``` akan tertulis secara vertikal dari atas ke bawah, dan horizontal dari kanan kekiri.
+Sebuah elemen tulisan dengan ```writing-mode: vertical-rl;``` akan tertulis secara vertikal dari atas ke bawah, dan horizontal dari kanan ke kiri.
 #### Contoh
 
 **HTML**
 ```html
-<p>Wiriting-Mode vertical-rl </p>
+<p>Writing-Mode vertical-rl </p>
 ```
 **CSS**
 ```css
@@ -37,12 +37,12 @@ p{
 }
 ```
 ### Writing-mode vertical-lr
-Sebuah elemend tulisan dengan ```writing-mode: vertical-lr;``` akan tertulis secara vertikal dari atas ke bawah, dan horizontal dari kiri kekanan.
+Sebuah elemen tulisan dengan ```writing-mode: vertical-lr;``` akan tertulis secara vertikal dari atas ke bawah, dan horizontal dari kiri ke kanan.
 #### Contoh
 
 **HTML**
 ```html
-<p>Wiriting-Mode vertical-lr </p>
+<p>Writing-Mode vertical-lr </p>
 ```
 **CSS**
 ```css

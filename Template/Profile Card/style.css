@@ -1,97 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
-    margin     : 0;
-    box-sizing : border-box;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    min-height     : 100vh;
-    width          : 100%;
-    display        : flex;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    align-items    : center;
-    background     : linear-gradient(25deg, #5600ffd1, #00adffd9);
+    align-items: center;
+    background: linear-gradient(25deg, #5600ffd1, #00adffd9);
 }
 .profileContainer {
-    position        : relative;
+    position: relative;
     background-color: #fff;
     size: 100px;
-    padding         : 100px 40px 45px;
-    border-radius   : 30px;
-    box-shadow      : 0 0 1px 2px rgb(0 8 255 / 19%);
-    display         : flex;
-    flex-direction  : column;
-    justify-content : center;
-    align-items     : center;
-    bottom          : -10px;
+    padding: 100px 40px 45px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px 2px rgb(0 8 255 / 19%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
 }
 .img-container {
-    width        : 125px;
-    height       : 125px;
-    overflow     : hidden;
-    border       : 5px solid #5600ffd1;
+    width: 125px;
+    height: 125px;
+    overflow: hidden;
+    border: 5px solid #5600ffd1;
     border-radius: 50%;
-    box-shadow   : 0 2px 3px #28b5ff;
-    position     : absolute;
-    top          : 20px;
-    left         : 50%;
-    transform    : translate(-50%, -50%);
+    box-shadow: 0 2px 3px #28b5ff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .img-container img {
-    width    : 100%;
+    width: 100%;
     max-width: 100%;
 }
 .place {
     margin-bottom: 30px;
 }
 .full-name {
-    font-size     : 23px;
-    font-weight   : bold;
+    font-size: 23px;
+    font-weight: bold;
     letter-spacing: 1px;
-    color         : #6440f4;
-    margin-bottom : 12px;
+    color: #6440f4;
+    margin-bottom: 12px;
 }
 .skill {
     margin-bottom: 5px;
 }
 .posts-info {
-    width          : 100%;
-    display        : flex;
+    width: 100%;
+    display: flex;
     justify-content: space-around;
-    align-items    : center;
-    font-size      : 16px;
-    letter-spacing : 0.5px;
-    margin-bottom  : 20px;
-    text-align     : center;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .posts-info span {
-    display       : block;
-    font-weight   : bold;
-    margin-bottom : 4px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 .sosmed {
-    font-size     : 17px;
+    font-size: 17px;
     align-items: center;
-    font-weight   : bold;
+    font-weight: bold;
     letter-spacing: 1px;
-    color         : #6440f4;
-    margin-bottom : 15px;
+    color: #6440f4;
+    margin-bottom: 15px;
 }
 .social-container {
-    width          : 100%;
-    display        : flex;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    align-items    : center;
-    margin-bottom  : 20px;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .social-container button {
-    border          : none;
-    outline         : none;
-    width           : 45px;
-    height          : 45px;
-    border-radius   : 50%;
-    cursor          : pointer;
-    transition      : transform 0.3s;
+    border: none;
+    outline: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 .social-container button:hover {
     transform: scale(1.1);

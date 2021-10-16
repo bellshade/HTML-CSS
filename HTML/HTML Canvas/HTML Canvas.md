@@ -46,7 +46,7 @@ Output:
 
 ![20211016_225218](https://user-images.githubusercontent.com/87674246/137592171-f561296d-7913-4ca8-879b-6d3016ebe962.jpg)
 
-Keunikannya, objek ini bisa di manipulasikan dengan banyak hal karena `<canvas>` memiliki _function built-in_ yang cukup banyak.
+Keunikannya, objek ini bisa di manipulasikan dengan banyak hal karena `<canvas>` memiliki _function built-in_ yang cukup banyak. Canvas ini tidak hanya bisa menggambar satu objek saja melainkan tidak terbatas atau sebanyak yang dibutuhkan.
 
 
 ## Referensi

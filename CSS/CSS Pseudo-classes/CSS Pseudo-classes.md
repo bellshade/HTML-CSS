@@ -1,7 +1,7 @@
 ## CSS Pseudo-classes
 
 ### Apa Itu CSS Pseudo-classes?
-Pseudo-class berguna untuk mendefinisikan suatu keadaan khusus dari suatu elemen
+Pseudo-classes berguna untuk mendefinisikan suatu keadaan khusus dari suatu elemen.
 
 Biasa pseudo-classes digunakan untuk;
 - Mengubah gaya elemen saat pengguna mengarahkan mouse ke elemennya.

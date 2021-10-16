@@ -12,41 +12,20 @@ Semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 - Penggunaan nama file bersifat `camelCase` dan berlaku juga untuk variable dan identifier.
 - Menggunakan output `.html`.
 
-## Apa Itu Algoritma?
-
-Algoritma adalah langkah-langkah untuk menyelesaikan suatu pekerjaan dimana terdiri dari 3 bagian utama, yaitu:
-
-- Input/masukan, sebelum menjalankan sebuah algoritma maka hal yang pertama harus dilakukan adalah menerima masukan, input dapat berasal dari pengguna ataupun dari langkah sebelumnya.
-- Proses, bagian utama dari algoritma yang melakukan pengolahan input yang akan menghasilkan output.
-- Output/keluaran, output adalah hasil dari bagian proses, output ini juga bisa digunakan untuk langkah selanjutnya (jika masih ada).
-
-Algoritma harus dikemas sedemikian rupa sehingga memudahkan pembaca untuk memasukkannya ke dalam program yang lebih besar.
-
-Algoritma harus memiliki:
-
-- Memiliki nama kelas dan fungsi intuitif yang memperjelas tujuannya bagi pembaca
-- Menggunakan konvensi penamaan Javascript dan nama variabel intuitif untuk memudahkan pemahaman
-- Fleksibel untuk mengambil nilai input yang berbeda
-- Memiliki docstrings dengan penjelasan yang jelas dan/atau URL ke materi sumber
-- Berisi doctests yang menguji nilai input yang valid dan salah
-- Kembalikan semua hasil perhitungan alih-alih mencetak atau memplotnya
-
 # *Pull Request*
 
 ### ***Pull request* yang baik**
 
-Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau implementasi algoritma, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
+Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau memperbaiki kode, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
 
-- Lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [*issue*](https://github.com/bellshade/Python/issues).
-- Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/Python/issues) kemudian lakukan *fork* pada repositori kami.
-- Setelah melakukan *fork*, anda dibebaskan untuk mengubah atau menambah algoritma.
-  - Untuk *pull request* merubah atau memperbaiki, diusahakan kamu menerapkan algoritma yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya.
-- Lakukan tes dengan menggunakan ``pytest`` dan ``flake8`` secara lokal.
-- Setelah merubah-rubah atau menambahkan algoritma serta melakukan tes lokal kode kamu, usahakan kamu membuat *local branch* baru:
+- Lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [*issue*](https://github.com/bellshade/HTML-CSS/issues).
+- Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/HTML-CSS/issues) kemudian lakukan *fork* pada repositori kami.
+- Setelah melakukan *fork*, anda dibebaskan untuk mengubah atau menambah kode.
+  - Untuk *pull request* merubah atau memperbaiki, diusahakan kamu menerapkan kode yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya.
   ```bash
   git checkout -b <branch_name>
   git add . # atau git add nama_perubahan_kamu.py
-  git commit -m "feat: menambahkan algoritma terbaru"
+  git commit -m "feat: menambahkan kode html terbaru"
   ```
 - Lakukan *push* ke *branch* kamu dan kemudian *open pull request*.
 
@@ -60,8 +39,8 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila
 Catatan: pesan commit harus menjelaskan perubahan secara singkat.
 
 Contoh: 
-- &#9746; feat: test_x.py
-- &#9745; feat: tambah unittest untuk algoritma x
+- &#9746; feat: menambahkan kode html
+- &#9745; feat: menambahkan kode html seperti ...
 
 Lebih lengkapnya bisa dilihat di:
 - [EN](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -74,7 +53,7 @@ Pull request akan di-*merge* jika:
 
 **Tambahan**:
 
-- Jika ada kendala atau masalah dalam *pull request*, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/PythonAlgorithm/issues).
+- Jika ada kendala atau masalah dalam *pull request*, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/HTML-CSS/issues).
 - Jika ada tes yang tidak lewat atau gagal, kami akan cek kembali perubahan anda.
 
 Untuk *pull request*, disarankan untuk menjelaskan secara detail yang kamu ubah atau tambahkan, dan bersikap sopan serta selalu berterima kasih. Itu salah satu bentuk tata krama yang baik terhadap sesama *contributor* dan *programmer* lainnya.

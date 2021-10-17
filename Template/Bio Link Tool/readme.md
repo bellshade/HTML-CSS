@@ -43,7 +43,7 @@
 
   untuk hasil yang responsive, penggunaan social button maksimal 8 Item.
 
-  Warna social media yang tersedia bisa dilihat pada file [Sbutton.css](style/Sbutton.css)
+  Warna social media yang tersedia bisa dilihat pada file [Sbutton.css](Style/Sbutton.css)
   dapat ditambahkan dengan syntaks:
   ```CSS
   .circle ul li .fa-(nama social media):hover {

@@ -26,6 +26,6 @@
     ```
     
     #### Hasil: 
-    ![hasil](img/hello_.png)
+    ![hasil](https://raw.githubusercontent.com/elvirafimansyah/HTML-CSS/main/HTML/HTMLBasic/img/hello_.png)
     
     

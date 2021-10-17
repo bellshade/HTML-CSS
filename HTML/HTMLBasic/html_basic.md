@@ -26,6 +26,6 @@
     ```
     
     #### Hasil: 
-    ![hasil](https://lh3.googleusercontent.com/AwPAE2SbLyuOhD2SpOXP_7Q6h_UIsQRa9aWShsLwF7qkSAh5UpvLTQRRkhg13qRh9t2WBQ=s134)
+    ![hasil](img/hello_.png)
     
     

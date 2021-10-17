@@ -6,11 +6,10 @@ Properti CSS Fonts untuk merubah style dari tulisan di tag tersebut.
 
 Fonts memiliki beberapa property, antara lain:
 
-- `font-style` - Untuk mengatur margin atas
-- `font-size` - Untuk mengatur margin atas
-- `font-variant` - Untuk mengatur margin atas
-- `font-weight` - Untuk mengatur margin bawah
-- `font-family` - Untuk mengatur margin kiri
+- `font-style` - Untuk mengatur gaya pada font
+- `font-variant` - Untuk mengatur variasi pada font
+- `font-weight` - Untuk mengatur ketebalan pada font
+- `font-family` - Untuk mengatur jenis font
 
 Contoh:
 
@@ -48,8 +47,8 @@ sans-serif   contoh: Arial
 monospace    contoh: Monaco
 cursive      contoh: Lucida Handwriting
 fantasy      contoh: Copperplate
-
 ```css
+
 p {
   font-family: "Times New Roman", Times, serif;      
   /* font family: pertama akan pakai style Times New Roman, jika tidak ada
@@ -60,7 +59,7 @@ p {
 ### Fonts Shorthand
 
 ```css
-p{
+p {
   font: italic small-caps bold 12px/30px Georgia, serif;
     /* pertama adalah font style, variant, weight, size, lalu terakhir font family */
 }

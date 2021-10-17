@@ -2,7 +2,7 @@
 
 ### Apa Itu CSS Overflow?
 
-**CSS Overflow** sendiri adalah properti CSS yang biasa digunakan untuk menentukan sifat suatu konten ketika melewati container atau pembungkusnya, contoh kasus ketika kita membuat sebuah sebuah kotak semisal dengan tag `<div>` dan didalamnya terdapat sebuah teks dan dibungkus oleh tag `<p>` yang keluar dari container atau pembungkusnya itu disebut dengan `overflow`.
+**CSS Overflow** sendiri adalah properti CSS yang biasa digunakan untuk menentukan sifat suatu konten ketika melewati container atau pembungkusnya, contoh kasus ketika kita membuat sebuah sebuah kotak semisal dengan tag `<div>` dan di dalamnya terdapat sebuah teks dan dibungkus oleh tag `<p>` yang keluar dari container atau pembungkusnya itu disebut dengan `overflow`.
 
 NOTE : Properti `overflow` digunakan untuk menentukan sifat dari sebuah element yang keluar dari container atau pembungkusnya akan dipotong atau menambahkan scroll. Default overflow mempunyai value `visible` yang artinya konten yang keluar dari container atau pembungkusnya akan ditampilkan.
 
@@ -28,10 +28,10 @@ CSS Overflow mempunyai beberapa value, antara lain :
 
 ```css
 div {
-	width: 100px;
-	height: 100px;
-	background-color: #eee;
-	overflow: scroll; //sesuaikan kebutuhan
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  overflow: scroll; //sesuaikan kebutuhan
 }
 ```
 

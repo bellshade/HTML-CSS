@@ -19,8 +19,9 @@ code HTML yang digunakan :
     <img class="gambar2" src="KamisatoAyaka-min.png" alt="">
 </body>
 ```
+Note : untuk file img, silahkan sesuaikan dengan file pada komputer.
 
-### Contoh CSS Opacity dengan Image :
+### CSS Opacity dengan Image :
 
 CSS
 ```css
@@ -33,7 +34,9 @@ CSS
 ```
 Output tampilannya : 
 
-### Contoh CSS Opacity dengan efek hover :
+![Opacity image](https://user-images.githubusercontent.com/89055857/137607830-2bcbc36f-65ed-4774-a574-06115234485c.PNG)
+
+### CSS Opacity dengan efek hover :
 
 CSS
 ```css
@@ -78,7 +81,9 @@ div {
     opacity: 1; 
 }
 ```
-Output tampilannya : 
+Output yang dihasilkan : 
+
+![box transparan](https://user-images.githubusercontent.com/89055857/137607843-2b768f91-be59-4a66-b2f1-bd4aae7e6aa4.PNG)
 
 ### Transparan dengan menggunakan RGBA
 
@@ -98,4 +103,6 @@ div {
     background: rgba(0, 36, 240, 0.9);
 }
 ```
-Output tampilannya :
+Output yang dihasilkan : 
+
+![box transparan](https://user-images.githubusercontent.com/89055857/137607882-8fc398aa-0936-4775-ae75-6087accc4556.PNG)

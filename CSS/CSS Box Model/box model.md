@@ -52,4 +52,8 @@ pada CSS gunakan seperti ini :
     font-size: 18px;
 }
 ```
-Maka output tampilan yang dihasilkan adalah :
+Maka output yang dihasilkan :
+
+![box model](https://user-images.githubusercontent.com/89055857/137605450-f21c84b8-d34f-46f3-89d1-4f74cfbd3ff6.PNG)
+
+Referensi : https://www.w3schools.com/Css/css_boxmodel.asp

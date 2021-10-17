@@ -2,10 +2,10 @@
 
 ## Apa itu HTML audio
 
-HTML audio adalah sebuah tag HTML yang berfungsi untuk menujukan suara,
+HTML audio adalah sebuah tag HTML yang berfungsi untuk menunjukan suara,
 terdapat 3 type atau format audio yaitu :
 
-- oog
+- ogg
 - mp3
 - wav
 
@@ -45,7 +45,7 @@ Ada juga untuk atribut tag audio
 
 ```html
 <audio controls autoplay>
-  <source src="horse.oog" type="audio/oog" />
+  <source src="horse.ogg" type="audio/ogg" />
 </audio>
 ```
 

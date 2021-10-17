@@ -41,7 +41,7 @@ Ada juga untuk atribut tag audio
 </audio>
 ```
 
-## Pengunaan demo
+## Penggunaan demo
 
 ```html
 <audio controls autoplay>

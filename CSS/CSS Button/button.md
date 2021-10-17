@@ -76,3 +76,6 @@ CSS
 
 - Class button1, button2, dan button3
 
+![button](https://user-images.githubusercontent.com/89055857/137605009-26a30978-e8f1-463c-8966-f396e292f26d.PNG)
+
+Referensi : https://www.w3schools.com/css/css3_buttons.asp

@@ -1,6 +1,6 @@
 # CSS TRANSITIONS
 
-CSS transition adalah format CSS yang memberikan efek smooth atau lembut pada sebuah elemennt  
+CSS transition adalah format CSS yang memberikan efek smooth atau lembut pada sebuah element  
 
 ### Property apa saja yang ada pada CSS Transition?
 
@@ -74,10 +74,10 @@ div {
   /* 4. (ease-out) merupakan kebalikan dari (ease-in). (ease-out) kecepatan lambat di akhir */
   transition-timing-function: ease-out;
 
-  /* 5. (ease-in-out) merupakan gabungan dari (ease-in) dan (ease-out).(ease-in-out) kecepatan awal dak akhir lambat */
+  /* 5. (ease-in-out) merupakan gabungan dari (ease-in) dan (ease-out).(ease-in-out) kecepatan awal dan akhir lambat */
   transition-timing-function: ease-in-out;
 
-  /* (cubic-bezier(n,n,n,n)) kecepatan bisa diatur sendiri sesuai kubutuhan */
+  /* (cubic-bezier(n,n,n,n)) kecepatan bisa diatur sendiri sesuai kebutuhan */
   transition-timing-function: cubic-bezier(n, n, n, n);
 }
 ```

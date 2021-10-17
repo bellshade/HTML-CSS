@@ -72,7 +72,8 @@ CSS
   }
 ```
 
-### Ouput dari codingan button diatas
+### Ouput yang dihasilkan
 
 - Class button1, button2, dan button3
 
+![button](https://user-images.githubusercontent.com/89055857/137606126-ee917131-760e-47fc-b8c6-32ad3315a97b.PNG)

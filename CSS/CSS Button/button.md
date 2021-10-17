@@ -75,7 +75,7 @@ CSS
 ### Ouput yang dihasilkan
 
 - Class button1, button2, dan button3
-- 
+
 ![button](https://user-images.githubusercontent.com/89055857/137608059-4237d72d-3ff3-4851-ac5c-2ef14963137a.PNG)
 
 Referensi : https://www.w3schools.com/csS/css3_buttons.asp

@@ -1,4 +1,4 @@
-# HTML forms
+# HTML Forms
 
 Form pada html berfungsi untuk mengirimkan data melalui elemen-elemen form di dalamnya seperti, text field, radio button, dropdown, dll
 
@@ -68,7 +68,7 @@ Output :
 
 ### Input Type Checkbox
 
-elemen `<input type="checkbox">` akan berupa pilihan yang berbentuk kotak yang nantinya kita dapat memberikan input dengan memilih lebih dari satu pilihan yang tersedia.
+Elemen `<input type="checkbox">` akan berupa pilihan yang berbentuk kotak yang nantinya kita dapat memberikan input dengan memilih lebih dari satu pilihan yang tersedia.
 
 ```html
 <form>

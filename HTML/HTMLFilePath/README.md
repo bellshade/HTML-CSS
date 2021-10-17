@@ -1,43 +1,54 @@
-# file path pada html
+# File Path Pada HTML
 
-file path menjelaskan tentang lokasi file, gambar, dll. lebih dikenal dengan struktur folder website
+*File path* menjelaskan tentang lokasi file, gambar, dll. lebih dikenal dengan struktur folder website
 
-contoh
+## Contoh
 
-## file html dan file lainnya bersamaan
+### File HTML dan File Lainnya Bersamaan
+
 ```html
 <img src="gambar_pemandangan.jpg">
 ```
-maka file gambar tersebut terletak sama dengan file html
+
+Maka file gambar tersebut terletak sama dengan file html
+
 ```
-index.html
-gambar_pemandangan.jpg
+📂HTML-CSS/
+    ├── 📄index.html
+    └── 🚞gambar_pemandangan.jpg
 ```
 
-## file html terpisah dam file lainnya dalam folder lain
+### File HTML Terpisah dan File Lainnya Dalam Folder Lain
+
 ```html
 <img src="picture/gambar_saya.jpg">
 ```
-maka file tersebut terdapat pada folder ``picture``
+
+Maka file tersebut terdapat pada folder ``picture``
+
 ```
-index.html
-picture
-├── gambar_saya.jpg
+📂HTML-CSS/
+    ├── 📄index.html
+    └── 📂Pictures/
+        └── 🚞gambar_pemandangan.jpg
 ```
 
-## file html terpisah dan file lainnya dengan url
+### File HTML Terpisah dan File Lainnya dengan URL
+
 ```html
 <img src="https://gambarsaya.url/gambar.jpg">
 ```
 
-## contoh selain dengan gambar
+#### Contoh Selain dengan Gambar
 
-- memanggil file css dan file html terpisah
+- Memanggil file CSS dan file html terpisah
+
     ```html
-    <href="folder_lain/file.css">
+    <link rel="stylesheet" href="folder_lain/file.css" />
     ```
 
-- memanggil file javascript dan file html terpisah
+- Memanggil file JavaScript dan file HTML terpisah
+
     ```html
-    <script src="folder_lain/file.js>
+    <script src="folder_lain/file.js"></script>
     ```

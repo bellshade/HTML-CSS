@@ -14,8 +14,8 @@ Nah cara penulisan tag `<img>` sendiri tidak memerlukan tag penutup, atau lebih 
 
 Terdapat setidaknya dua atribut yang biasa digunakan.
 
--   **src** - Digunakan untuk mengarahkan path dari suatu gambar.
--   **alt** - Digunakan untuk membuat teks alternatif jika gambar gagal ditayangkan.
+- **src** - Digunakan untuk mengarahkan path dari suatu gambar.
+- **alt** - Digunakan untuk membuat teks alternatif jika gambar gagal ditayangkan.
 
 ## Bagaimana cara menampilkan gambar?
 

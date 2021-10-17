@@ -19,4 +19,7 @@ Beberapa tag memiliki teks tambahan di dalamnya yang memberikan informasi tambah
 
 Nama tag boleh ditulis dengan huruf kecil, huruf kapital, ataupun kombinasi antara huruf kecil dan huruf kapital.
 
-Teks editor untuk membuat file HTML diantaranya Notepad++, SublimeText, dan Visual Studio Code.
+Teks editor untuk membuat file HTML diantaranya:
+- ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2B%2B&logoColor=black)
+- ![SublimeText](https://img.shields.io/badge/sublime_text-%23575757.svg?&style=for-the-badge&logo=sublime-text&logoColor=important)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)

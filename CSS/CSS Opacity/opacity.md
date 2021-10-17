@@ -20,7 +20,7 @@ code HTML yang digunakan :
 </body>
 ```
 
-### Contoh CSS Opacity dengan Image :
+### CSS Opacity dengan Image :
 
 CSS
 ```css
@@ -31,9 +31,11 @@ CSS
     opacity: 0.7;
 }
 ```
-Output tampilannya : 
+Output yang dihasilkan : 
 
-### Contoh CSS Opacity dengan efek hover :
+![Opacity image](https://user-images.githubusercontent.com/89055857/137605644-d2c71672-0926-43ba-be2b-0b9d0e5a109f.PNG)
+
+### CSS Opacity dengan efek hover :
 
 CSS
 ```css
@@ -47,9 +49,9 @@ img:hover {
     opacity: 100;
 }
 ```
-Pada saat menyentuh gambar1 atau gambar2, gambar yang awalnya transparan akan terlihat lebih terang karena nilai transparannya berubah menjadi tinggi.
+Pada saat menyentuh/klik gambar1 atau gambar2, gambar yang awalnya transparan akan terlihat lebih terang karena nilai transparannya berubah menjadi tinggi.
 
-### Contoh Teks dalam box transparan :
+### Teks dalam box transparan :
 
 Untuk contoh yang ini, pada html menggunakan ``<div>`` 
 
@@ -78,7 +80,9 @@ div {
     opacity: 1; 
 }
 ```
-Output tampilannya : 
+Output yang dihasilkan : 
+
+![box transparan](https://user-images.githubusercontent.com/89055857/137606196-49ad6115-3412-4e5e-b04f-27207daab148.PNG)
 
 ### Transparan dengan menggunakan RGBA
 
@@ -98,4 +102,8 @@ div {
     background: rgba(0, 36, 240, 0.9);
 }
 ```
-Output tampilannya :
+Output yang dihasilkan :
+
+![box transparan RGBA](https://user-images.githubusercontent.com/89055857/137606186-b098e37a-f1be-48d9-8fec-9474fdef6e9e.PNG)
+
+Referensi : https://www.w3schools.com/css/css_image_transparency.asp

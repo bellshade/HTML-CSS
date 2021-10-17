@@ -12,7 +12,7 @@
 - [ ] Saya menambah dokumentasi.
 
 ##### Contributor Requirements (Syarat Kontributor) dan Lain-Lain:
- - [ ] Saya sudah membaca (I have read) [CONTRIBUTING](https://github.com/bellshade/Java/blob/main/CONTRIBUTING.md) dan sudah menyetujui semua syarat.
+ - [ ] Saya sudah membaca (I have read) [CONTRIBUTING](https://github.com/bellshade/HTML-CSS/blob/main/CONTRIBUTING.md) dan sudah menyetujui semua syarat.
  - [ ] Saya telah menambahkan komentar kode yang memberikan penjelasan maksud dari kode yang saya buat.
  - [ ] Saya menggunakan bahasa Indonesia untuk memberikan penjelasan dari kode yang saya buat.
 

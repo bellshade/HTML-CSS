@@ -15,11 +15,11 @@ Teknik **_media query_** akan menerapkan **_custom style_** yang bisa kita tentu
 }
 ```
 
-Properti CSS diatas akan diterapkan hanya pada layar perangkat yang memiliki lebar 1000 pixel atau lebih.
+Properti CSS di atas akan diterapkan hanya pada layar perangkat yang memiliki lebar 1000 pixel atau lebih.
 
 Kita juga bisa mengubah _style_ pada element-element lainnya agar tetap terlihat sempurna ketika diakses melalui perangkat apapun, atau dengan kata lain website kita akan tampak responsif.
 
-Cara tersebut lebih di fungsikan pada konsep _Responsive Design_ yaitu bagaimana membangun sebuah aplikasi web yang memiliki perilaku berbeda ketika dihadapkan pada kondisi tertentu, seperti ketika diakses melalui _smartphone_, _tablet_, _desktop_ dan perangkat lainnya.
+Cara tersebut lebih difungsikan pada konsep _Responsive Design_ yaitu bagaimana membangun sebuah aplikasi web yang memiliki perilaku berbeda ketika dihadapkan pada kondisi tertentu, seperti ketika diakses melalui _smartphone_, _tablet_, _desktop_ dan perangkat lainnya.
 
 ## Penggunaan
 
@@ -63,17 +63,17 @@ Kamu bisa lihat [disini](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
 
 ## Responsive Desain
 
-Ketika kita ingin membuat sebuah desain website yang mampu beradaptasi dengan beragam jenis perangkat, maka disinilah cara yang bisa dilakukan oleh **CSS Media Query**.
+Ketika kita ingin membuat sebuah desain website yang mampu beradaptasi dengan beragam jenis perangkat, maka di sinilah cara yang bisa dilakukan oleh **CSS Media Query**.
 
 Misal, kita punya properti CSS seperti berikut:
 
 ```css
-    body{
-        width: 100%;
-        height: 100vh;
-        background-color: lightgreen;
-        margin: 0 auto;
-    }
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgreen;
+  margin: 0 auto;
+}
 ```
 
 > Bagaimana cara mengubah value `width` hanya **_jika_** lebar layarnya **768px** atau kurang?
@@ -132,7 +132,7 @@ Selain mengubah _value_ pada properti CSS, bisa juga untuk menyembunyikan (hidde
 }
 ```
 
-Hasilnya, ketika lebar _screen_ dibawah 320px, maka element _body_ akan menghilang.
+Hasilnya, ketika lebar _screen_ di bawah 320px, maka element _body_ akan menghilang.
 
 ### Breakpoints
 

@@ -1,6 +1,6 @@
 # CSS FLOAT
 
-Css float adalah property css yang digunakan untuk membuat element mengambang,biasanya property ini digunakan untuk membuat element di samping element lain. 
+CSS float adalah property css yang digunakan untuk membuat element mengambang. Biasanya property ini digunakan untuk membuat element di samping element lain.
 
 ### Langsung saja ke kodenya
 
@@ -18,7 +18,7 @@ div {
 
 ```css
 div {
-  /* Penjelasan*/
+  /* Penjelasan */
   /* Membuat element mengambang ke kanan */
   float: right;
 }

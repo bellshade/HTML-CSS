@@ -58,4 +58,3 @@ Maka output yang dihasilkan :
 ![box model](https://user-images.githubusercontent.com/89055857/137605048-7391ebd1-3a01-4dd4-a0c6-333ff2130dd7.PNG)
 
 Referensi : https://www.w3schools.com/css/css_boxmodel.asp
-

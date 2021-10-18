@@ -105,6 +105,6 @@ div {
 ```
 Output yang dihasilkan : 
 
-![box transparan](https://user-images.githubusercontent.com/89055857/137607882-8fc398aa-0936-4775-ae75-6087accc4556.PNG)
+![box transparan RGBA](https://user-images.githubusercontent.com/89055857/137660929-7e94cfd8-ed36-453a-8cf0-2f37cd0714d0.PNG)
 
 Refeensi : https://www.w3schools.com/CSSref/css3_pr_opacity.asp

@@ -3,7 +3,7 @@
 ## Apa ya CSS Units?
 
 
-**CSS Combinators** adalah satuan ukuran yang sering kita pakai dalam membuat suatu style element. Contoh penggunaan satuan ini sering kita temui ketika menggunakan `Font-Size`, `Padding`, `Margin` dan masih banyak lagi.Contoh Penggunaan:
+**CSS Units** adalah satuan ukuran yang sering kita pakai dalam membuat suatu style element. Contoh penggunaan satuan ini sering kita temui ketika menggunakan `Font-Size`, `Padding`, `Margin` dan masih banyak lagi. Contoh Penggunaan:
 
 **Contoh Penggunaan pada `Font-Size`**
 
@@ -17,7 +17,7 @@ p {
 ### Macam-Macam CSS Units
 
 - **Absolute Length**
-    Ukuran yang tidak bisa berubah walau lebar layar berubah, **Absolute Length** tidak sarankan untuk digunakan karena setiap ukuran layar yang digunakan pasti berbeda-beda antara satu dan lainnya.Kira-Kira satuan apa aja ya yang 
+    Ukuran yang tidak bisa berubah walau lebar layar berubah, **Absolute Length** tidak sarankan untuk digunakan karena setiap ukuran layar yang digunakan pasti berbeda-beda antara satu dan lainnya.Kira-Kira satuan apa aja ya yang termasuk **Absolute Length**? yuk simak info dibawah ini.
 
     | Jenis Ukuran | Penjelasan |
     |--|--|

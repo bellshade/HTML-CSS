@@ -22,7 +22,7 @@
 
 ```html
 <html>
-<div class='class>'>
+<div class='class'>
     <h1>Tester Header 1</h1>
     <span>
         <h1>Tester Header 2</h1>
@@ -43,7 +43,7 @@
 
 ```html
 <html>
-<div class='class>'>
+<div class='class'>
     <h1>Tester Header 1</h1>
     <span>
         <h1>Tester Header 2</h1>
@@ -66,7 +66,7 @@
 
 ```html
 <html>
-<div class='class>'>
+<div class='class'>
     <h1>Tester Header 1</h1>
 </div>
 <h1>Tester Header 2</h1>
@@ -75,7 +75,7 @@
 </div>
 <h1>Tester Header 3</h1>
 <h1>Tester Header 5</h1>
- <html>
+ </html>
 ```
 
 
@@ -90,7 +90,7 @@
 
 ```html
 <html>
-<div class='class>'>
+<div class='class'>
     <h1>Tester Header 1</h1>
 </div>
 <h1>Tester Header 2</h1>
@@ -100,7 +100,7 @@
 </div>
 <h1>Tester Header 5</h1>
 <h1>Tester Header 6</h1>
-    </html
+</html>
 ```
 
 

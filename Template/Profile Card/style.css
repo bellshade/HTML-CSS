@@ -83,7 +83,7 @@ body {
     align-items    : center;
     margin-bottom  : 15px;
     margin-top     : 5px;
-    margin-left : 75px;
+    justify-content: center;
 }
 .social-media i {
     color: #fff;
@@ -145,7 +145,17 @@ body {
     transform: scale(1.05);
     opacity: 0.85;
 }
+@media (max-width: 991px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .social-media {
+        justify-content: center;
+    }
+}
 @media (max-width: 768px) {
+    
     .profileContainer {
         padding: 90px 25px 25px;
         margin-top: 90px;

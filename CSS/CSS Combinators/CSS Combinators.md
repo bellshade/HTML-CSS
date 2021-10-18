@@ -21,6 +21,7 @@
 
 
 ```html
+<html>
 <div class='class>'>
     <h1>Tester Header 1</h1>
     <span>
@@ -28,11 +29,12 @@
     </span>
 </div>
 <h1>Tester Header 3</h1>
+</html>
 ```
 
 
 ```css
-.claas h1{
+.class h1{
     background-color: #840618;
 }
 ```
@@ -40,6 +42,7 @@
 - `Child Selector` selector yang penulisannya ditambahkan **(>)**. Ketika element yang dituju ada didalam parent  tidak bisa terselect. Untuk lebih jelasnya kamu dapat melihat contoh berikut:
 
 ```html
+<html>
 <div class='class>'>
     <h1>Tester Header 1</h1>
     <span>
@@ -48,11 +51,12 @@
     <h1>Tester Header Semi</h1>
 </div>
 <h1>Tester Header 3</h1>
+  </html>
 ```
 
 
 ```css
-.claas > h1{
+.class > h1{
     background-color: #840618;
 }
 ```
@@ -61,6 +65,7 @@
 - `Adjacent Sibling Selector` yang didalam penulisannya ditambahkan **(+)**. Selector ini digunakan ketika kamu ingin memilih suatu elemen setelah elemen yang ada sebelumnya (hanya dapat memilih 1).Untuk lebih jelasnya kamu dapat melihat contoh berikut:
 
 ```html
+<html>
 <div class='class>'>
     <h1>Tester Header 1</h1>
 </div>
@@ -70,17 +75,21 @@
 </div>
 <h1>Tester Header 3</h1>
 <h1>Tester Header 5</h1>
+ <html>
 ```
 
 
 ```css
-.claas + h1{
+.class + h1{
     background-color: #840618;
 }
 ```
 
 - `General Sibling Selector` untuk selector ini kamu menambahkan **(~)**.Ini memiliki sedikit karakteristik yang sama dengan `Adjacent Sibling Selector` bedanya dia memilih elemen yang sama (bisa lebih dari 1) setelah elemen sebelumnya.Untuk Lebih jelasnya kamu dapat melihat contoh berikut:
 
+
+```html
+<html>
 <div class='class>'>
     <h1>Tester Header 1</h1>
 </div>
@@ -91,11 +100,12 @@
 </div>
 <h1>Tester Header 5</h1>
 <h1>Tester Header 6</h1>
+    </html
 ```
 
 
 ```css
-.claas ~ h1{
+.class ~ h1{
     background-color: #840618;
 }
 ```

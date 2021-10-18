@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 body {
+    margin-top: 20px;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -15,15 +19,13 @@ body {
 .profileContainer {
     position: relative;
     background-color: #fff;
-    size: 100px;
-    padding: 100px 40px 45px;
+    padding: 100px 30px 45px;
     border-radius: 30px;
     box-shadow: 0 0 1px 2px rgb(0 8 255 / 19%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    bottom: -15px;
 }
 .img-container {
     width: 130px;
@@ -33,7 +35,7 @@ body {
     border-radius: 50%;
     box-shadow: 0 2px 3px #28b5ff;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -77,38 +79,47 @@ body {
     color: #6440f4;
     margin-bottom: 15px;
 }
-.social-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+.social-media {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    margin-bottom  : 20px;
+    margin-top     : 5px;
+    margin-left : 75px;
 }
-.social-container button {
-    border: none;
-    outline: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 0.3s;
+.social-media i {
+    color: #fff;
 }
-.social-container button:hover {
+.social-media button {
+    border          : none;
+    outline         : none;
+    width           : 40px;
+    height          : 40px;
+    border-radius   : 50%;
+    cursor          : pointer;
+    transition      : transform 0.3s;
+    font-size       : 19px;
+    align-items     : center;
+    margin-right    : 8px;
+    margin-top      : 0;
+    text-align      : center;
+}
+.social-media button:hover {
     transform: scale(1.1);
 }
 /* Social colors */
-.social-container button.facebook {
-    background: linear-gradient(45deg,  #0100ff80, #00ccff9c);
+.social-media button.twitter {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
 }
-.social-container button.instagram {
-    background: linear-gradient(45deg, #e6683c7a 25%, #dc27438f 50%, #bc1888 100%);
+.social-media button.instagram {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
 }
-.social-container button.twitter {
-    background: linear-gradient(45deg ,#00b6ffeb, #5ea9dd73);
+.social-media button.github {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
 }
-.social-container button.github {
-    background: linear-gradient(45deg, #477eff, #ce428d);
-}
+.social-media button.devianart {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
+}  
 .action {
     outline: none;
     cursor: pointer;
@@ -116,8 +127,8 @@ body {
     background-color: #2aacfa;
     border: none;
     border-radius: 50px;
-    padding: 12px 20px;
-    width: 50%;
+    padding: 10px 0px;
+    width: 40%;
     margin-top: 10px;
     text-transform: uppercase;
     font-weight: bold;
@@ -130,8 +141,35 @@ body {
 .action a {
     color: #fff;
     text-decoration: none;
+    font-size: 12px;
 }
 .action:hover {
     transform: scale(1.05);
     opacity: 0.85;
+}
+@media (max-width: 768px) {
+    body {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(25deg, #5600ffd1, #00adffd9);
+    }
+    .profileContainer {
+        padding: 90px 25px 25px;
+        margin: 0;
+    }
+    .img-container {
+        width: 115px;
+        height: 115px;
+        overflow: hidden;
+        border: 3px solid #5600ffd1;
+        border-radius: 50%;
+        box-shadow: 0 2px 3px #28b5ff;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

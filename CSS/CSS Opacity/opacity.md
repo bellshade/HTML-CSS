@@ -110,4 +110,4 @@ Output yang dihasilkan :
 
 ![box transparan RGBA](https://user-images.githubusercontent.com/89055857/137660929-7e94cfd8-ed36-453a-8cf0-2f37cd0714d0.PNG)
 
-Refeensi : https://www.w3schools.com/CSSref/css3_pr_opacity.asp
+Referensi : https://www.w3schools.com/CSSref/css3_pr_opacity.asp

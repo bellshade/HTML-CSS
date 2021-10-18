@@ -4,7 +4,7 @@
 
 **CSS Combinators** sering kita gunakan ketika benar-benar membutuhkan selector yang lebih spesifik dibandingkan selectors biasa. 
 
-## Macam-Macam CSS Combinators?
+## Macam-Macam CSS Combinators
 
 - `Descendant Selector` selector 'vanilla' tanpa ada nya tambahan pada syntax
 
@@ -39,7 +39,7 @@
 }
 ```
 
-- `Child Selector` selector yang penulisannya ditambahkan **(>)**. Ketika element yang dituju ada didalam parent  tidak bisa terselect. Untuk lebih jelasnya kamu dapat melihat contoh berikut:
+- `Child Selector` selector yang penulisannya ditambahkan **(>)**. Ketika element yang dituju ada di dalam parent  tidak bisa terselect. Untuk lebih jelasnya kamu dapat melihat contoh berikut:
 
 ```html
 <html>
@@ -62,7 +62,7 @@
 ```
 
 
-- `Adjacent Sibling Selector` yang didalam penulisannya ditambahkan **(+)**. Selector ini digunakan ketika kamu ingin memilih suatu elemen setelah elemen yang ada sebelumnya (hanya dapat memilih 1).Untuk lebih jelasnya kamu dapat melihat contoh berikut:
+- `Adjacent Sibling Selector` yang didalam penulisannya ditambahkan **(+)**. Selector ini digunakan ketika kamu ingin memilih suatu elemen setelah elemen yang ada sebelumnya (hanya dapat memilih 1). Untuk lebih jelasnya kamu dapat melihat contoh berikut:
 
 ```html
 <html>
@@ -85,7 +85,7 @@
 }
 ```
 
-- `General Sibling Selector` untuk selector ini kamu menambahkan **(~)**.Ini memiliki sedikit karakteristik yang sama dengan `Adjacent Sibling Selector` bedanya dia memilih elemen yang sama (bisa lebih dari 1) setelah elemen sebelumnya.Untuk Lebih jelasnya kamu dapat melihat contoh berikut:
+- `General Sibling Selector` untuk selector ini kamu menambahkan **(~)**. Ini memiliki sedikit karakteristik yang sama dengan `Adjacent Sibling Selector` bedanya dia memilih elemen yang sama (bisa lebih dari 1) setelah elemen sebelumnya.Untuk Lebih jelasnya kamu dapat melihat contoh berikut:
 
 
 ```html

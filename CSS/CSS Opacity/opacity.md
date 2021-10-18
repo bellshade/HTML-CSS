@@ -91,16 +91,19 @@ CSS
 ```css
 div {
     background-color: blue;
-    padding: 15px;
+    padding         : 15px;
 }
 .box1 {
-    background: rgba(0, 36, 240, 0.3);
+    background  : rgba(0, 36, 240, 0.3);
+    opacity     : 0.3;
 }
 .box2 {
-    background: rgba(0, 36, 240, 0.6);
+    background  : rgba(0, 36, 240, 0.6);
+    opacity     : 0.6;
 }
 .box3 {
-    background: rgba(0, 36, 240, 0.9);
+    background  : rgba(0, 36, 240, 0.9);
+    opacity     : 0.9;
 }
 ```
 Output yang dihasilkan : 

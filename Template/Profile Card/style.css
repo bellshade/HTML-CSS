@@ -8,15 +8,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    margin-top: 20px;
-    min-height: 100vh;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(25deg, #5600ffd1, #00adffd9);
+    background     : linear-gradient(270deg, #5600ffd1, #00adffd9)
 }
 .profileContainer {
+    margin-top: 90px;
     position: relative;
     background-color: #fff;
     padding: 100px 30px 45px;
@@ -31,7 +29,7 @@ body {
     width: 130px;
     height: 130px;
     overflow: hidden;
-    border: 5px solid #5600ffd1;
+    border: 4px solid #5600ffd1;
     border-radius: 50%;
     box-shadow: 0 2px 3px #28b5ff;
     position: absolute;
@@ -83,7 +81,7 @@ body {
     width          : 100%;
     display        : flex;
     align-items    : center;
-    margin-bottom  : 20px;
+    margin-bottom  : 15px;
     margin-top     : 5px;
     margin-left : 75px;
 }
@@ -148,17 +146,9 @@ body {
     opacity: 0.85;
 }
 @media (max-width: 768px) {
-    body {
-        min-height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(25deg, #5600ffd1, #00adffd9);
-    }
     .profileContainer {
         padding: 90px 25px 25px;
-        margin: 0;
+        margin-top: 90px;
     }
     .img-container {
         width: 115px;

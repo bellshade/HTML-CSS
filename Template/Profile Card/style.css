@@ -146,7 +146,6 @@ body {
     opacity: 0.85;
 }
 @media (max-width: 991px) {
-    
     .profileContainer {
         width       : 90%;
         margin-left : 20px;
@@ -170,5 +169,43 @@ body {
         top: 10px;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 340px) {
+    .profileContainer {
+        width       : 90%;
+        margin-left : 16px;
+        margin-top  : 70px;
+        padding     : 90px 20px 20px;
+        margin-bottom: 25px;
+    }
+    .full-name {
+        font-size: 20px;
+    }
+    .skill {
+        font-size: 15px;
+    }
+    .place {
+        font-size: 15px;
+    }
+    .posts-info {
+        font-size: 15px;
+    }
+    .sosmed{
+        font-size: 18px;
+    }
+    .social-media button {
+        border          : none;
+        outline         : none;
+        width           : 35px;
+        height          : 35px;
+        border-radius   : 50%;
+        cursor          : pointer;
+        transition      : transform 0.3s;
+        font-size       : 16px;
+        align-items     : center;
+        margin-right    : 8px;
+        margin-top      : 0;
+        text-align      : center;
     }
 }

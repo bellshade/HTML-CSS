@@ -42,13 +42,14 @@ Catatan:
 | `<datalist>` | Menentukan daftar opsi yang telah ditentukan sebelumnya di sekitar tag `<input>` | `Baru` |
 | `<dd>` | Mendefinisikan deskripsi definisi dalam daftar definisi |  |
 | `<del>` | Teks tertentu dihapus dalam dokumen web |  |
-| `<detail>` | Menentukan detail tambahan yang disembunyikan atau ditampilkan sesuai tindakan pengguna | `Baru` |
+| `<details>` | Menentukan detail tambahan yang disembunyikan atau ditampilkan sesuai tindakan pengguna | `Baru` |
 | `<dfn>` | Menentukan tim definisi |  |
 | `<dialog>` | Menentukan percakapan obrolan antara satu orang atau lebih | `Baru/Hapus` |
 | `<dir>` | Menentukan daftar direktori | `Hapus` |
 | `<div>` | Menentukan bagian divisi |  |
 | `<dl>` | Menentukan daftar definisi |  |
 | `<dt>` | Menentukan tim definisi |  |
+| `<em>` | Mendefinisikan teks format penekanan |  |
 | `<embed>` | Mendefinisikan aplikasi eksternal embedding menggunakan plug-in relatif | `Baru` |
 | `<eventsource>` | Mendefinisikan sumber event yang dihasilkan ke server jauh | `Baru/Hapus` |
 | `<fieldset>` | Mendefinisikan pengelompokan elemen formulir terkait |  |
@@ -60,7 +61,7 @@ Catatan:
 | `<frame>` | Mendefinisikan frame window | `Hapus` |
 | `<frameset>` | Digunakan untuk menampung satu atau lebih elemen `<frame>` | `Hapus` |
 | `<h1> hingga <h6>` | Mendefinisikan level Judul dari 1 hingga 6 ukuran berbeda |  |
- `<head>` | Mendefinisikan bagian header dari dokumen HTML |  |
+| `<head>` | Mendefinisikan bagian header dari dokumen HTML |  |
 | `<header>` | Didefinisikan sebagai wadah yang menampung konten pengantar atau tautan navigasi | `Baru` |
 | `<hgroup>` | Mendefinisikan judul bagian yang menyimpan tag h1 hingga h6 | `Baru/Hapus` |
 | `<hr />` | Mewakili jeda tematik antara tag tingkat paragraf. Hal ini biasanya menarik garis horizontal |  |
@@ -126,3 +127,6 @@ Catatan:
 | `<var>` | Merupakan variabel dalam program komputer atau persamaan matematika |  |
 | `<video>` | Digunakan untuk menyematkan konten video | `Baru` |
 | `<wbr>` | Mendefinisikan peluang pemutusan kata dalam string teks yang panjang | `Baru` |
+
+## Referensi
+Refensi lengkap dan penjelasan lebih lanjut dapat dilihat pada [website berikut.](https://way2tutorial.com/html/tag/index.php)

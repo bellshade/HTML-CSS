@@ -85,7 +85,7 @@
 }
 ```
 
-- `General Sibling Selector` untuk selector ini kamu menambahkan **(~)**. Ini memiliki sedikit karakteristik yang sama dengan `Adjacent Sibling Selector` bedanya dia memilih elemen yang sama (bisa lebih dari 1) setelah elemen sebelumnya.Untuk Lebih jelasnya kamu dapat melihat contoh berikut:
+- `General Sibling Selector` untuk selector ini kamu menambahkan **(~)**. Ini memiliki sedikit karakteristik yang sama dengan `Adjacent Sibling Selector` bedanya dia memilih elemen yang sama (bisa lebih dari 1) setelah elemen sebelumnya. Untuk Lebih jelasnya kamu dapat melihat contoh berikut:
 
 
 ```html

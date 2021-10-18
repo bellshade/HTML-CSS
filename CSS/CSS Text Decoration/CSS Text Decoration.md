@@ -2,7 +2,7 @@
 
 ## Apa itu text decoration
 
-text decoration adalah sebuah property css yang berfungsi untuk memberi garis bawah terhadap suatu element.
+Text decoration adalah sebuah property css yang berfungsi untuk memberi garis bawah terhadap suatu element.
 ada beberapa value untuk text decoration ini yaitu :
 
 - none

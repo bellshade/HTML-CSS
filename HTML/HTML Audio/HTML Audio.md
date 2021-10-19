@@ -36,6 +36,7 @@ Ada juga untuk atribut tag audio
 ### Penerapan
 
 ```html
+
 <audio controls autoplay>
   <source src="" type="audio/(typenya)" />
 </audio>
@@ -44,6 +45,11 @@ Ada juga untuk atribut tag audio
 ## Penggunaan demo
 
 ```html
+<!-- Penjelasan -->
+<!-- Atribut control = menampilkan control di audio  -->
+<!-- Atribut autoplay = memulai langsung  -->
+<!-- src = sumber audio (horse.ogg) -->
+<!-- type = tipe/format dari audio tersebut (audio/ogg) -->
 <audio controls autoplay>
   <source src="horse.ogg" type="audio/ogg" />
 </audio>

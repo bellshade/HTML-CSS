@@ -14,7 +14,7 @@ body {
     background     : linear-gradient(270deg, #5600ffd1, #00adffd9)
 }
 .profileContainer {
-    margin-top: 90px;
+    margin-top: 85px;
     position: relative;
     background-color: #fff;
     padding: 100px 30px 45px;
@@ -172,9 +172,9 @@ body {
     .profileContainer {
         width       : 90%;
         margin-left : 16px;
-        margin-top  : 70px;
+        margin-top  : 55px;
         padding     : 90px 20px 20px;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
     .full-name {
         font-size: 20px;

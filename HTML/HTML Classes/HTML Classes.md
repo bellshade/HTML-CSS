@@ -1,12 +1,12 @@
 # HTML CLASSES
 
-## Apa itu html classes ?
+## Apa itu HTML classes ?
 
-Html classes adalah sebuah panggilian untuk melakukan pengelompokan atau class. misalnya saya ingin membuat class header dan class untuk paragraphs.
+HTML classes adalah sebuah panggilian untuk melakukan pengelompokan atau class. misalnya saya ingin membuat class header dan class untuk paragraphs.
 
 ## Langsung saja ke demonya agar lebih paham
 
-untuk melakukan class/pengelompokan terdaat sebuah tag yang bernama `<div>` yang dimana sebuah element harus di letakkan di dalam `<div>`, biasanya `<div>` akan diberi sebuah property yaitu `class=""` atau `id=""`
+Untuk melakukan class/pengelompokan terdapat sebuah tag yang bernama `<div>` yang dimana sebuah element harus diletakkan di dalam `<div>`, biasanya `<div>` akan diberi sebuah property yaitu `class=""` atau `id=""`
 
 ### Contoh
 
@@ -52,9 +52,9 @@ Penggunaan tag `<div>`dan property `class`
 
 ## Styling dengan css
 
-keuntungan menggunakan class ini kita bisa melakukan style di class itu.
-jika kita ingin menstyling sebuah class maka kita perlu melakukan `.`+`nama class`.
-jika menggunakan id maka lakukan `#`+`nama id`
+Keuntungan menggunakan class ini kita bisa melakukan style di class itu.
+Jika kita ingin memberi style pada sebuah class maka kita perlu melakukan `.`+`nama class`.
+Jika menggunakan id maka lakukan `#`+`nama id`
 
 ## Contoh styling menggunakan nama class
 
@@ -67,7 +67,7 @@ jika menggunakan id maka lakukan `#`+`nama id`
 }
 ```
 
-Artinya saya akan menstyling sebuah class yang bernama box dengan property `width,height,dan background-color`
+Artinya saya akan memberi style pada sebuah class yang bernama box dengan property `width,height,dan background-color`
 
 ### Dengan element di dalamnya
 
@@ -77,7 +77,7 @@ Artinya saya akan menstyling sebuah class yang bernama box dengan property `widt
 }
 ```
 
-Artinya saya akan menstyling sebuah class yang didalamnya terdapat tag `<h1>` dengan property `color`.
+Artinya saya akan memberi style pada sebuah class yang didalamnya terdapat tag `<h1>` dengan property `color`.
 
 ## Contoh styling menggunakan id
 
@@ -91,7 +91,7 @@ Artinya saya akan menstyling sebuah class yang didalamnya terdapat tag `<h1>` de
 }
 ```
 
-Artinya saya akan menstyling sebuah id yang bernama main dengan property `width,height,dan background-color`
+Artinya saya akan memberi style pada sebuah id yang bernama main dengan property `width,height,dan background-color`
 
 ### Dengan element di dalamnya
 
@@ -101,8 +101,10 @@ Artinya saya akan menstyling sebuah id yang bernama main dengan property `width,
 }
 ```
 
-Artinya saya akan menstyling sebuah id yang bernama main yang di dalamnya terdapat tag `<p>` dengan property `color`
+Artinya saya akan memberi style pada sebuah id yang bernama main yang di dalamnya terdapat tag `<p>` dengan property `color`
 
 ## Note
 
 untuk penamaan class dan id itu bebas atau sesuai keinginan.
+Jika memakai id hanya dapat boleh satu dalam suatu halaman, tidak boleh sama dengan element lain.
+Jika memakai class diperbolehkan sama dengan element lain. 

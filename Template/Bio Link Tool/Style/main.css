@@ -94,3 +94,28 @@ body {
   text-align: center;
   margin-bottom: 15px;
 }
+
+@media (max-width: 576px) {
+  .long-btn {
+    max-width: 270px;
+    font-size: 12px;
+    height: 28px;
+  }
+  .avatar img {
+    width: 64px;
+    height: 64px;
+  }
+  .username {
+    font-size: 14px;
+  }
+  .circle ul li .fab {
+    font-size: 28px;
+  }
+  .circle ul li a {
+    width: 40px;
+    height: 40px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}

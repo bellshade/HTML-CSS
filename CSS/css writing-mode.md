@@ -20,7 +20,7 @@ Sebuah elemen tulisan dengan ```writing-mode: horizontal-tb``` akan tertulis sec
 ```css
 p{
   writing-mode: horizontal-tb;
-}
+} 
 ```
 ### Writing-mode vertical-rl
 Sebuah elemen tulisan dengan ```writing-mode: vertical-rl;``` akan tertulis secara vertikal dari atas ke bawah, dan horizontal dari kanan ke kiri.

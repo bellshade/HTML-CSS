@@ -15,6 +15,7 @@ body {
 }
 .profileContainer {
     margin-top: 85px;
+    margin-bottom: 20px;
     position: relative;
     background-color: #fff;
     padding: 100px 30px 45px;
@@ -146,6 +147,8 @@ body {
 }
 @media (max-width: 991px) {
     .profileContainer {
+        margin-top: 70px;
+        margin-bottom: 20px;
         margin-left : 20px;
     }
 }

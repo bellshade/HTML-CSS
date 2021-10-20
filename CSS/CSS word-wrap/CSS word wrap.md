@@ -11,7 +11,7 @@ CSS word-wrap adalah properti yang bertujuan untuk mengatur elemen tulisan dalam
 
 ### Word-wrap normal
 
-Sebuah elemen dengan ```Word-wrap: normal;``` hanya akan bisa mengatur tulisan pada titik yang mengizinkan untuk diatur (spasi).
+Sebuah elemen dengan ```word-wrap: normal;``` hanya akan bisa mengatur tulisan pada titik yang mengizinkan untuk diatur (spasi).
 #### Contoh
 
 **HTML**

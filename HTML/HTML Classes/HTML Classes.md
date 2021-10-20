@@ -2,7 +2,7 @@
 
 ## Apa itu HTML classes ?
 
-HTML classes adalah sebuah panggilian untuk melakukan pengelompokan atau class. misalnya saya ingin membuat class header dan class untuk paragraphs.
+HTML classes adalah sebuah panggilan untuk melakukan pengelompokan atau class. misalnya saya ingin membuat class header dan class untuk paragraphs.
 
 ## Langsung saja ke demonya agar lebih paham
 

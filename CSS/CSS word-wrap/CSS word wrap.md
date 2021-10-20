@@ -4,7 +4,7 @@
 CSS word-wrap adalah properti yang bertujuan untuk mengatur elemen tulisan dalam elemen parent-nya.
 
 **CSS word-wrap ada 4 jenis**
--```normal``
+-```normal```
 -```break-word```
 -```initial```
 -```inherit```

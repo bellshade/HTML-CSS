@@ -1,13 +1,13 @@
-# CSS WORD-WRAP
+## CSS WORD-WRAP
 ### Apa itu CSS word-wrap ?
 
 CSS word-wrap adalah properti yang bertujuan untuk mengatur elemen tulisan dalam elemen parent-nya.
 
 **CSS word-wrap ada 4 jenis**
--```normal```
--```break-word```
--```initial```
--```inherit```
+- ```normal```
+- ```break-word```
+- ```initial```
+- ```inherit```
 
 ### Word-wrap normal
 

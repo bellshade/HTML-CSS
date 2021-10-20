@@ -14,7 +14,7 @@ Metadata digunakan oleh browser (cara menampilkan konten atau memuat ulang halam
 Ada metode untuk membiarkan web desainer untuk mengambil kendali atas viewport (area yang terlihat oleh pengguna dari halaman web),
 melalui tag ```<meta>```.
 
-###Contoh kode
+#### Contoh kode
 
 ```html
 <head>
@@ -26,12 +26,12 @@ melalui tag ```<meta>```.
 </head>
 ```
 
-### Contoh lain
+#### Contoh lain
 
-keywords untuk search engines:
+Keywords untuk search engines:
 ```<meta name="keywords" content="Github, PR, Pull request">```
 
-deskripsi untuk halaman page:
+Deskripsi untuk halaman page:
 ```<meta name="description" content="Cara PR">```
 
 Author dari web
@@ -48,7 +48,7 @@ Setting viewport untuk membuat website terlihat bagus di semua divice
 Area pandang (Viewport) adalah area halaman web yang terlihat oleh pengguna. Area ini bervariasi dengan perangkat viewport akan 
 terlihat lebih kecil di layar ponsel daripada di layar komputer.
 
-elemen ```<meta>``` harus disertakan disemua halaman web
+Elemen ```<meta>``` harus disertakan disemua halaman web
 ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```
 Ini memberi browser instruksi untuk mengontrol dimensi dan skala halaman web.
 

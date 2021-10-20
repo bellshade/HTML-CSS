@@ -91,7 +91,8 @@ Tampilan yang dihasilkan :
 
 ![button3](https://user-images.githubusercontent.com/89055857/137708865-a7b2a0be-3fac-456b-91fa-d7c516f5bdfb.PNG)
 
--  Merubah ukuran button
+-  Mengubah ukuran button
+
 
 Gunakan ``width``, boleh menggunakan satuan px(pixel) atau persen(%)
 

@@ -2,7 +2,7 @@
 
 ## Apa kegunaan text transformation
 
-text transformation atau text transfrom digunakan untuk mengubah huruf menjadi besar atau kecil.
+text transformation atau text transform digunakan untuk mengubah huruf menjadi besar atau kecil.
 ada beberapa property text transfrom yaitu :
 
 - lowercase : menjadikan setiap kata kecil
@@ -14,7 +14,7 @@ ada beberapa property text transfrom yaitu :
 Contoh penggunaan
 
 ```html
-<p>halo naMa saYa kUro</p>
+<p>Halo nama saya Kuro</p>
 ```
 
 ## `lowercase`

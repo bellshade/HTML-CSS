@@ -15,14 +15,14 @@ Contoh lain :
 
 ```css
 p {
-	color: blue;
-	text-align: right;
+  color: blue;
+  text-align: right;
 }
 ```
 
 ### Penjelasan :
 
-- Tag `p` diatas sendiri berperan sebagai selector.
+- Tag `p` di atas sendiri berperan sebagai selector.
 - Lalu `color` dan `text-align` berperan sebagai properti.
 - Sedangkan `blue` dan `right` berperan sebagai value dari masing-masing properti.
 

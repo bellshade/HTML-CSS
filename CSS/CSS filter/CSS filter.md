@@ -1,8 +1,8 @@
 # CSS FILTER
 
-## Css filter itu apa ya?
+## CSS filter itu apa ya?
 
-Css filter adalah css property yang bisa memberikan efek pada suatu element
+CSS filter adalah css properti yang bisa memberikan efek pada suatu element.
 
 ### Langsung saja ke kode-nya
 
@@ -40,11 +40,11 @@ img {
 
 ```css
 img {
-  /* Mengatur bayangan seperti box-shadow bedanya drop-shadow adalah filter */
+  /* Mengatur bayangan seperti box-shadow, bedanya drop-shadow adalah filter */
   /* Penjelasan */
   /* offset-x : mengatur jarak horizontal/kesamping */
-  /* offset-y : mengatur jarak vertikal/keatas  */
-  /* blur-radius : mengatur radius blur bayangan  */
+  /* offset-y : mengatur jarak vertikal/keatas */
+  /* blur-radius : mengatur radius blur bayangan */
   /* color : mengatur warna */
   filter: drop-shadow(offset-x offset-y blur-radius color);
 }
@@ -54,7 +54,7 @@ img {
 img {
   /* Mengatur rotasi gambar */
   /* Satuan yang digunakan degree/derajat */
-  /* Ex */
+  /* Contoh */
   /* hue-rotate(360deg) */
   filter: hue-rotate(deg);
 }
@@ -78,7 +78,7 @@ img {
 
 ```css
 img {
-  /* Memberikan gambar lebih kuning,lebih hangat / coklat */
+  /* Memberikan gambar lebih kuning, lebih hangat/coklat */
   /* Satuan yang digunakan persen(%) atau angka saja */
   filter: sepia(%);
 }
@@ -93,8 +93,9 @@ img {
 
 ```css
 img {
-  /* Merupakan default filter  */
+  /* Merupakan default filter */
   filter: initial;
 }
 ```
+
 Referensi (https://developer.mozilla.org/en-US/docs/Web/CSS/filter), (https://www.w3schools.com/cssref/css3_pr_filter.asp)

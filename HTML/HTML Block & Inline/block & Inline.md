@@ -31,7 +31,7 @@
 - `<hr>` | Garis Horizontal
 - `<figure>` | Mengelompokkan konten media dengan keterangan
 - `<figcaption>` | Keterangan figur
-- `<addreas>` | Keterangan Kontak
+- `<address>` | Keterangan Kontak
 - `<textarea>` | Input data lebih dari satu baris
 - `<fieldset>` | Label Set bidang
 - `<hgroup>` | Informasi header grup

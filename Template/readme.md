@@ -1,4 +1,4 @@
-Every files aren't mine and every templates in this folder are free to use.
+Semua template disini bisa digunakan bebas (free to use) dan jangan lupa untuk mencantumkan credit creatornya di website kalian ya :D
 
 ### 🌐 Website Link Templates 
 

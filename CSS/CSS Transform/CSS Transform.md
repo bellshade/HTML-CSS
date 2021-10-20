@@ -35,10 +35,20 @@ Value : (deg)
 - skewY() - Mengatur condong elemen secara vertikal (sumbu-Y)
 ## Contoh pemakaian Property CSS Transform
 
+**HTML**
+```html
+<div id="box"></div>
+```
+
+**CSS**
+
 - rotate()
 
 ```css
-div {
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
   transform: rotate(90deg);
   /* Mengatur rotasi elemen 90 derajat */
 }
@@ -47,7 +57,10 @@ div {
 - translate()
 
 ```css
-div {
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
   transform: translate(50px, 25px);
   /* Mengatur posisi elemen sumbu-X 50 piksel dan sumbu-Y 25 piksel */
 }
@@ -56,7 +69,10 @@ div {
 - scale()
 
 ```css
-div {
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
   transform: scale(2, 1.5)
   /* Memperbesar lebar elemen 2 kali lipat dan tinggi elemen 1.5 kali lipat */
 }
@@ -65,8 +81,11 @@ div {
 - skew()
 
 ```css
-div {
-    transform: skew(30deg, 15deg)
+#box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  transform: skew(30deg, 15deg)
   /* Mencondongkan elemen 30 derajat secara horizontal dan 15 derajat secara vertikal */
 }
 ```

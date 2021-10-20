@@ -1,6 +1,6 @@
-## HTML Lists
+# HTML Lists
 
-### Apa Itu HTML List ?
+## Apa Itu HTML List ?
 
 HTML List adalah elemen untuk menyajikan data berupa list/daftar.
 
@@ -34,10 +34,10 @@ Bagaimana jika ingin mengurutkan dengan simbol lainnya?
 
 Untuk mengganti disc dengan simbol lain, cukup berikan atribut `type` pada tag `ul` seperti berikut.
 
-- type `disc` untuk simbol bullet (default).
-- type `square` untuk simbol persegi.
-- type `none` untuk menghilangkan simbol atau tanpa simbol.
-- type `circle` untuk simbol lingkaran.
+- Type `disc` untuk simbol bullet (default).
+- Type `square` untuk simbol persegi.
+- Type `none` untuk menghilangkan simbol atau tanpa simbol.
+- Type `circle` untuk simbol lingkaran.
 
 Contoh:
 
@@ -96,10 +96,10 @@ Bagaimana jika ingin mengurutkan list dengan menggunakan a, b, c atau angka roma
 
 Untuk mengganti angka dengan huruf ataupun angka romawi, cukup berikan atribut `type` pada tag `ol` seperti berikut.
 
-- type `a` untuk huruf alfabet a, b, c dan seterusnya.
-- type `A` untuk huruf alfabet A, B, C dan seterusnya.
-- type `i` untuk angka romawi i, ii, iii dan seterusnya.
-- type `I` untuk angka romawi I, II, III dan seterusnya.
+- Type `a` untuk huruf alfabet a, b, c dan seterusnya.
+- Type `A` untuk huruf alfabet A, B, C dan seterusnya.
+- Type `i` untuk angka romawi i, ii, iii dan seterusnya.
+- Type `I` untuk angka romawi I, II, III dan seterusnya.
 
 Contoh:
 

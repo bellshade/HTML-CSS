@@ -23,7 +23,7 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
   - [Editors](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLEditors)
   - [Basic](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLBasic)
   - [Elements](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLElements)
-  - [Attributes](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Attributes)
+  - [Attributes](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTMLAttributes)
   - [Headings](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Headings)
   - [Paragraphs](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Paragraphs)
   - [Style](https://github.com/bellshade/HTML-CSS/tree/main/HTML/HTML%20Style)

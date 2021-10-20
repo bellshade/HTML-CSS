@@ -2,59 +2,61 @@
 
 ## Apa itu HTML?
 
-- HTML adalah Hyper text Markup Language.
+- HTML adalah *HyperText Markup Language*.
 - HTML adalah bahasa markup standard untuk membuat halaman Web.
 - HTML mendeskripsikan struktur halaman Web.
 - HTML terdiri dari serangkaian elemen.
 - Elemen HTML memberi tahu browser cara menampilkan konten.
 - Elemen HTML memberi label potongan konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dll.
 
-Dokumen Simple HTML
+### Dokumen Simple HTML
 
-Contoh ke HTMLIntroduction.html
+Contoh ke [HTMLIntroduction.html](HTMLIntroduction.html)
 
-Contoh Dijelaskan
+**Contoh Dijelaskan:**
 
-- Deklarasi <!DOCTYPE html> mendefinisikan bahwa dokumen ini adalah dokumen HTML5
-- Elemen <html> adalah elemen root dari halaman HTML
-- Elemen <head> berisi informasi meta tentang halaman HTML
-- Elemen <title> menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)
-- Elemen <body> mendefinisikan isi dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
-- Elemen <h1> mendefinisikan heading besar
-- Elemen <p> mendefinisikan paragraf.
+- Deklarasi `<!DOCTYPE html>` mendefinisikan bahwa dokumen ini adalah dokumen HTML5
+- Elemen `<html>` adalah elemen root dari halaman HTML
+- Elemen `<head>` berisi informasi meta tentang halaman HTML
+- Elemen `<title>` menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)
+- Elemen `<body>` mendefinisikan isi dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
+- Elemen `<h1>` mendefinisikan heading besar
+- Elemen `<p>` mendefinisikan paragraf.
 
-Apa itu Elemen HTML?
+## Apa itu Elemen HTML?
 
 Elemen HTML didefinisikan oleh tag awal, beberapa konten, dan tag akhir:
-
+```html
 <tagname>Konten ada di sini...</tagname>
+```
 
 Elemen HTML adalah segalanya mulai dari tag awal hingga tag akhir:
-
+```html
 <h1>Judul Pertama Saya</h1>
 <p>Paragraf pertama saya.</p>
+```
 
 |     | Tag Awal |     Konten Elemen     | Tag terakhir |
 | :-: | :------: | :-------------------: | ------------ |
-| 01  |   <h1>   | Heading Pertama Saya  | </h1>        |
-| 02  |   <p>    | Paragraf Pertama Saya | </p>         |
-| 03  |   <br>   |         None          | None         |
+| 01  |   `<h1>`   | Heading Pertama Saya  | `</h1>`        |
+| 02  |   `<p>`    | Paragraf Pertama Saya | `</p>`         |
+| 03  |   `<br>`   |         None          | None         |
 
-Catatan: Beberapa elemen HTML tidak memiliki konten (seperti elemen <br>). Elemen-elemen ini disebut elemen kosong. Elemen kosong tidak memiliki tag akhir!
+> **Catatan:** Beberapa elemen HTML tidak memiliki konten (seperti elemen `<br>`). Elemen-elemen ini disebut elemen kosong. Elemen kosong tidak memiliki tag akhir!
 
-Web Browser
+## Web Browser
 
 Tujuan browser web (Chrome, Edge, Firefox, Safari) adalah untuk membaca dokumen HTML dan menampilkannya dengan benar.
 
 Browser tidak menampilkan tag HTML, tetapi menggunakannya untuk menentukan cara menampilkan dokumen:
 
-Struktur Halaman HTML
+### Struktur Halaman HTML
 
 Di bawah ini adalah visualisasi struktur halaman HTML:
 
-Catatan: Konten di dalam bagian <body> (area putih di atas) akan ditampilkan di browser. Konten di dalam elemen <title> akan ditampilkan di bilah judul browser atau di tab halaman.
+**Catatan:** Konten di dalam bagian `<body>` (area putih di atas) akan ditampilkan di browser. Konten di dalam elemen `<title>` akan ditampilkan di bilah judul browser atau di tab halaman.
 
-Sejarah HTML
+## Sejarah HTML
 
 Sejak awal World Wide Web, ada banyak versi HTML:
 

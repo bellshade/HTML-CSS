@@ -1,9 +1,10 @@
-## HTML Quotation
+# HTML Quotation
 
-### Apa Itu HTML Quotation ?
+## Apa Itu HTML Quotation ?
+
 HTML Quotation berisi elemen-elemen ditujukan untuk menyajikan kutipan pada halaman HTML.
 
-elemen-elemen tersebut adalah,
+Elemen-elemen tersebut adalah,
 
 - `<blockquote>` - Mendefinisikan teks kutipan yang panjang.
 - `<q>` - Mendefinisikan teks kutipan yang pendek.
@@ -13,7 +14,9 @@ elemen-elemen tersebut adalah,
 - `<bdo>` - Membalikan arah teks.
 
 ### Contoh Penerapan Elemen Quotation Pada HTML
-**Elemen `<blockquote>`**
+
+#### Elemen `<blockquote>`
+
 ```html
 <p>Arti Quotes:</p>
 <blockquote>
@@ -21,17 +24,20 @@ Kutipan adalah pengulangan satu ekspresi sebagai bagian dari yang lain, terutama
 </blockquote>
 ```
 
-**Elemen `<q>`**
+#### Elemen `<q>`
+
 ```html
 <p>Random Quote: <q>Karena hidup adalah pilihan.</q></p>
 ```
 
-**Elemen `<abbr>`**
+#### Elemen `<abbr>`
+
 ```html
 <p>Channel <abbr title="Web Programming UNPAS">WPU</abbr> Pertama Kali merilis video pada 29 Januari 2015</p>
 ```
 
-**Elemen `<address>`**
+#### Elemen `<address>`
+
 ```html
 <address>
 Written by ABC<br>
@@ -42,12 +48,14 @@ Indonesia
 </address>
 ```
 
-**Elemen `<cite>`**
+#### Elemen `<cite>`
+
 ```html
 <p><cite>Avengers: Endgame</cite> directed by Anthony Russo; Joe Russo. Release in 2019.</p>
 ```
 
-**Elemen `<bdo>`**
+#### Elemen `<bdo>`
+
 ```html
 <bdo dir="rtl">Elemen ini akan tertulis dari kanan ke kiri</bdo>
 ```

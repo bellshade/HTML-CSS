@@ -1,6 +1,6 @@
-## HTML Tables
+# HTML Tables
 
-### Apa Itu HTML Table ?
+## Apa Itu HTML Table ?
 
 HTML Table adalah elemen untuk menyajikan data berupa tabel.
 
@@ -34,11 +34,14 @@ Contoh:
 
 ### Colspan dan Rowspan
 
-Colspan dan Rowspan adalah atribut pada HTML Table yang digunakan untuk melebarkan sebuah kolom secara vertikal atau horizontal. Colspan dan Rowspan biasanya diterapkan pada tabel yang kompleks dan multi-dimensi. Atribut `colspan` dan `rowspan` dapat digunakan pada tag `th` dan `td`. Contoh penerapan Colspan dan Rowspan dapat dilihat pada gambar berikut.
+*Colspan* dan *Rowspan* adalah atribut pada HTML Table yang digunakan untuk melebarkan sebuah kolom secara vertikal atau horizontal. *Colspan* dan *Rowspan* biasanya diterapkan pada tabel yang kompleks dan multi-dimensi. Atribut `colspan` dan `rowspan` dapat digunakan pada tag `th` dan `td`. 
+
+Contoh penerapan *Colspan* dan *Rowspan* dapat dilihat pada gambar berikut.
 
 ![HTML Table Colspan dan Rowspan](img/table-colspan-rowspan.png)
 
-Berikut penjelasan tentang atribut Colspan dan Rowspan.
+Berikut penjelasan tentang atribut *Colspan* dan *Rowspan*.
+
 - `colspan` digunakan untuk merentangkan kolom secara horizontal atau terhadap kolom selanjutnya
 - `rowspan` digunakan untuk merentangkan kolom secara vertikal atau terhadap baris selanjutnya
 

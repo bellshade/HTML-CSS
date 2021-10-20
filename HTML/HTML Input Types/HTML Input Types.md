@@ -1,8 +1,12 @@
-## HTML Form Input type
+# HTML Form Input type
 
-Dalam HTML `<input type="">` merupakan elemen penting dari form HTML. Atribut "type" dari elemen input dapat berupa berbagai jenis, yang mendefinisikan bidang informasinya masing-masing. Contohnya `<input type="text" name="name">` memberikan kotak input teks.
+Dalam HTML `<input type="">` merupakan elemen penting dari form HTML. Atribut `type` dari elemen input dapat berupa berbagai jenis, yang mendefinisikan bidang informasinya masing-masing. Contohnya membuat kotak input teks.
 
-#### Berikut adalah daftar semua type  `<input>`  pada HTML.
+```html
+<input type="text" name="name">
+```
+
+Berikut adalah daftar semua *type*  `<input>`  pada HTML.
 
 | Type | Description |
 |--|--|
@@ -18,7 +22,7 @@ Dalam HTML `<input type="">` merupakan elemen penting dari form HTML. Atribut "t
 
 HTML5 menambahkan beberapa *type* baru pada elemen `<input>`.
 
-#### Berikut adalah semua daftar type `<input>` pada HTML5
+Berikut adalah semua daftar type `<input>` pada HTML5
 
 | Type | Description |
 |--|--|
@@ -33,27 +37,29 @@ HTML5 menambahkan beberapa *type* baru pada elemen `<input>`.
 | search | Mendefinisikan satu bidang teks baris untuk memasukkan *string* pencarian. |
 | tel | Mendefinisikan bidang input untuk memasukkan nomor telepon. |
 
-### Penggunaan
+## Penggunaan
 
--   `<input type="button">`
--   `<input type="checkbox">`
--   `<input type="color">`
--   `<input type="date">`
--   `<input type="datetime-local">`
--   `<input type="email">`
--   `<input type="file">`
--   `<input type="hidden">`
--   `<input type="image">`
--   `<input type="month">`
--   `<input type="number">`
--   `<input type="password">`
--   `<input type="radio">`
--   `<input type="range">`
--   `<input type="reset">`
--   `<input type="search">`
--   `<input type="submit">`
--   `<input type="tel">`
--   `<input type="text">`
--   `<input type="time">`
--   `<input type="url">`
--   `<input type="week">`
+```html
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+```

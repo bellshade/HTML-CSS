@@ -6,15 +6,20 @@ HTML Attribute adalah suatu atribut untuk melengkapi informasi dari suatu elemen
 
 - Semua elemen HTML dapat memiliki Attribute.
 - Attribute HtML memberikan informasi tambahan terhadap elemen HTML.
-- Attribute selalu berada diawal tag, seperti: `<a href="google.com">Google</a>`
+- Attribute selalu berada diawal tag, seperti:
+
+  ```html
+  <a href="google.com">Google</a>
+  ```
+
 - Attribute selalu berbapasangan dengan value/nilai, seperti: `href="google.com"`
 - Value/Nilai dari attribute harus selalu dibungkus menggunakan double quote/petik dua (").
 
 ### Contoh Penerapan Attribute Pada HTML
 
-**href Attribute**
+#### `href` Attribute
 
-href berfungsi untuk menentukan URL halaman yang ingin dituju.
+`href` berfungsi untuk menentukan URL halaman yang ingin dituju.
 
 ```html
 <html>
@@ -22,9 +27,9 @@ href berfungsi untuk menentukan URL halaman yang ingin dituju.
 </html>
 ```
 
-**src Attribute**
+#### `src` Attribute
 
-src berfungsi untuk menentukan lokasi gambar file yang ingin ditampilkan.
+`src` berfungsi untuk menentukan lokasi gambar file yang ingin ditampilkan.
 
 ```html
 <html>
@@ -32,47 +37,47 @@ src berfungsi untuk menentukan lokasi gambar file yang ingin ditampilkan.
 </html>
 ```
 
-Ada dua cara untuk mendefinisikan URL di attribute src
+Ada dua cara untuk mendefinisikan URL di attribute `src`
 
 1. Absolute URL - Memasukan gambar dari hosting eksternal/tidak dalam local, seperti:
 
-`<img src="https://avatars.githubusercontent.com/u/76999048?s=200&v=4" >` 2. Relative URL
+    ```html
+    <img src="https://avatars.githubusercontent.com/u/76999048?s=200&v=4" >
+    ```
 
-`<img src="/src/images/avatar.png" >`
+2. Relative URL
 
-**width & height Attribute**
+    ```html
+    <img src="/src/images/avatar.png" >
+    ```
 
-width dan height berfungsi untuk menentukan lebar dan tinggi gambar dalam satuan piksel (px).
+#### `width` & `height` Attribute
 
-```html
-<html>
-  <img src="/src/images/avatar.png" width="32" height="32" />
-</html>
-```
-
-**alt Attribute**
-
-alt berfungsi untuk menggantikan gambar dengan tulisan, jika gambar tidak bisa ditampilkan dengan alasan tertentu.
+`width` dan `height` berfungsi untuk menentukan lebar dan tinggi gambar dalam satuan piksel (px).
 
 ```html
-<html>
-  <img src="/src/images/avatar.png" alt="avatar" />
-</html>
+<img src="/src/images/avatar.png" width="32" height="32" />
 ```
 
-**style Attribute**
+#### `alt` Attribute
 
-style berfungsi untuk menambahkan gaya/style pada elemen seperti color, font, size, dan lainnya.
+`alt` berfungsi untuk menggantikan gambar dengan tulisan, jika gambar tidak bisa ditampilkan dengan alasan tertentu.
 
 ```html
-<html>
-  <h1 style="color:green;">Hello World</h1>
-</html>
+<img src="/src/images/avatar.png" alt="avatar" />
 ```
 
-**lang Attribute**
+#### `style` Attribute
 
-lang berfungsi untuk mendeklarasikan bahasa yang digunakan dalam website, untuk membantu mesin pencari / browser.
+`style` berfungsi untuk menambahkan gaya/style pada elemen seperti color, font, size, dan lainnya.
+
+```html
+<h1 style="color: green">Hello World</h1>
+```
+
+#### `lang` Attribute
+
+`lang` berfungsi untuk mendeklarasikan bahasa yang digunakan dalam website, untuk membantu mesin pencari / browser.
 
 ```html
 <!DOCTYPE html>
@@ -83,19 +88,17 @@ lang berfungsi untuk mendeklarasikan bahasa yang digunakan dalam website, untuk 
 </html>
 ```
 
-**title Attribute**
+#### `title` Attribute
 
-title berfungsi sebagai penambah informasi dalam suatu elemen, yang jika dihover akan memunculkan tooltip
+`title` berfungsi sebagai penambah informasi dalam suatu elemen, yang jika dihover akan memunculkan tooltip
 
 ```html
-<html>
-  <p title="Komunitas untuk mengelola dan menulis kode">Bellshade</p>
-</html>
+<span title="Komunitas untuk mengelola dan menulis kode">Bellshade</span>
 ```
 
-**class Attribute**
+#### `class` Attribute
 
-class berfungsi untuk menunjuk nama class dalam style sheet, dapat digunakan untuk mengakses dan memanipulasi elemen di Javascript.
+`class` berfungsi untuk menunjuk nama class dalam style sheet, dapat digunakan untuk mengakses dan memanipulasi elemen di Javascript.
 
 ```html
 <div class="kota">
@@ -103,9 +106,9 @@ class berfungsi untuk menunjuk nama class dalam style sheet, dapat digunakan unt
 </div>
 ```
 
-**id Attribute**
+#### `id` Attribute
 
-id berfungsi untuk menentukan id unik untuk elemen HTML, dapat digunakan untuk menunjuk deklarasi style tertentu dalam style sheet dan juga digunakan untuk mengakses dan memanipulasi elemen dengan id tertentu di Javascript.
+`id` berfungsi untuk menentukan id unik untuk elemen HTML, dapat digunakan untuk menunjuk deklarasi style tertentu dalam style sheet dan juga digunakan untuk mengakses dan memanipulasi elemen dengan id tertentu di Javascript.
 
 ```html
 <html>
@@ -113,19 +116,19 @@ id berfungsi untuk menentukan id unik untuk elemen HTML, dapat digunakan untuk m
 </html>
 ```
 
-**method Attribute**
+#### `method` Attribute
 
-method berfungsi untuk menentukan cara mengirim data formulir (data formulir dikirim ke halaman yang ditentukan dalam atribut action).
+`method` berfungsi untuk menentukan cara mengirim data formulir (data formulir dikirim ke halaman yang ditentukan dalam atribut action).
 
-Form-data dapat dikirim sebagai variabel URL (dengan method="get") atau sebagai transaksi posting HTTP (dengan method="post").
+Form-data dapat dikirim sebagai variabel URL (dengan `method="get"`) atau sebagai transaksi posting HTTP (dengan method="post").
 
-Catatan tentang GET:
+Catatan tentang [GET](https://github.com/bellshade/PHP/tree/main/basics/9_form_handling):
 
 - Menambahkan data formulir ke dalam URL dalam pasangan nama/nilai
 - Panjang URL dibatasi (sekitar 3000 karakter)
-- Jangan pernah menggunakan GET untuk mengirim data sensitif! (akan terlihat di URL)
+- Jangan pernah menggunakan `GET` untuk mengirim data sensitif! (akan terlihat di URL)
 - Berguna untuk pengiriman formulir di mana pengguna ingin menandai hasilnya
-- GET lebih baik untuk data yang tidak aman, seperti string kueri di Google
+- `GET` lebih baik untuk data yang tidak aman, seperti string kueri di Google
 
 ```html
 <form action="/action_page.php" method="get">
@@ -135,11 +138,11 @@ Catatan tentang GET:
 </form>
 ```
 
-Catatan tentang POST:
+Catatan tentang [POST](https://github.com/bellshade/PHP/tree/main/basics/9_form_handling):
 
 - Menambahkan formulir-data di dalam isi permintaan HTTP (data tidak ditampilkan dalam URL)
 - Tidak memiliki batasan ukuran
-- Pengiriman formulir dengan POST tidak dapat di-bookmark
+- Pengiriman formulir dengan `POST` tidak dapat di-bookmark
 
 ```html
 <form action="/action_page.php" method="post">

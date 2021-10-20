@@ -1,8 +1,8 @@
 # CSS TEXT TRANSFORMATION
 
-## Apa kegunaan text transformation
+## Apa kegunaan text transformation?
 
-text transformation atau text transform digunakan untuk mengubah huruf menjadi besar atau kecil.
+Text transformation atau text transform digunakan untuk mengubah huruf menjadi besar atau kecil.
 ada beberapa property text transfrom yaitu :
 
 - lowercase : menjadikan setiap kata kecil

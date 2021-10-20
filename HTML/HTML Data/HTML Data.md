@@ -1,7 +1,7 @@
 # HTML Data
 ### Apa itu tag ```<data>``` ?
 
-Tag <data> digunakan untuk menambahkan terjemahan yang dapat dibaca mesin dari konten tertentu.
+Tag `<data>` digunakan untuk menambahkan terjemahan yang dapat dibaca mesin dari konten tertentu.
 
 Elemen ini memberikan nilai yang dapat dibaca mesin untuk memproses data, dan nilai yang dapat dibaca manusia untuk rendering di browser.
 

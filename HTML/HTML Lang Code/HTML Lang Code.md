@@ -7,7 +7,7 @@ HTML language code atau bahasa Indonesianya kode bahasa HTML memiliki kode ```la
 di dalam tag ```<html>``` untuk mendeklarasikan bahasa dari suatu halaman website. Penggunaan kode bahasa ini dimaksudkan untuk membantu
 mesin pencari dan browser. Kode bahasa HTML menggunakan kode ISO negara.
 
-**Beberapa contoh kode ISO bahasa
+**Beberapa contoh kode ISO bahasa**
 -Indonesia (id)
 -Inggris (en)
 -German (de)
@@ -17,41 +17,40 @@ mesin pencari dan browser. Kode bahasa HTML menggunakan kode ISO negara.
 ### Apa Itu HTML Country Code 
 HTML Country Code atau bahasa Indonesianya kode negara HTML digunakan sebagai tambahan kode bahasa di dalam atribut ```lang```.
 Dua huruf pertama didalam kode ISO negara mendefinisikan atau menunjukkan negara yang digunakan oleh suatu halaman web.
-bahasa indonesia.
 
-**Beberapa contoh kode ISO negara
--Indonesia (ID)
--Korea Selatan (KR)
--Inggris (GB)
--Amerika Serikat (US)
+**Beberapa contoh kode ISO negara**
+- Indonesia (ID)
+- Korea Selatan (KR)
+- Inggris (GB)
+- Amerika Serikat (US)
 
 ### Contoh penggunaan kode bahasa
 
-**Dalam bahasa Indonesia
-```
+**Dalam bahasa Indonesia**
+```html
 <html lang="id-ID">
-...
+
 </html>
 ```
 
-**Dalam bahasa Jepang
-```
+**Dalam bahasa Jepang**
+```html
 <html lang="ja-JP">
-...
+
 </html>
 ```
 
-**Dalam bahasa Inggris Amerika serikat
-```
+**Dalam bahasa Inggris Amerika serikat**
+```html
 <html lang="en-US">
-...
+
 </html>
 ```
 
-**Dalam bahasa Cina Taiwan
-```
+**Dalam bahasa Cina Taiwan**
+```html
 <html lang="zh-TW">
-...
+
 </html>
 ```
 

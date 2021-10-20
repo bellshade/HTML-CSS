@@ -4,19 +4,19 @@
 ### Apa itu HTML Language Code ?
 
 HTML language code atau bahasa Indonesianya kode bahasa HTML memiliki kode ```lang``` merupakan suatu atribut yang harus selalu digunakan
-di dalam tag ```<html>``` untuk mendeklarasikan bahasa dari suatu halaman website. Penggunaan kode bahasa Ini dimaksudkan untuk membantu
-mesin pencari dan browser.Kode bahasa HTML menggunakan kode ISO negara.
+di dalam tag ```<html>``` untuk mendeklarasikan bahasa dari suatu halaman website. Penggunaan kode bahasa ini dimaksudkan untuk membantu
+mesin pencari dan browser. Kode bahasa HTML menggunakan kode ISO negara.
 
 **Beberapa contoh kode ISO bahasa
--Indinesia (id)
+-Indonesia (id)
 -Inggris (en)
 -German (de)
 -Jepang (ja)
 
 
 ### Apa Itu HTML Country Code 
-HTML Country Code atau bahasa Indoneisianya kode Negara HTML digunakan sebagai tambahan kode bahasa di dalam atribut ```lang```.
-Dua huruf pertama didalam kode ISO negara mendefinisikan atau menunjukkan Negara yang digunakan oleh suatu halaman web.
+HTML Country Code atau bahasa Indonesianya kode negara HTML digunakan sebagai tambahan kode bahasa di dalam atribut ```lang```.
+Dua huruf pertama didalam kode ISO negara mendefinisikan atau menunjukkan negara yang digunakan oleh suatu halaman web.
 bahasa indonesia.
 
 **Beberapa contoh kode ISO negara

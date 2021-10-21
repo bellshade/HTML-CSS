@@ -55,6 +55,7 @@ pada CSS gunakan seperti ini :
 ```
 Maka tampilan yang dihasilkan :
 
+![box model](https://user-images.githubusercontent.com/89055857/138234044-1076debd-a763-44e6-a06b-a96663041513.PNG)
 
 Catatan : Seperti yang diketahui pada hasil output yang diatas, box model ini lebih mengarah ke pembungkus pada sebuah content. Jika ingin membuat sebuah box model, maka gunakanlah :
 - ``width``
@@ -65,3 +66,5 @@ Catatan : Seperti yang diketahui pada hasil output yang diatas, box model ini le
 - ``font-size``
 
 Jika ingin menambahkan sebuah effect, dan lain sebagainya, bisa ditambahkan propertinya sesuai dengan kebutuhan pada website yang dibuat.
+
+Referensi : [w3schools](https://www.w3schools.com/css/css_boxmodel.asp)

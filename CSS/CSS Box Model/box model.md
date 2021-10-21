@@ -2,13 +2,12 @@
 
 ### Apa itu CSS box model?
 
-
 CSS box model adalah sebuah desain yang dimana digunakan untuk membuat pembungkus pada elemen html. Properti css yang diperlukan untuk membuat box model, diantaranya yaitu :
 
 - Padding : Membuat jarak pada antar elemen, di bagian dalam.
-- border  : Pembatas antara elemen dan elemen lainnya.
-- margin  : Membuat jarak pada antar elemen, di bagian luar.
-- content : Bagian isi pada box model yang berasal dari elemen html.
+- Border  : Pembatas antara elemen dan elemen lainnya.
+- Margin  : Membuat jarak pada antar elemen, di bagian luar.
+- Content : Bagian isi pada box model yang berasal dari elemen html.
 
 ### Penerapan CSS box model
 

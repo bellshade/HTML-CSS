@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  padding: 0 100px;
+  position: fixed;
+  background-color: white;
+}
+
+nav h3 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  position: relative;
+}
+
+nav ul li {
+  padding: 0 2em;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(68, 68, 68);
+  transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: rgb(181, 181, 255);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: rgb(243, 243, 243);
+}
+
+.container h3 {
+  font-size: 4rem;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  nav .nav-logo h3 {
+    font-size: 1.5rem;
+  }
+
+  nav .nav-links ul li {
+    padding: 0 1em;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .container h3 {
+    font-size: 3rem;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  nav .nav-links {
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    padding: 30px auto !important;
+    height: 100px;
+    display: grid;
+    place-content: center;
+    background-color: white;
+    width: 100%;
+  }
+
+  nav .nav-links ul li {
+    padding: 0 1rem;
+  }
+
+  nav .nav-links ul li a {
+    font-size: 1.2rem;
+  }
+}

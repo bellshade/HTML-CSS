@@ -608,6 +608,20 @@ Contoh kodenya adalah:
 }
 ```
 
+- `minmax()`
+  **Yaitu untuk menentukan ukuran minimal dan maksimal dari _grid-track_.**
+
+Contoh kodenya adalah:
+
+```css
+.container {
+  display: grid;
+  grid-template-colums: minmax(200px, 300px);
+}
+```
+
+artinya kita akan membuat sebuah kolom dengan ukuran minimal `200px` dan maksimal `300px`.
+
 SATUAN NILAI:
 
 - `px` adalah pixel, yaitu satuan tetap pada sebuah nilai.

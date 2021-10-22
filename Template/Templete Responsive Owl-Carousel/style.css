@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.carousel{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
+}
+.carousel .card{
+  margin: 50px 0;
+  border-radius: 0px;
+}
+.carousel .card{
+  color: black;
+  font-size: 20px;
+}
+.carousel .card p{
+  padding-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.button-owl {
+   padding-top: 18px;
+}
+.button-owl .btn1{
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 12px 17px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.button-owl .btn1:hover{
+  background-color: #fc988b;
+  color: white;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #fc988b!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.owl-dot.active,
+  .owl-dot:hover{
+    background: #fc988b!important;
+  }

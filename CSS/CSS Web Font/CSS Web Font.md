@@ -2,7 +2,7 @@
 
 ## Apa Itu CSS web font?
 
-CSS web font adalah CSS web font adalah sebuah font untuk web yang digunakan jika font pada web ingin anda custom sendiri, untuk menggunakan web font anda harus menggunakan property `@font-face` dan font yang anda inginkan, tetapi harus sesuai dengan format font di bawah ini.
+CSS web font adalah sebuah font untuk web yang digunakan jika font pada web ingin anda custom sendiri, untuk menggunakan web font anda harus menggunakan property `@font-face` dan font yang anda inginkan, tetapi harus sesuai dengan format font di bawah ini.
 
 - TrueType Fonts (TTF) :
   Merupakan font standar atau font yang paling umum.

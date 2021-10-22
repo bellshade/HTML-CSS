@@ -1,0 +1,64 @@
+.circle ul li a:hover {
+  transform: translate(0, -10px);
+  color: #000000;
+}
+
+.circle ul li .fa-instagram:hover {
+  color: #E1306C;
+}
+
+.circle ul li .fa-facebook:hover {
+  color: #3B5998;
+}
+
+.circle ul li .fa-twitter:hover {
+  color: #55ACEE;
+}
+
+.circle ul li .fa-tiktok:hover {
+  color: #010101;
+}
+
+.circle ul li .fa-pinterest:hover {
+  color: #BD081C;
+}
+
+.circle ul li .fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.circle ul li .fa-telegram:hover {
+  color: #0088CC;
+}
+
+.circle ul li .fa-reddit:hover {
+  color: #FF4500;
+}
+
+.circle ul li .fa-youtube:hover {
+  color: #FF0000;
+}
+
+.circle ul li .fa-quora:hover {
+  color: #B92B27;
+}
+
+.circle ul li .fa-discord:hover {
+  color: #7289DA;
+}
+
+.circle ul li .fa-twitch:hover {
+  color: #9147FE;
+}
+
+.circle ul li .fa-soundcloud:hover {
+  color: #FF7700;
+}
+
+.circle ul li .fa-github:hover {
+  color: #211F1F;
+}
+
+.circle ul li .fa-medium:hover {
+  color: #12100E;
+}

@@ -18,7 +18,7 @@ Berikut contoh penulisan _CSS Grid_
 
 ## Grid Layout
 
-![grid-model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout/1_nested_grids_in_flow.png)
+![grid-layout](image/grid-layout.png)
 
 ### Istilah Dalam CSS Grid.
 
@@ -64,31 +64,27 @@ jika kita memberikan `display: grid` pada element yang classnya `container` maka
 _Grid Line_ adalah garis `horizontal` (kolom) atau `vertikal` (baris) yang memisahkan grid menjadi beberapa bagian dan di tandai dengan `angka`
 
 gambar grid line:
-![grid-line](https://www.google.com/search?q=gambar+grid+gap&sxsrf=AOaemvJ6v_H-deya6AiajBc-78Tkr1d--A:1634862842777&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi74v_X4tzzAhWOXisKHbPNDocQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=iGYbwF63FzrbKM)
+![grid-line](image/grid-line.png)
 
 _Grid Cell_ adalah perpotongan antara `baris` dan `kolom` dalam grid.
 
 gambar grid cell:
-![grid-cell](https://photos.google.com/photo/AF1QipMlaUaXXVnoe3WneWjJHU8fBTIckvK3GoCGzrp0)
+![grid-cell](image/grid-cell.png)
 
 _Grid Area_ adalah kumpulan lebih dari satu `cell` yang membentuk _kotak_.
 
 gambar grid area:
-Benar
-![grid-area](https://photos.google.com/photo/AF1QipOQszuYIsnttD-9qYiZkIX_3FKS1Aj6s2LVDamU)
-
-Salah
-![grid-area](https://photos.google.com/photo/AF1QipPHFlYnXGLmUpyqcFmBCu4PXeI-a1zURSQry2WN)
+![grid-area](image/grid-area.png)
 
 _Grid Track_ adalah ukuran cell secara `horizontal` maupun `vertical`.
 
 gambar grid track:
-![grid-track](https://photos.google.com/photo/AF1QipNOv_syjt4s2u24bOniznFNo5jVzSp0MR5ZtUFj)
+![grid-track](image/grid-track.png)
 
 _Grid Gap_ adalah jarak antar cell.
 
 gambar grid gap:
-![grid-gap](https://www.google.com/search?q=gambar+grid+gap&sxsrf=AOaemvJ6v_H-deya6AiajBc-78Tkr1d--A:1634862842777&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi74v_X4tzzAhWOXisKHbPNDocQ_AUoAnoECAEQBA&biw=1366&bih=625&dpr=1#imgrc=uDMnGrtgNAQRTM)
+![grid-gap](image/grid-gap.png)
 
 ### Properti di CSS Grid
 

@@ -701,8 +701,8 @@ PENJELASAN:
 - `width` berfungsi untuk memberikan lebar pada konten sesuai dengan ukuran layar dari perangkat yang digunakan user.
 - `min-height` berfungsi untuk memberikan tinggi minimal pada konten sesuai dengan ukuran layar dari perangkat yang digunakan dari user.
 - `grid-template-areas` berfungsi untuk mendeklarasikan area yang akan di isi oleh setiap konten, dimana pada latihan kali ini kita akan membuat kolom sebanyak 4 buah kolom.
-- `grit-template-columns` berfungsi untuk mendeklarasikan ukuran kolom dari tiap - tiap area, dimana untuk kali ini kita akan membuat kolom pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
-- `grit-template-rows` berfungsi untuk mendeklarasikan ukuran baris dari tiap - tiap area, dimana untuk kali ini kita akan membuat baris pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
+- `grid-template-columns` berfungsi untuk mendeklarasikan ukuran kolom dari tiap - tiap area, dimana untuk kali ini kita akan membuat kolom pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
+- `grid-template-rows` berfungsi untuk mendeklarasikan ukuran baris dari tiap - tiap area, dimana untuk kali ini kita akan membuat baris pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
 
   4). MEMBERIKAN STYLE PADA CLASS GRID
   Lalu kita akan memberikan style untuk class `grid`, adapun contoh kodenya adalah sebagai berikut:

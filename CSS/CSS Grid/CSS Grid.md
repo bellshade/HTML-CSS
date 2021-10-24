@@ -555,7 +555,7 @@ SPECIAL FUNCTION DAN KEYWORD
 
 PENJELASAN
 
-- `reapeat()`
+- `repeat()`
   **Yaitu biasa digunakan untuk menentukan _grid-track_ secara berulang.**
 
 Contoh kodenya adalah:

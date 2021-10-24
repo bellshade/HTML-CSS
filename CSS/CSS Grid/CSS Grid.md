@@ -555,7 +555,7 @@ SPECIAL FUNCTION DAN KEYWORD
 
 PENJELASAN
 
-- `reapeat()`
+- `repeat()`
   **Yaitu biasa digunakan untuk menentukan _grid-track_ secara berulang.**
 
 Contoh kodenya adalah:
@@ -627,3 +627,123 @@ SATUAN NILAI:
 - `nomor / nama` adalah nilai yang mengacu pada nomor atau nama yang kita beri pada grid line.
 - `span (nomor)` adalah nilai yang memanjang / melebar sampai sejumlah nomor.
 - `span (nama)` adalah nilai yang memanjang / melebar samapai ke nama grid line tertentu.
+
+### STUDI KASUS
+
+LATIHAN MEMBUAT LAYOUT WEBSITE SEPERTI DASHBOARD ADMIN.
+
+kali ini, kita akan mencoba untuk membuat halaman _Dashboard Admin_ sebagai bahan latihan untuk materi kita kali ini.
+Ok., langsung saja kita mulai...
+
+1). MEMBUAT STUKTUR HTML
+Pertama, kita akan membuat sebuah file html dengan nama `index.html`, kemudian kita buat struktur kode seperti berikut:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="grid nav">Navbar</div>
+        <div class="grid side">Sidebar</div>
+        <div class="grid main">Main Content</div>
+    </div>
+</body>
+</html>
+```
+
+2). MEMBUAT FILE CSS
+Lalu, kita akan membuat sebuah `file css` dengan nama _style.css_, setelah itu, kita masukan kode berikut:
+
+```css
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+```
+
+PENJELASAN:
+kode diatas berfungsi untuk _mereset_ setelan default, karena jika kita tidak melakukan hal tersebut, maka website yang kita buat akan memiliki jarak di setiap sisi layarnya, dan dengan mengetikkan baris kode diatas, maka jarak - jarak tersebut akan dihilangkan.
+
+3). MEMBERIKAN DISPLAY GRID PADA TAG BODY
+Selanjutnya, kita akan memberikan `display: grid` pada selector `body` dan juga property `place-content: center` yang fungsinya untuk memposisikan element yang ada di dalam body agar berada tepat di tengah - tengah layar.
+
+```css
+body {
+  display: grid;
+  place-content: center;
+}
+```
+
+3). MEMBERIKAN DISPLAY GRID PADA CLASS CONTAINER
+Setelah itu, kita akan memberikan `display: grid` pada class `container` yang merupakan kelas utama yang di dalamnya terdapat element - element yang akan kita gunakan untuk membuat layout halaman pada latihan ini.
+
+```css
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "side nav nav nav" "side main main main" "side main main main";
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100px auto;
+}
+```
+
+PENJELASAN:
+
+- `width` berfungsi untuk memberikan lebar pada konten sesuai dengan ukuran layar dari perangkat yang digunakan user.
+- `min-height` berfungsi untuk memberikan tinggi minimal pada konten sesuai dengan ukuran layar dari perangkat yang digunakan dari user.
+- `grid-template-areas` berfungsi untuk mendeklarasikan area yang akan di isi oleh setiap konten, dimana pada latihan kali ini kita akan membuat kolom sebanyak 4 buah kolom.
+- `grid-template-columns` berfungsi untuk mendeklarasikan ukuran kolom dari tiap - tiap area, dimana untuk kali ini kita akan membuat kolom pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
+- `grid-template-rows` berfungsi untuk mendeklarasikan ukuran baris dari tiap - tiap area, dimana untuk kali ini kita akan membuat baris pertama memiliki ukuran 200px dan sisanya akan memiliki ukuran sesuai dengan ukuran layar yang belum terisi.
+
+  4). MEMBERIKAN STYLE PADA CLASS GRID
+  Lalu kita akan memberikan style untuk class `grid`, adapun contoh kodenya adalah sebagai berikut:
+
+```css
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+```
+
+PENJELASAN:
+Kode diatas akan membuat konten yang berada di dalam class grid berada di tengah - tengah konten, dimana untuk kontennya sendiri adalah sebuah text.
+
+5). MEMBERIKAN STYLE DAN AREA PADA TIAP - TIAP ITEM YANG BERADA DI DALAM CLASS CONTAINER
+Terakhir, kita akan memberikan sebuah style untuk element yang berada di dalam class `container` yang dimana element - element tersebut adalah item dengan nama class `grid`, serta kita akan menentukan area yang akan di tempati oleh masing - masing item. Contoh kodenya sebagai berikut:
+
+```css
+.side {
+  grid-area: side;
+  background-color: #ff9898;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: #ffde98;
+}
+
+.main {
+  grid-area: main;
+  background-color: #e4e4e4;
+}
+```
+
+PENJELASAN:
+
+- class `side` akan menempati area _side_
+- class `nav` akan menempati area _nav_
+- class `main` akan menempati area _main_
+
+HASIL AKHIR:
+![halaman-html](image/grid-example.png)

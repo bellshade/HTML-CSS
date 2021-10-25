@@ -16,7 +16,7 @@ color: var(--main-color);
 
 ## Penggunaan Dasar
 
-***Custom Properties*** dapat di tuliskan dengan cara mengetikkan `--(nama variabel): (isi variabel);` dimana sebelum mendeklarasikan nama dari sebuah variabel, anda harus mengetikkan `--` (double *dash*/strip) terlebih dahulu. Adapun untuk nama dari variabelnya anda dapat memberikan nama sesuai keinginan anda asalkan di dahului dengan tanda `--` tadi. Isi dari variabel dapat berupa nilai CSS apa pun yang valid.
+***Custom Properties*** dapat dituliskan dengan cara mengetikkan `--(nama variabel): (isi variabel);` dimana sebelum mendeklarasikan nama dari sebuah variabel, anda harus mengetikkan `--` (double *dash*/strip) terlebih dahulu. Adapun untuk nama dari variabelnya, anda dapat memberikan nama sesuai keinginan anda asalkan didahului dengan tanda `--` tadi. Isi dari variabel dapat berupa nilai CSS apa pun yang valid.
 
 Seperti properti lainnya, variabel ini ditulis di dalam sebuah *selector element*, seperti berikut:
 
@@ -54,7 +54,7 @@ p {
 }
 ```
 
-Dimana `background-color` adalah properti di CSS untuk mengubah warna *background* dari sebuah elemen dan `var(--main-bg-color)` adalah variabel yang telah di deklarasikan pada selector `:root` tadi. Oleh karena itu, ketika anda mengetikkan kode CSS tersebut semua pragraf akan mempunyai *background* berwarna coklat.
+Dimana `background-color` adalah properti di CSS untuk mengubah warna *background* dari sebuah elemen dan `var(--main-bg-color)` adalah variabel yang telah di deklarasikan pada selector `:root` tadi. Oleh karena itu, ketika anda mengetikkan kode CSS tersebut semua paragraf akan mempunyai *background* berwarna coklat.
 
 ### Contoh penggunaan sederhana ***custom properties***
 
@@ -98,7 +98,7 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
 }
 ```
 
-Perhatikan bahwa kita telah mengulang-ulang penggunakan properti `background-color: brown;` pada beberapa elemen dan jika kita ingin mengubah `background-color: brown;` tersebut menjadi `background-color: red;`, maka kita harus mengubah satu persatu properti css tersebut. Nah, dengan ***custom properties*** ini kita dapat melakukan hal seperti dibawah ini pada file css kita :
+Perhatikan bahwa kita telah mengulang-ulang penggunaaan properti `background-color: brown;` pada beberapa elemen dan jika kita ingin mengubah `background-color: brown;` tersebut menjadi `background-color: red;`, maka kita harus mengubah satu persatu properti css tersebut. Nah, dengan ***custom properties*** ini, kita dapat melakukan hal seperti di bawah ini pada file css kita :
 
 ```css
 :root {

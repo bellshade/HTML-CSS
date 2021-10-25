@@ -16,7 +16,7 @@ Semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai be
 
 ### ***Pull request* yang baik**
 
-Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila ingin menambahkan kode atau memperbaiki kode, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
+Informasi: gunakan [*issue*](https://github.com/bellshade/HTML-CSS/issues) apabila ingin menambahkan kode atau memperbaiki kode, dll (*basic*) agar tidak ada konflik dengan *pull request* lainnya.
 
 - Lakukan penjelasan deskripsi perubahan yang anda lakukan pada repositori kami dengan membuat penjelasan di [*issue*](https://github.com/bellshade/HTML-CSS/issues).
 - Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/HTML-CSS/issues) kemudian lakukan *fork* pada repositori kami.
@@ -24,7 +24,7 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/Python/issues) apabila
   - Untuk *pull request* merubah atau memperbaiki, diusahakan kamu menerapkan kode yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya.
   ```bash
   git checkout -b <branch_name>
-  git add . # atau git add nama_perubahan_kamu.py
+  git add . # atau git add nama_perubahan_kamu
   git commit -m "feat: menambahkan kode html terbaru"
   ```
 - Lakukan *push* ke *branch* kamu dan kemudian *open pull request*.

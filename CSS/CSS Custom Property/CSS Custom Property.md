@@ -5,7 +5,9 @@
 ```css
 --main-color: black;
 ```
+
 Dan diakses menggunakan fungsi `var()` seperti:
+
 ```css
 color: var(--main-color);
 ```
@@ -41,6 +43,7 @@ Contoh:
 ```
 
 > Catatan: Nama variabel peka terhadap huruf besar/kecil (*case sensitive*) — `--main-bg-color` akan diperlakukan sebagai variabel yang berbeda dengan `--Main-bg-color`.
+
 ### Mengakses Variabel
 
 Untuk dapat menggunakan/mengakses sebuah variabel, maka anda dapat mengetikkan function `var()` setelah mengetikkan nama properti yang akan digunakan, contoh:
@@ -66,6 +69,7 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
   height: 50px;
   display: inline-block;
 }
+
 .two {
   color: white;
   background-color: black;
@@ -74,18 +78,21 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
   height: 70px;
   display: inline-block;
 }
+
 .three {
   color: white;
   background-color: brown;
   margin: 10px;
   width: 75px;
 }
+
 .four {
   color: white;
   background-color: brown;
   margin: 10px;
   width: 100px;
 }
+
 .five {
   background-color: brown;
 }
@@ -151,4 +158,3 @@ Berikut adalah data browser support dari [caniuse.com](caniuse.com) untuk ***cus
 - [caniuse.com](https://caniuse.com/)
 - [developer.mozilla.org](https://developer.mozilla.org/)
 - [css-tricks.com](https://css-tricks.com/)
-

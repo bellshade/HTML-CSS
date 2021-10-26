@@ -98,6 +98,81 @@
 ## [Directory](.//DIRECTORY.md)
 
 ## Html
+  * 000 Definisi Html
+    * [Definisi](./HTML/000%20Definisi%20HTML/Definisi.md)
+    * [Struktur Html](./HTML/000%20Definisi%20HTML/Struktur%20HTML.md)
+  * 001 Html Introduction
+    * [Htmlintroduction](./HTML/001%20HTML%20Introduction/HTMLIntroduction.md)
+  * 002 Html Basic
+    * [Html Basic](./HTML/002%20HTML%20Basic/html_basic.md)
+  * 003 Html Editors
+    * [Htmleditors](./HTML/003%20HTML%20Editors/HTMLEditors.md)
+  * 004 Html Elements
+    * [Elemen Html](./HTML/004%20HTML%20Elements/elemen_html.md)
+  * 005 Html Attributes
+    * [Htmlattributes](./HTML/005%20HTML%20Attributes/HTMLAttributes.md)
+  * 006 Html Headings
+    * [Html Headings-2](./HTML/006%20HTML%20Headings/HTML%20Headings-2.md)
+    * [Html Headings](./HTML/006%20HTML%20Headings/HTML%20Headings.md)
+  * 007 Html Paragraphs
+    * [Html Paragraph-2](./HTML/007%20HTML%20Paragraphs/HTML%20Paragraph-2.md)
+    * [Html Paragraphs](./HTML/007%20HTML%20Paragraphs/HTML%20Paragraphs.md)
+  * 008 Html Style
+    * [Html Style](./HTML/008%20HTML%20Style/HTML%20Style.md)
+  * 009 Html Text Formatting
+    * [Html Text Formatting](./HTML/009%20HTML%20Text%20Formatting/HTML%20Text%20Formatting.md)
+  * 010 Html Quotation
+    * [Html Quotation](./HTML/010%20HTML%20Quotation/HTML%20Quotation.md)
+  * 011 Html Comments
+    * [Html Comments](./HTML/011%20HTML%20Comments/HTML%20Comments.md)
+  * 012 Html Color
+    * [Html Color](./HTML/012%20HTML%20Color/HTML%20Color.md)
+  * 013 Html Css
+    * [Html Css](./HTML/013%20HTML%20CSS/HTML%20CSS.md)
+  * 014 Html Hyperlink
+    * [Html Hyperlink](./HTML/014%20HTML%20HyperLink/HTML%20HyperLink.md)
+  * 015 Html Images
+    * [Html Images](./HTML/015%20HTML%20Images/HTML%20Images.md)
+  * 017 Html Tables
+    * [Html Tables](./HTML/017%20HTML%20Tables/HTML%20Tables.md)
+  * 018 Html Lists
+    * [Html Lists](./HTML/018%20HTML%20Lists/HTML%20Lists.md)
+  * 019 Html Block & Inline
+    * [Block & Inline](./HTML/019%20HTML%20Block%20&%20Inline/block%20&%20Inline.md)
+  * 020 Html Classes
+    * [Html Classes](./HTML/020%20HTML%20Classes/HTML%20Classes.md)
+  * 022 Html Iframe
+    * [Readme](./HTML/022%20HTML%20IFrame/README.md)
+  * 024 Html Filepath
+    * [Readme](./HTML/024%20HTML%20FilePath/README.md)
+  * 028 Html Meta
+    * [Html Meta](./HTML/028%20HTML%20Meta/HTML%20meta.md)
+  * 030 Html Responsive
+    * [Html Responsive](./HTML/030%20HTML%20Responsive/HTML%20Responsive.md)
+  * 031 Html Computer Code
+    * [Readme](./HTML/031%20HTML%20Computer%20Code/readme.md)
+  * 032 Html Semantic
+    * [Html Semantic](./HTML/032%20HTML%20Semantic/HTML%20Semantic.md)
+  * 033 Html Entity
+    * [Html Entity](./HTML/033%20HTML%20Entity/HTML%20Entity.md)
+  * 036 Html Forms
+    * [Readme](./HTML/036%20HTML%20Forms/README.md)
+  * 037 Html Input Types
+    * [Html Input Types](./HTML/037%20HTML%20Input%20Types/HTML%20Input%20Types.md)
+  * 041 Html Button
+    * [Html Button](./HTML/041%20HTML%20Button/HTML%20Button.md)
+  * 043 Html Data
+    * [Html Data](./HTML/043%20HTML%20Data/HTML%20Data.md)
+  * 044 Html Canvas
+    * [Html Canvas](./HTML/044%20HTML%20Canvas/HTML%20Canvas.md)
+  * 047 Html Video
+    * [Html Video](./HTML/047%20HTML%20Video/HTML%20Video.md)
+  * 048 Html Audio
+    * [Html Audio](./HTML/048%20HTML%20Audio/HTML%20Audio.md)
+  * 049 Html Lang Code
+    * [Html Lang Code](./HTML/049%20HTML%20Lang%20Code/HTML%20Lang%20Code.md)
+  * 050 Html Tags List
+    * [All Html Tags List](./HTML/050%20HTML%20Tags%20List/All%20HTML%20Tags%20List.md)
   * Definisi Html
     * [Definisi](./HTML/Definisi%20HTML/Definisi.md)
     * [Struktur Html](./HTML/Definisi%20HTML/Struktur%20HTML.md)

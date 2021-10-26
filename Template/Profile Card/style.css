@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background     : linear-gradient(270deg, #5600ffd1, #00adffd9)
+}
+.profileContainer {
+    margin-top: 85px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;
+    padding: 100px 30px 45px;
+    border-radius: 30px;
+    box-shadow: 0 0 1px 2px rgb(0 8 255 / 19%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-container {
+    width: 130px;
+    height: 130px;
+    border: 4px solid #5600ffd1;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px #28b5ff;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-container img {
+    width: 100%;
+    max-width: 100%;
+}
+.place {
+    margin-bottom: 30px;
+}
+.full-name {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #6440f4;
+    margin-bottom: 13px;
+}
+.skill {
+    margin-bottom: 5px;
+}
+.posts-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.posts-info span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.sosmed {
+    font-size: 17px;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #6440f4;
+    margin-bottom: 15px;
+}
+.social-media {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    margin-bottom  : 15px;
+    margin-top     : 5px;
+    justify-content: center;
+}
+.social-media i {
+    color: #fff;
+}
+.social-media button {
+    border          : none;
+    outline         : none;
+    width           : 40px;
+    height          : 40px;
+    border-radius   : 50%;
+    cursor          : pointer;
+    transition      : transform 0.3s;
+    font-size       : 19px;
+    align-items     : center;
+    margin-right    : 8px;
+    margin-top      : 0;
+    text-align      : center;
+}
+.social-media button:hover {
+    transform: scale(1.1);
+}
+/* Social colors */
+.social-media button.twitter {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
+}
+.social-media button.instagram {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
+}
+.social-media button.github {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
+}
+.social-media button.devianart {
+    background: linear-gradient(45deg, #6741ff, #2aacfa)
+}  
+.action {
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2aacfa;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 0px;
+    width: 40%;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.action.message {
+    background-color: #6741ff;
+}
+.action a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+.action:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+@media (max-width: 991px) {
+    .profileContainer {
+        margin-top: 70px;
+        margin-bottom: 20px;
+        margin-left : 20px;
+    }
+}
+@media (max-width: 768px) {
+    
+    .profileContainer {
+        padding     : 90px 30px 30px;
+        margin-top  : 88px;
+        margin-right: 20px;
+    }
+    .img-container {
+        width   : 115px;
+        height  : 115px;
+        border: 3px solid #5600ffd1;
+        border-radius: 50%;
+        box-shadow: 0 2px 3px #28b5ff;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 340px) {
+    .profileContainer {
+        width       : 90%;
+        margin-left : 16px;
+        margin-top  : 55px;
+        padding     : 90px 20px 20px;
+        margin-bottom: 10px;
+    }
+    .full-name {
+        font-size: 20px;
+    }
+    .skill {
+        font-size: 15px;
+    }
+    .place {
+        font-size: 15px;
+    }
+    .posts-info {
+        font-size: 15px;
+    }
+    .sosmed{
+        font-size: 18px;
+    }
+    .social-media button {
+        border          : none;
+        outline         : none;
+        width           : 35px;
+        height          : 35px;
+        border-radius   : 50%;
+        cursor          : pointer;
+        transition      : transform 0.3s;
+        font-size       : 16px;
+        align-items     : center;
+        margin-right    : 8px;
+        margin-top      : 0;
+        text-align      : center;
+    }
+}

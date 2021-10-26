@@ -1,0 +1,940 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green: #1eb858;
+  --gray: #1F2025;
+  --lightgray: #F7F7F7;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+/* === Kegunaan ===*/
+.modal-overlay {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 64%;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: -10;
+  background: rgba(0,0,0,0.5);
+  background: white;
+  box-shadow: 0 1px 10px var(--green);
+  padding: 15px 0px;
+  border-radius: 7px;
+}
+.modal-overlay p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+#warning {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  font-size: 13px;
+}
+.modal-overlay h3 span {
+  color: var(--green);
+}
+.modal-overlay form {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+/* OPEN/CLOSE MODAL */
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
+.modal-container {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  width: 90vw;
+  height: 30vh;
+  max-width: var(--fixed-width);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-red-dark);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn {
+  font-weight: 590;
+}
+.btn-demo {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.btn-green {
+  background: var(--green);
+  color: white;
+  padding: 10px 25px;
+  margin-right: 15px;
+}
+.btn-green:hover {
+  background: transparent;
+  border: 2px solid var(--green);
+  color: var(--green);
+}
+.btn-green-0 {
+  background: transparent;
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px 25px;
+}
+.btn-green-0:hover {
+  background: white;
+  color: black;
+}
+
+/* === Navbar ===*/
+.navbar-brand {
+  color: var(--green) !important;
+  font-weight: bold;
+}
+.sosmed {
+  color: var(--green);
+}
+/* === Jumbotron ===*/
+.jumbotron {
+  background: linear-gradient(120deg, #1F2025, #4c4e57);
+  color: white;
+  padding-top: 5rem;
+  position: relative;
+  background-attachment: fixed;
+}
+.jumbotron .display-4 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.jumbotron .display-4 span {
+  color: var(--green);
+}
+.jumbotron .lead {
+  color: rgb(207, 207, 207);
+  padding: 13px 0;
+}
+/* === Info Panel ===*/
+.info-panel {
+	border-radius: 13px;
+	margin-top: -5%;
+	position: relative;
+  padding: 20px 0 3px;
+  margin-right: 30px;
+  margin-bottom: 10%;
+  background: white;
+  margin-left: 2.8%;
+}
+
+.col-lg img {
+	padding-bottom: 17px;
+}
+.info-panel h4 {
+	text-transform: uppercase;
+	padding-bottom:  15px;
+  font-size: 18px;
+}
+.info-panel .fit {
+  padding-bottom: 15px;
+  color: var(--green);
+  box-shadow: 0 4 20px rgba(0, 0, 0, 0.589) ;
+}
+/* === Features ===*/
+#features .fitur h3 {
+  color: var(--green);
+  font-size: 22px;
+}
+#features .fitur h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+#features .fitur p {
+  font-weight: lighter;
+}
+#features .fitur-1 {
+  margin-top: 6%;
+}
+.features-1 {
+  margin-bottom: 5rem;
+}
+.features-2 {
+  background: var(--lightgray);
+}
+
+/* === Features2 ===*/
+#features2 {
+  background: var(--lightgray);
+  padding: 40px 0 30px;
+}
+#features2 .fitur h3 {
+  color: var(--green);
+  font-size: 22px;
+}
+#features2 .fitur h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+#features2 .fitur p {
+  font-weight: lighter;
+}
+#features2 .fitur-1 {
+  margin-top: 6%;
+}
+.features-1 {
+  margin-bottom: 5rem;
+}
+
+/* App */
+#app {
+  padding: 7rem 0;
+}
+#app h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+#app h4 span {
+  color: var(--green);
+}
+#app p{
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 1.5rem;
+}
+#app .card-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 3px solid var(--green);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 3rem 0;
+  border-radius: 5px;
+}
+#app .card-app .counter {
+  font-size: 50px;
+  color: var(--green);
+  font-weight: bold;
+}
+#app .card-app h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Our Team */
+#team {
+  background: var(--lightgray);
+  padding: 7rem 0;
+}
+#team h4 {
+  font-weight: bold;
+  font-size: 40px;
+}
+#team h4 span {
+  color: var(--green);
+}
+#team p{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+#team .card-team {
+  background: white;
+  text-align: center;
+  padding: 10px 8px 20px; 
+  border-radius: 5px;
+}
+#team .card-team img {
+  width: 240.5px;
+  height: 250.5px;
+}
+#team .card-team .bio {
+  margin-top: 1rem;
+}
+#team .card-team h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000
+}
+#team .card-team p {
+  font-size: 16px;
+  color: black;
+}
+#team .card-team .sosmed i {
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background: var(--green);
+  box-shadow: 0 1px 4px 0 rgb(221 221 221 / 75%);
+  color: white;
+}
+/*Testimonial*/
+#testi {
+  padding: 7rem 0;
+}
+#testi h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 1rem;
+}
+#testi h2 span {
+  color: var(--green);
+}
+#testi p{
+  font-size: 15px;
+  font-weight: lighter;
+}
+#testi .client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3.5rem;
+  padding: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#testi .client:active{
+  background: var(--lightgray);
+}
+#testi .client .text h5 {
+  color: var(--green);
+}
+#testi .client img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+#testi .client .text p {
+  margin-top: -5px;
+}
+#testi #result-clients {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                10px 20px 5px rgba(0,0,0,0.05),
+                -10px 20px 5px rgba(0,0,0,0.05);
+}
+blockquote::before,
+blockquote::after {
+  font-size: 350%;
+  font-family: arial;
+}
+/*Brand Ambasador */
+#brand {
+  background: var(--lightgray);
+  padding: 7rem 0;
+}
+#brand h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+#brand p{
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 4%;
+}
+#brand h2 span {
+  color: var(--green);
+}
+#brand .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 7%
+}
+#brand .brand svg {
+  transition: 0.3s ease-out;
+}
+#brand .brand svg:hover {
+  transform: rotate(-2deg);
+}
+/* Download */
+#download {
+  background-image: url(https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 5rem 0;
+}
+#download h1 span {
+  color: var(--green);
+}
+#download .download-i {
+  color: var(--green);
+}
+
+/* Contact */
+#contact {
+  padding: 7rem 0;
+}
+#contact h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+#contact h3 span {
+  color: var(--green);
+}
+
+/* Footer */
+
+/* === Mobile Device ===*/
+@media (max-width: 768px) {
+  .jumbotron {
+    padding-top: 3rem;
+  }
+  .btn-green {
+    margin-right: 0;
+  }
+  .btn-demo {
+    margin-bottom: 1rem;
+  }
+  .jumbotron .display-4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .jumbotron .lead {
+    font-size: 17px;
+  }
+  .info-panel {
+		margin-top: -50px;
+		padding: 15px;
+    margin-left: 6.5%;
+	}
+	.info-panel h4 {
+		padding-bottom:  0;
+	}
+  .modal-btn {
+    margin-bottom: 1rem;
+  }
+  #features .fitur h2{
+    font-size: 44px;
+  }
+  #features .fitur p {
+    font-size: 17px;
+  }
+  #features2 .fitur h2{
+    font-size: 44px;
+  }
+  #features2 .fitur p {
+    font-size: 17px;
+  }
+  #testi .client {
+    margin: 2rem 0;
+    padding: 5px;
+  }
+  #testi #result-clients {
+    font-size: 20px;
+  }
+  #brand .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  #brand .brand .brand-1 {
+    margin-bottom: 2rem;
+  }
+} 
+
+/*Tablet Device */
+@media (max-width: 992px) {
+  #app .card-app {
+    margin-bottom: 2rem;
+  }
+  #team .card-team {
+    margin-bottom: 2rem;
+  }
+}
+
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green: #1eb858;
+  --gray: #1F2025;
+  --lightgray: #F7F7F7;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+/* === Kegunaan ===*/
+.modal-overlay {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 64%;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+  z-index: -10;
+  background: rgba(0,0,0,0.5);
+  background: white;
+  box-shadow: 0 1px 10px var(--green);
+  padding: 15px 0px;
+  border-radius: 7px;
+}
+.modal-overlay p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+#warning {
+  color: red;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  font-size: 13px;
+}
+.modal-overlay h3 span {
+  color: var(--green);
+}
+.modal-overlay form {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+/* OPEN/CLOSE MODAL */
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+}
+.modal-container {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  width: 90vw;
+  height: 30vh;
+  max-width: var(--fixed-width);
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-red-dark);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.btn {
+  font-weight: 590;
+}
+.btn-demo {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.btn-green {
+  background: var(--green);
+  color: white;
+  padding: 10px 25px;
+  margin-right: 15px;
+}
+.btn-green:hover {
+  background: transparent;
+  border: 2px solid var(--green);
+  color: var(--green);
+}
+.btn-green-0 {
+  background: transparent;
+  border: 2px solid white;
+  color: #fff;
+  padding: 10px 25px;
+}
+.btn-green-0:hover {
+  background: white;
+  color: black;
+}
+
+/* === Navbar ===*/
+.navbar-brand {
+  color: var(--green) !important;
+  font-weight: bold;
+}
+.sosmed {
+  color: var(--green);
+}
+/* === Jumbotron ===*/
+.jumbotron {
+  background: linear-gradient(120deg, #1F2025, #4c4e57);
+  color: white;
+  padding-top: 5rem;
+  position: relative;
+  background-attachment: fixed;
+}
+.jumbotron .display-4 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.jumbotron .display-4 span {
+  color: var(--green);
+}
+.jumbotron .lead {
+  color: rgb(207, 207, 207);
+  padding: 13px 0;
+}
+/* === Info Panel ===*/
+.info-panel {
+	border-radius: 13px;
+	margin-top: -5%;
+	position: relative;
+  padding: 20px 0 3px;
+  margin-right: 30px;
+  margin-bottom: 10%;
+  background: white;
+  margin-left: 2.8%;
+}
+
+.col-lg img {
+	padding-bottom: 17px;
+}
+.info-panel h4 {
+	text-transform: uppercase;
+	padding-bottom:  15px;
+  font-size: 18px;
+}
+.info-panel .fit {
+  padding-bottom: 15px;
+  color: var(--green);
+  box-shadow: 0 4 20px rgba(0, 0, 0, 0.589) ;
+}
+/* === Features ===*/
+#features .fitur h3 {
+  color: var(--green);
+  font-size: 22px;
+}
+#features .fitur h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+#features .fitur p {
+  font-weight: lighter;
+}
+#features .fitur-1 {
+  margin-top: 6%;
+}
+.features-1 {
+  margin-bottom: 5rem;
+}
+.features-2 {
+  background: var(--lightgray);
+}
+
+/* === Features2 ===*/
+#features2 {
+  background: var(--lightgray);
+  padding: 40px 0 30px;
+}
+#features2 .fitur h3 {
+  color: var(--green);
+  font-size: 22px;
+}
+#features2 .fitur h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 45px;
+}
+#features2 .fitur p {
+  font-weight: lighter;
+}
+#features2 .fitur-1 {
+  margin-top: 6%;
+}
+.features-1 {
+  margin-bottom: 5rem;
+}
+
+/* App */
+#app {
+  padding: 7rem 0;
+}
+#app h4 {
+  font-weight: bold;
+  font-size: 30px;
+}
+#app h4 span {
+  color: var(--green);
+}
+#app p{
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 1.5rem;
+}
+#app .card-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 3px solid var(--green);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 3rem 0;
+  border-radius: 5px;
+}
+#app .card-app .counter {
+  font-size: 50px;
+  color: var(--green);
+  font-weight: bold;
+}
+#app .card-app h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* Our Team */
+#team {
+  background: var(--lightgray);
+  padding: 7rem 0;
+}
+#team h4 {
+  font-weight: bold;
+  font-size: 40px;
+}
+#team h4 span {
+  color: var(--green);
+}
+#team p{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+#team .card-team {
+  background: white;
+  text-align: center;
+  padding: 10px 8px 20px; 
+  border-radius: 5px;
+}
+#team .card-team img {
+  width: 240.5px;
+  height: 250.5px;
+}
+#team .card-team .bio {
+  margin-top: 1rem;
+}
+#team .card-team h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000
+}
+#team .card-team p {
+  font-size: 16px;
+  color: black;
+}
+#team .card-team .sosmed i {
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 2px;
+  background: var(--green);
+  box-shadow: 0 1px 4px 0 rgb(221 221 221 / 75%);
+  color: white;
+}
+/*Testimonial*/
+#testi {
+  padding: 7rem 0;
+}
+#testi h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 1rem;
+}
+#testi h2 span {
+  color: var(--green);
+}
+#testi p{
+  font-size: 15px;
+  font-weight: lighter;
+}
+#testi .client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3.5rem;
+  padding: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#testi .client:active{
+  background: var(--lightgray);
+}
+#testi .client .text h5 {
+  color: var(--green);
+}
+#testi .client img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+#testi .client .text p {
+  margin-top: -5px;
+}
+#testi #result-clients {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                10px 20px 5px rgba(0,0,0,0.05),
+                -10px 20px 5px rgba(0,0,0,0.05);
+}
+blockquote::before,
+blockquote::after {
+  font-size: 350%;
+  font-family: arial;
+}
+/*Brand Ambasador */
+#brand {
+  background: var(--lightgray);
+  padding: 7rem 0;
+}
+#brand h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+#brand p{
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 4%;
+}
+#brand h2 span {
+  color: var(--green);
+}
+#brand .brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 7%
+}
+#brand .brand svg {
+  transition: 0.3s ease-out;
+}
+#brand .brand svg:hover {
+  transform: rotate(-2deg);
+}
+/* Download */
+#download {
+  background-image: url(https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 5rem 0;
+}
+#download h1 span {
+  color: var(--green);
+}
+#download .download-i {
+  color: var(--green);
+}
+
+/* Contact */
+#contact {
+  padding: 7rem 0;
+}
+#contact h3 {
+  font-size: 35px;
+  font-weight: bold;
+}
+#contact h3 span {
+  color: var(--green);
+}
+
+/* Footer */
+
+/* === Mobile Device ===*/
+@media (max-width: 768px) {
+  .jumbotron {
+    padding-top: 3rem;
+  }
+  .btn-green {
+    margin-right: 0;
+  }
+  .btn-demo {
+    margin-bottom: 1rem;
+  }
+  .jumbotron .display-4 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .jumbotron .lead {
+    font-size: 17px;
+  }
+  .info-panel {
+		margin-top: -50px;
+		padding: 15px;
+    margin-left: 6.5%;
+	}
+	.info-panel h4 {
+		padding-bottom:  0;
+	}
+  .modal-btn {
+    margin-bottom: 1rem;
+  }
+  #features .fitur h2{
+    font-size: 44px;
+  }
+  #features .fitur p {
+    font-size: 17px;
+  }
+  #features2 .fitur h2{
+    font-size: 44px;
+  }
+  #features2 .fitur p {
+    font-size: 17px;
+  }
+  #testi .client {
+    margin: 2rem 0;
+    padding: 5px;
+  }
+  #testi #result-clients {
+    font-size: 20px;
+  }
+  #brand .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 2%;
+  }
+  #brand .brand .brand-1 {
+    margin-bottom: 2rem;
+  }
+} 
+
+/*Tablet Device */
+@media (max-width: 992px) {
+  #app .card-app {
+    margin-bottom: 2rem;
+  }
+  #team .card-team {
+    margin-bottom: 2rem;
+  }
+}

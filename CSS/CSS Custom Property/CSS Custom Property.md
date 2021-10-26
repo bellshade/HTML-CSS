@@ -5,9 +5,7 @@
 ```css
 --main-color: black;
 ```
-
 Dan diakses menggunakan fungsi `var()` seperti:
-
 ```css
 color: var(--main-color);
 ```
@@ -43,7 +41,6 @@ Contoh:
 ```
 
 > Catatan: Nama variabel peka terhadap huruf besar/kecil (*case sensitive*) — `--main-bg-color` akan diperlakukan sebagai variabel yang berbeda dengan `--Main-bg-color`.
-
 ### Mengakses Variabel
 
 Untuk dapat menggunakan/mengakses sebuah variabel, maka anda dapat mengetikkan function `var()` setelah mengetikkan nama properti yang akan digunakan, contoh:
@@ -54,7 +51,7 @@ p {
 }
 ```
 
-Dimana `background-color` adalah properti di CSS untuk mengubah warna *background* dari sebuah elemen dan `var(--main-bg-color)` adalah variabel yang telah di deklarasikan pada selector `:root` tadi. Oleh karena itu, ketika anda mengetikkan kode CSS tersebut semua paragraf akan mempunyai *background* berwarna coklat.
+Dimana `background-color` adalah properti di CSS untuk mengubah warna *background* dari sebuah elemen dan `var(--main-bg-color)` adalah variabel yang telah dideklarasikan pada selector `:root` tadi. Oleh karena itu, ketika anda mengetikkan kode CSS tersebut semua paragraf akan mempunyai *background* berwarna coklat.
 
 ### Contoh penggunaan sederhana ***custom properties***
 
@@ -69,7 +66,6 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
   height: 50px;
   display: inline-block;
 }
-
 .two {
   color: white;
   background-color: black;
@@ -78,21 +74,18 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
   height: 70px;
   display: inline-block;
 }
-
 .three {
   color: white;
   background-color: brown;
   margin: 10px;
   width: 75px;
 }
-
 .four {
   color: white;
   background-color: brown;
   margin: 10px;
   width: 100px;
 }
-
 .five {
   background-color: brown;
 }
@@ -104,7 +97,6 @@ Perhatikan bahwa kita telah mengulang-ulang penggunaaan properti `background-col
 :root {
   --main-bg-color: brown;
 }
-
 .one {
   color: white;
   background-color: var(--main-bg-color);
@@ -113,7 +105,6 @@ Perhatikan bahwa kita telah mengulang-ulang penggunaaan properti `background-col
   height: 50px;
   display: inline-block;
 }
-
 .two {
   color: white;
   background-color: black;
@@ -122,21 +113,18 @@ Perhatikan bahwa kita telah mengulang-ulang penggunaaan properti `background-col
   height: 70px;
   display: inline-block;
 }
-
 .three {
   color: white;
   background-color: var(--main-bg-color);
   margin: 10px;
   width: 75px;
 }
-
 .four {
   color: white;
   background-color: var(--main-bg-color);
   margin: 10px;
   width: 100px;
 }
-
 .five {
   background-color: var(--main-bg-color);
 }
@@ -163,3 +151,4 @@ Berikut adalah data browser support dari [caniuse.com](caniuse.com) untuk ***cus
 - [caniuse.com](https://caniuse.com/)
 - [developer.mozilla.org](https://developer.mozilla.org/)
 - [css-tricks.com](https://css-tricks.com/)
+

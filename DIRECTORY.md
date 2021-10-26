@@ -23,8 +23,8 @@
     * [Css Combinators](./CSS/CSS%20Combinators/CSS%20Combinators.md)
   * Css Comments
     * [Css Comments](./CSS/CSS%20Comments/CSS%20Comments.md)
-  * Css Custom Properties
-    * [Css Custom Properties](./CSS/CSS%20Custom%20Properties/CSS%20Custom%20Properties.md)
+  * Css Custom Property
+    * [Css Custom Property](./CSS/CSS%20Custom%20Property/CSS%20Custom%20Property.md)
   * Css Filter
     * [Css Filter](./CSS/CSS%20filter/CSS%20filter.md)
   * Css Flexbox
@@ -82,8 +82,6 @@
     * [Css Transition](./CSS/CSS%20Transitions/css%20transition.md)
   * Css Units
     * [Css Units](./CSS/CSS%20Units/CSS%20Units.md)
-  * Css Variable
-    * [Css Variable](./CSS/CSS%20Variable/CSS%20Variable.md)
   * Css Web Font
     * [Css Web Font](./CSS/CSS%20Web%20Font/CSS%20Web%20Font.md)
   * Css Word-Spacing

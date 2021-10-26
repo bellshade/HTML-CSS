@@ -98,7 +98,7 @@ Biasanya tanpa menggunakan ***custom properties*** kita akan menuliskan baris-ba
 }
 ```
 
-Perhatikan bahwa kita telah mengulang-ulang penggunaaan properti `background-color: brown;` pada beberapa elemen dan jika kita ingin mengubah `background-color: brown;` tersebut menjadi `background-color: red;`, maka kita harus mengubah satu persatu properti css tersebut. Nah, dengan ***custom properties*** ini, kita dapat melakukan hal seperti di bawah ini pada file css kita :
+Perhatikan bahwa kita telah mengulang-ulang penggunaan properti `background-color: brown;` pada beberapa elemen dan jika kita ingin mengubah `background-color: brown;` tersebut menjadi `background-color: red;`, maka kita harus mengubah satu persatu properti css tersebut. Nah, dengan ***custom properties*** ini, kita dapat melakukan hal seperti di bawah ini pada file css kita :
 
 ```css
 :root {

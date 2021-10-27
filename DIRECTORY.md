@@ -183,4 +183,6 @@
     * [Readme](./Template/Bio%20Link%20Tool/readme.md)
   * Login Form Template
     * [Desc](./Template/Login%20Form%20Template/desc.md)
+  * Navbar
+    * [Readme](./Template/navbar/README.md)
   * [Readme](./Template/readme.md)

@@ -92,8 +92,8 @@
     * [Css Flexbox](./CSS/056%20CSS%20Flexbox/CSS%20Flexbox.md)
   * 057 Css Grid
     * [Css Grid](./CSS/057%20CSS%20Grid/CSS%20Grid.md)
-  * Css Custom Properties
-    * [Css Custom Properties](./CSS/CSS%20Custom%20Properties/CSS%20Custom%20Properties.md)
+  * Css Custom Property
+    * [Css Custom Property](./CSS/CSS%20Custom%20Property/CSS%20Custom%20Property.md)
 
 ## [Directory](.//DIRECTORY.md)
 

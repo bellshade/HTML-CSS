@@ -51,6 +51,10 @@ Pull request akan di-*merge* jika:
 - mengikuti standar dan arahan dari `CONTRIBUTING.md`;
 - lulus tes dan cek dari beberapa tes yang sudah kami siapkan.
 
+### pull request template
+Untuk pull request template disarankan untuk menambahkan screeshoot atau hasil dari template tersebut dengan menampilkannya pada deskipsi pada pull request
+
+
 **Tambahan**:
 
 - Jika ada kendala atau masalah dalam *pull request*, kamu bisa laporkan masalahnya dalam [issue](https://github.com/bellshade/HTML-CSS/issues).

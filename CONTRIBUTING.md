@@ -2,7 +2,7 @@
 
 ## Kontributor
 
-Kami sangat senang anda telah ikut berkontribusi dalam implementasi algortima, struktur data atau memperbaiki error.
+Kami sangat senang anda telah ikut berkontribusi dalam implementasi algoritma, struktur data atau memperbaiki error.
 Semua boleh ikut berkontribusi walaupun hal kecil dengan pengecualian sebagai berikut:
 
 - Hasil pekerjaan kamu adalah buatan kamu sendiri dan tidak ada hak cipta dari orang lain.
@@ -51,8 +51,8 @@ Pull request akan di-*merge* jika:
 - mengikuti standar dan arahan dari `CONTRIBUTING.md`;
 - lulus tes dan cek dari beberapa tes yang sudah kami siapkan.
 
-### pull request template
-Untuk pull request template disarankan untuk menambahkan screeshoot atau hasil dari template tersebut dengan menampilkannya pada deskipsi pada pull request
+### Pull request template
+Untuk pull request template disarankan untuk menambahkan screenshot atau hasil dari template tersebut dengan menampilkannya pada deskripsi pada pull request.
 
 
 **Tambahan**:

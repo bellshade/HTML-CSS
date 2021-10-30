@@ -1,7 +1,5 @@
 # List of all files
 
-## [Basic](.//BASIC.md)
-
 ## [Contributing](.//CONTRIBUTING.md)
 
 ## Css

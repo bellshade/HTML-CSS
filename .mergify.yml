@@ -4,6 +4,11 @@ pull_request_rules:
       - base=main
       - label=ready-to-merge
     actions:
+      label:
+        add:
+            - sudah direview !
+      comment:
+        message: terima kasih atas kontribusinya @{{author}} !
       merge:
         method: squash
   - name: html label

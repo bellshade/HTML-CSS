@@ -45,7 +45,8 @@ textarea {
 
 ### Contoh Lain
 
-Contoh Basic
+### Contoh Basic
+
 Contoh berikut menunjukkan area teks yang sangat sederhana, dengan sejumlah baris dan kolom dan beberapa konten default.
 
 ```HTML
@@ -53,7 +54,8 @@ Contoh berikut menunjukkan area teks yang sangat sederhana, dengan sejumlah bari
    rows="10" cols="50">Write something here</textarea>
 ```
 
-Panjang minimal dan maksimal
+### Panjang minimal dan maksimal
+
 Contoh ini memiliki jumlah karakter minimum dan maksimum — masing-masing 10 dan 20. Cobalah dan lihat.
 
 ```HTML
@@ -64,7 +66,8 @@ Contoh ini memiliki jumlah karakter minimum dan maksimum — masing-masing 10 da
 
 Perhatikan bahwa minlength tidak menghentikan pengguna untuk menghapus karakter sehingga angka yang dimasukkan melewati batas minimum, tetapi itu membuat nilai yang dimasukkan ke dalam <textarea> tidak valid. Perhatikan juga bahwa meskipun Anda memiliki set nilai minlength (3, misalnya), <textarea> kosong masih dianggap valid kecuali Anda juga memiliki set atribut yang diperlukan.
 
-Placeholder
+### Placeholder
+
 Contoh ini memiliki set placeholder. Perhatikan bagaimana itu menghilang ketika Anda mulai mengetik ke dalam kotak.
 
 ```HTML
@@ -75,7 +78,8 @@ Contoh ini memiliki set placeholder. Perhatikan bagaimana itu menghilang ketika 
 
 Catatan: Placeholder hanya boleh digunakan untuk memperlihatkan contoh tipe data yang harus dimasukkan ke dalam formulir; mereka bukan pengganti elemen <label> yang tepat yang terikat pada input. Lihat Label dan placeholder di <input>: Elemen Input (Form Input) untuk penjelasan lengkapnya.
 
-Dinonaktifkan dan hanya dapat dibaca
+### Dinonaktifkan dan hanya dapat dibaca
+
 Contoh ini menunjukkan dua <textarea> — salah satunya dinonaktifkan, dan salah satunya hanya bisa dibaca. Mainkan keduanya dan Anda akan melihat perbedaan perilaku — elemen yang dinonaktifkan tidak dapat dipilih dengan cara apa pun (dan nilainya tidak dikirimkan), sedangkan elemen hanya-baca dapat dipilih dan isinya dapat disalin (dan nilainya dikirimkan) ; Anda hanya tidak dapat mengedit isinya.
 
 Catatan: Di browser selain firefox, seperti chrome, konten textarea yang dinonaktifkan dapat dipilih dan disalin.

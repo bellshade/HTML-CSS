@@ -8,7 +8,7 @@
 
 Repositori ini berisi pembelajaran dan contoh-contoh dari impelementasi HTML dan CSS.
 
-## Table Of Contents
+## Daftar isi
 
 - [Peraturan dan Pedoman Kontribusi](#peraturan-dan-pedoman-kontribusi)
 - [Quick Access (Akses Cepat)](#quick-access-akses-cepat)

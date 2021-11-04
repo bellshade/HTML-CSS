@@ -153,6 +153,22 @@
    <!--? Import icon dari ionicons [https://ionic.io/ionicons] -->
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <script>
+      // ? Fungsi untuk menutup menu saat user klik elemen di luar menu
+      document.addEventListener('click', (e) => {
+         const navLink = document.querySelector('.nav__links').contains(e.target);
+         const btnNav = document.querySelector('.nav__btn-menu').contains(e.target);
+         if (!navLink && !btnNav) {
+            document.querySelector('.nav__links').classList.remove('show');
+         }
+      });
+
+      // ? Fungsi untuk menampilkan & menutup menu
+      document.querySelector('.nav__btn-menu').addEventListener('click', () => {
+         document.querySelector('.nav__links').classList.toggle('show');
+      });
+   </script>
 </body>
 
 </html>

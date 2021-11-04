@@ -539,7 +539,7 @@ html {
    }
 }
 
-.nav__btn-menu:focus+.nav__links,
+.nav__links.show,
 .nav__links:hover {
    pointer-events: auto;
    opacity: 1

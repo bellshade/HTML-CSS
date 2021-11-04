@@ -539,8 +539,7 @@ html {
    }
 }
 
-.nav__links.show,
-.nav__links:hover {
+.nav__links.show {
    pointer-events: auto;
    opacity: 1
 }

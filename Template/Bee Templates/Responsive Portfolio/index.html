@@ -168,6 +168,13 @@
       document.querySelector('.nav__btn-menu').addEventListener('click', () => {
          document.querySelector('.nav__links').classList.toggle('show');
       });
+
+      // ? Fungsi untuk menutup menu saat link di klik
+      document.querySelectorAll('.nav__links a').forEach(el => {
+         el.addEventListener('click', () => {
+            document.querySelector('.nav__links').classList.remove('show');
+         });
+      });
    </script>
 </body>
 

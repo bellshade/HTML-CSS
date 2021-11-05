@@ -25,10 +25,10 @@ ID di dalam CSS adalah dengan tanda pagar (#). misalnya seperti di bawah ini:
 Hasilnya:
 ![Cara memberi style pada ID](img/cara-memberi-style-pada-id.png)
 
-Perbedaan ID dengan class:
+## Perbedaan ID dengan class
 
 - Element HTML boleh memiliki class yang sama, sementara ID tidak.
-- ID memiliki `specifity` yang lebih besar dibanding dengan class. apa maksudnya ini? lihat contoh dibawah agar lebih jelas
+- ID memiliki `specifity` yang lebih besar dibanding dengan class. apa maksudnya ini? lihat contoh dibawah agar lebih jelas.
 
 ```html
 <!DOCTYPE html>
@@ -61,7 +61,12 @@ Hasilnya:
 
 > Catatan:
 >
-> - Penulisan ID bersifat _case sensitif_, berarti `id="test-id"` dengan `id="TEST-ID"` akan berbeda.
+> - Penulisan ID bersifat _case sensitif_, berarti `id="test-id"` dengan `id="TEST-ID"` itu berbeda.
 > - Penulisan ID harus memiliki setidaknya 1 karakter.
 > - Penulisan ID tidak boleh diawali dengan angka.
 > - Penulisan ID tidak boleh mengandung spasi, tab, dan sejenisnya.
+
+Referensi:
+
+- [W3School](https://www.w3schools.com/html/html_id.asp)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id)

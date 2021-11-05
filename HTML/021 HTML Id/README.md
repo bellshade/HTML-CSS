@@ -1,6 +1,6 @@
 # HTML ID
 
-ID adalah attribute pada HTML yang digunakan untuk memberikan tanda yang sifatnya _unique_.
+ID adalah attribute pada HTML yang digunakan untuk memberikan tanda pada yang sifatnya _unique_.
 _Unique_? Artinya kalian tidak boleh memiliki element dengan ID yang sama di dalam HTML. Cara mengakses
 ID di dalam CSS adalah dengan tanda pagar (#). misalnya seperti di bawah ini:
 

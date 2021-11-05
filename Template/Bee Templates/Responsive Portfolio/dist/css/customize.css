@@ -1,0 +1,83 @@
+/**
+   Kamu bisa kustomisasi template ini disini
+   Manipulasi variable di bawah ini untuk mengubah tampilannya
+*/
+
+/*? Variable yang berhubungan dengan warna */
+:root {
+   /*? Warna Primary */
+   --clr-primary: rgba(124, 58, 237, 1);
+
+   /*? Warna heading */
+   --clr-heading: rgba(75, 85, 99, 1);
+
+   /*? Warna heading 2 */
+   --clr-heading-2: var(--clr-primary);
+
+   /*? Warna teks */
+   --clr-text: rgba(107, 114, 128, 1);
+
+   /*? Warna link */
+   --clr-link: var(--clr-heading);
+
+   /*? Warna text di footer */
+   --clr-text-footer: var(--clr-text);
+}
+
+/*? Variable yang berhubungan dengan button */
+:root {
+   /*? Warna background button */
+   --bg-btn: var(--clr-primary);
+
+   /*? Warna text button */
+   --clr-btn: rgba(255, 255, 255, 1);
+
+   /*? Warna background button saat di hover */
+   --bg-btn-hover: rgba(139, 92, 246, 1);
+
+   /*? Padding left & right button regular */
+   --padding-x-btn-regular: 1.5rem;
+   /*? Padding top & bottom button regular */
+   --padding-y-btn-regular: .5rem;
+
+   /*? Padding left & right button sm */
+   --padding-x-btn-sm: 1.25rem;
+   /*? Padding top & bottom button sm */
+   --padding-y-btn-sm: .375rem;
+
+   /*? Border radius button */
+   --radius-btn: .375rem;
+}
+
+/*? Variable yang berhubungan dengan navbar */
+:root {
+   /*? Font nav brand/logo */
+   --font-nav-brand: Kalam, cursive;
+
+   /*? Ukuran nav brand/logo */
+   --font-size-nav-brand: 1.25rem;
+
+   /*? Warna background navbar */
+   --bg-nav: rgba(255, 255, 255, 1);
+
+   /*? Warna background nav link */
+   --bg-nav-link: rgba(255, 255, 255, 1);
+
+   /*? Warna nav link */
+   --clr-nav-link: #000;
+
+   /*? Warna nav link ketika di hover */
+   --clr-nav-link-hover: var(--clr-primary);
+}
+
+/*? Variable yang berhubungan dengan section about */
+:root {
+   /*? Border radius dari gambar di section about */
+   --radius-img-about: 1.5rem;
+}
+
+/*? Variable yang berhubungan dengan section project */
+:root {
+   /*? Border radius dari gambar di section project */
+   --radius-img-project: .75rem;
+}

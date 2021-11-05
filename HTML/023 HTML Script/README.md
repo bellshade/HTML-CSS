@@ -5,6 +5,9 @@ kita membutuhkan script tambahan? Hal ini diperlukan untuk membuat website kita 
 interaktif. kalian bisa menuliskan script langsung di dalam HTML atau bisa juga dipisah menjadi file
 yang berbeda lalu tambahkan attribute `src=""` untuk menyambungkan script tersebut.
 
+Memanipulasi website dengan Javascript disebut dengan _DOM Manipulation_. Kalian bisa belajar
+Tentang _DOM Manpipulation_ di repository bellshade Javascript [disini](https://github.com/bellshade/Javascript/tree/main/learn/DOM)
+
 ## Contoh Penggunaan `<script>`
 
 ```html
@@ -26,8 +29,9 @@ yang berbeda lalu tambahkan attribute `src=""` untuk menyambungkan script terseb
 ```
 
 Hasilnya:
-![Contoh Script](img/contoh-script-1.png)
-![Contoh Script](img/contoh-script-2.png)
+
+- ![Contoh Script](img/contoh-script-1.png)
+- ![Contoh Script](img/contoh-script-2.png)
 
 ## Attribute yang ada pada `<script>`
 
@@ -41,3 +45,7 @@ Hasilnya:
 | `reffererpolicy` | `no-referrer`, `no-referrer-when-downgrade`, `origin`, `origin-when-cross-origin`, `same-origin`, `strict-origin`, `strict-origin-when-cross-origin`, `unsafe-url` | digunakan untuk menentukan informasi mana yang akan dikirim saat mengambil skrip                                                                                                                                                                                           |
 | `src`            | _URL_                                                                                                                                                              | digunakan untuk menentukan url dari file script yang akan digunakan                                                                                                                                                                                                        |
 | `type`           | _scripttype_                                                                                                                                                       | digunakan untuk menentukan jenis media dari script                                                                                                                                                                                                                         |
+
+Referensi:
+
+- [W3School](https://www.w3schools.com/html/html_scripts.asp)

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Script</title>
+  </head>
+  <body>
+    <h1 id="h1">Belum diklik!</h1>
+    <button id="button">Klik Saya!</button>
+
+    <script>
+      document.getElementById("button").addEventListener("click", function () {
+        document.getElementById("h1").innerText = "Sudah diklik!";
+      });
+    </script>
+  </body>
+</html>

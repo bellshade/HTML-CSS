@@ -11,7 +11,7 @@
   
 </p>
 
-## :book: Daftar isi
+## :books: Daftar isi
 
 - [Peraturan dan Pedoman Kontribusi](#pushpin-peraturan-dan-pedoman-kontribusi)
 - [Quick Access (Akses Cepat)](#bookmark_tabs-quick-access-akses-cepat)

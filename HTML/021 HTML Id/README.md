@@ -1,7 +1,7 @@
 # HTML ID
 
-ID adalah attribute pada HTML yang digunakan untuk memberikan tanda pada yang sifatnya _unique_.
-_Unique_? Artinya kalian tidak boleh memiliki element dengan ID yang sama di dalam HTML. Cara mengakses
+ID adalah attribute pada HTML yang digunakan untuk memberikan tanda pada element HTML yang sifatnya unique.
+Unique? Artinya kalian tidak boleh memiliki element dengan ID yang sama di dalam HTML. Cara mengakses
 ID di dalam CSS adalah dengan tanda pagar (#). misalnya seperti di bawah ini:
 
 ```html
@@ -17,7 +17,7 @@ ID di dalam CSS adalah dengan tanda pagar (#). misalnya seperti di bawah ini:
     </style>
   </head>
   <body>
-    <h1 id="coba-id">Cara memberi style pada id</h1>
+    <h1 id="coba-id">memberi style pada id</h1>
   </body>
 </html>
 ```
@@ -61,7 +61,7 @@ Hasilnya:
 
 > Catatan:
 >
-> - Penulisan ID bersifat _case sensitif_, berarti `id="test-id"` dengan `id="TEST-ID"` itu berbeda.
+> - Penulisan ID bersifat case sensitif, berarti `id="test-id"` dengan `id="TEST-ID"` itu berbeda.
 > - Penulisan ID harus memiliki setidaknya 1 karakter.
 > - Penulisan ID tidak boleh diawali dengan angka.
 > - Penulisan ID tidak boleh mengandung spasi, tab, dan sejenisnya.

@@ -2,7 +2,7 @@
 
 ID adalah attribute pada HTML yang digunakan untuk memberikan tanda pada element HTML yang sifatnya unique.
 Unique? Artinya kalian tidak boleh memiliki element dengan ID yang sama di dalam HTML. Cara mengakses
-ID di dalam CSS adalah dengan tanda pagar (#). misalnya seperti di bawah ini:
+ID di dalam CSS adalah dengan tanda pagar (#), misalnya seperti di bawah ini:
 
 ```html
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ Hasilnya:
 ## Perbedaan ID dengan class
 
 - Element HTML boleh memiliki class yang sama, sementara ID tidak.
-- ID memiliki `specifity` yang lebih besar dibanding dengan class. apa maksudnya ini? lihat contoh dibawah agar lebih jelas.
+- ID memiliki `specifity` yang lebih besar dibanding dengan class, apa maksudnya ini? Lihat contoh dibawah agar lebih jelas.
 
 ```html
 <!DOCTYPE html>

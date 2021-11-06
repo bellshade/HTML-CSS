@@ -2,7 +2,7 @@
 
 ## Apa itu Pseudo Element?
 
-Pseudo element adalah element semu atau element palsu. Element semu? sebenarnya setiap kita membuat element
+Pseudo element adalah element semu atau element palsu. Element semu? Sebenarnya setiap kita membuat element
 pada HTML, ada element semu yang bisa kita beri style. Pseudo element ditulis menggunakan 2 tanda titik dua (::)
 setelah selector seperti ini.
 
@@ -12,7 +12,7 @@ selector::pseudo-element {
 }
 ```
 
-> catatan : Pada CSS1 dan CSS2, pseudo element ditulis menggunakan 1 tanda titik dua (:). Tujuan utama
+> Catatan : Pada CSS1 dan CSS2, pseudo element ditulis menggunakan 1 tanda titik dua (:). Tujuan utama
 > perubahan penulisan pseudo element adalah untuk mempermudah membedakan antara pseudo element dan pseudo
 > class. Jangan heran apabila kalian menemukan penulisan pseudo element menggunakan 1 tanda titik dua (:).
 
@@ -22,7 +22,7 @@ selector::pseudo-element {
 
 Digunakan untuk menambahkan style pada baris pertama dalam sebuah text.
 
-contoh :
+Contoh :
 
 ```css
 p::first-line {
@@ -30,7 +30,7 @@ p::first-line {
 }
 
 /*  
-  baris pertama pada p
+  Baris pertama pada p
   akan berwarna biru muda
 */
 ```
@@ -39,7 +39,7 @@ p::first-line {
 
 Digunakan untuk menambahkan style pada huruf pertama dalam sebuah text.
 
-contoh :
+Contoh :
 
 ```css
 h1::first-letter {
@@ -48,7 +48,7 @@ h1::first-letter {
 }
 
 /*  
-  huruf pertama pada h1 akan berwarna hijau muda
+  Huruf pertama pada h1 akan berwarna hijau muda
   dan berukuran lebih besar
 */
 ```
@@ -59,7 +59,7 @@ Digunakan untuk menambahkan beberapa konten dan style di belakang/sebelum elemen
 ini termasuk yang paling sering digunakan karena fungsinya yang cukup unik yaitu bisa menambahkan sesuatu
 pada element kita, bahkan kita bisa memasukkan icon pada pseudo element ini.
 
-contoh :
+Contoh :
 
 ```css
 h1::before {

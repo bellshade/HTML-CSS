@@ -1,0 +1,181 @@
+<!--? Kustomisasi template ini di file ./dist/css/customize.css  -->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--? CSS Kita -->
+   <!--! Selalu simpan customize.css di atas app.css -->
+   <link rel="stylesheet" href="./dist/css/customize.css">
+   <link rel="stylesheet" href="./dist/css/app.css">
+
+   <!--? Font dari Google Fonts [https://fonts.google.com/] -->
+   <!--? Font kalam dan font montserrat -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+   <title>My Portfolio</title>
+</head>
+
+<body>
+   <div id="container">
+      <nav class="nav">
+         <div class="container flex-center">
+            <!--? Tuliskan namamu atau masukkan logomu di tag <a> di bawah ini! -->
+            <a class="nav__brand" href="#">Logo</a>
+            <div class="nav__menu">
+               <button class="nav__btn-menu">
+                  <ion-icon name="menu-outline" class="nav__menu-icon"></ion-icon>
+               </button>
+               <div class="nav__links">
+                  <!--? Tambah atau kurangi link navigasi di bawah ini -->
+                  <a href="#about" class="flex-center nav__link">
+                     <span class="nav__link-text" href="#">About</span>
+                     <ion-icon name="chevron-forward-outline" class="nav__link-icon"></ion-icon>
+                  </a>
+                  <a href="#work" class="flex-center nav__link">
+                     <span class="nav__link-text" href="#">Works</span>
+                     <ion-icon name="chevron-forward-outline" class="nav__link-icon"></ion-icon>
+                  </a>
+                  <a class="btn btn-sm btn-primary" href="#contact">Contact</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+
+      <section class="container about" id="about">
+         <!--? Simpan fotomu di tag <img> di bawah dan jangan lupa ganti `alt`nya dengan namamu! -->
+         <img class="about__img" src="https://images.unsplash.com/photo-1503414265207-455bcd0955dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80" alt="Abi Noval Fauzi">
+         <main class="desc">
+            <div>
+               <!--? Tuliskan namamu disini! -->
+               <h1 class="heading">Hi! I'm Abi Noval Fauzi</h1>
+               <!--? Tuliskan deskripsi singkat tentang dirimu di bawah ini! -->
+               <p class="heading-2">I'm a front-end developer.</p>
+            </div>
+            <!--? Deskripsi yang agak panjang disimpan di bawah ini! -->
+            <p class="text">
+               I am a vocational high school student studying to be a frontend developer and UI/UX design. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut est illo tenetur fugiat, consequatur pariatur saepe?
+            </p>
+            <a class="link" href="#work"><span>See my work</span> <ion-icon name="chevron-down-outline" class="link-icon"></ion-icon></a>
+         </main>
+      </section>
+
+      <section class="container" id="work">
+         <section class="project">
+            <main class="desc project__desc-left">
+               <div>
+                  <!--? Tuliskan nama projekmu di bawah ini! -->
+                  <h1 class="heading">BeeCode</h1>
+                  <!--? Tuliskan deskripsi singkat projekmu di bawah ini! -->
+                  <p class="heading-2">Website Belajar Pemrograman</p>
+               </div>
+               <!--? Tuliskan deskripsi lengkap projekmu di bawah ini! Kamu bisa menggunakan lebih dari 1 paragraf! -->
+               <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nostrum cum totam, architecto ipsam ad nesciunt temporibus dignissimos omnis eaque aliquam eius at maiores quasi consequuntur! Dicta, debitis animi.
+               </p>
+               <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nostrum cum totam, architecto ipsam ad nesciunt temporibus dignissimos omnis eaque aliquam eius at maiores quasi consequuntur! Dicta, debitis animi.
+               </p>
+               <!--? Letakkan tautan ke projekmu di bawah ini! -->
+               <a class="link" href="#"><span>Lihat live</span> <ion-icon name="chevron-forward-outline" class="link-icon"></ion-icon></a>
+            </main>
+            <!--? Letakkan foto/screenshot dari projekmu di bawah ini! Jangan lupa mengganti `alt`nya sesuai dengan projekmu! -->
+            <img class="project__img project__right" src="./asset/img/BeeCode.png" alt="BeeCode">
+         </section>
+
+         <section class="project">
+            <main class="desc project__desc-right">
+               <div>
+                  <!--? Tuliskan nama projekmu di bawah ini! -->
+                  <h1 class="heading">My Code</h1>
+                  <!--? Tuliskan deskripsi singkat projekmu di bawah ini! -->
+                  <p class="heading-2">Code Snippet</p>
+               </div>
+               <!--? Tuliskan deskripsi lengkap projekmu di bawah ini! Kamu bisa menggunakan lebih dari 1 paragraf! -->
+               <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nostrum cum totam, architecto ipsam ad nesciunt temporibus dignissimos omnis eaque aliquam eius at maiores quasi consequuntur! Dicta, debitis animi.
+               </p>
+               <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores iure nostrum cum totam, architecto ipsam ad nesciunt temporibus dignissimos omnis eaque aliquam eius at maiores quasi consequuntur! Dicta, debitis animi.
+               </p>
+               <!--? Letakkan tautan ke projekmu di bawah ini! -->
+               <a class="link" href="#"><span>Lihat live</span> <ion-icon name="chevron-forward-outline" class="link-icon"></ion-icon></a>
+            </main>
+            <!--? Letakkan foto/screenshot dari projekmu di bawah ini! Jangan lupa mengganti `alt`nya sesuai dengan projekmu! -->
+            <img class="project__img project__left" src="./asset/img/My Code.png" alt="My Code">
+         </section>
+      </section>
+
+      <section class="container contact" id="contact">
+         <div class="heading-center">
+            <h1 class="heading">Interested in me?</h1>
+            <p class="heading-2">I will receive your message.</p>
+         </div>
+         <form class="contact__form" method="" action="">
+            <div class="form__group">
+               <div class="input__wrapper">
+                  <label class="input__label" for="name">Name</label>
+                  <div class="input__field">
+                     <ion-icon name="person-outline"></ion-icon>
+                     <input class="input" autocomplete="off" type="text" name="name" id="name">
+                  </div>
+               </div>
+               <div class="input__wrapper">
+                  <label class="input__label" for="email">Email</label>
+                  <div class="input__field">
+                     <ion-icon name="mail-outline"></ion-icon>
+                     <input class="input" autocomplete="off" type="email" name="email" id="email">
+                  </div>
+               </div>
+            </div>
+            <div class="input__wrapper">
+               <label class="input__label" for="message">Message</label>
+               <div class="input__field">
+                  <textarea class="input textarea" name="messsage" id="message"></textarea>
+               </div>
+            </div>
+            <button class="btn btn-regular btn-primary">Send</button>
+         </form>
+      </section>
+
+      <footer class="container footer">
+         <!--? Kamu boleh mengganti paragraf di bawah ini sesuai dengan kemauanmu! -->
+         <p class="footer__text">Made with love by Abi Noval Fauzi (You can change this sentence)</p>
+      </footer>
+   </div>
+
+   <!--? Import icon dari ionicons [https://ionic.io/ionicons] -->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <script>
+      // ? Fungsi untuk menutup menu saat user klik elemen di luar menu
+      document.addEventListener('click', (e) => {
+         const navLink = document.querySelector('.nav__links').contains(e.target);
+         const btnNav = document.querySelector('.nav__btn-menu').contains(e.target);
+         if (!navLink && !btnNav) {
+            document.querySelector('.nav__links').classList.remove('show');
+         }
+      });
+
+      // ? Fungsi untuk menampilkan & menutup menu
+      document.querySelector('.nav__btn-menu').addEventListener('click', () => {
+         document.querySelector('.nav__links').classList.toggle('show');
+      });
+
+      // ? Fungsi untuk menutup menu saat link di klik
+      document.querySelectorAll('.nav__links a').forEach(el => {
+         el.addEventListener('click', () => {
+            document.querySelector('.nav__links').classList.remove('show');
+         });
+      });
+   </script>
+</body>
+
+</html>

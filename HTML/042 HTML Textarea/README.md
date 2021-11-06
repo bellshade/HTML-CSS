@@ -6,10 +6,10 @@ Elemen HTML <textarea> mewakili kontrol pengeditan teks biasa multi-baris, bergu
 
 Fitur <textarea> antara lain:
 
-    Atribut id untuk memungkinkan <textarea> dikaitkan dengan elemen <label> untuk tujuan aksesibilitas
-    Atribut nama untuk mengatur nama titik data terkait yang dikirimkan ke server saat formulir dikirimkan.
-    baris dan atribut cols untuk memungkinkan Anda menentukan ukuran yang tepat untuk <textarea> yang akan diambil. Mengatur ini adalah ide yang bagus untuk konsistensi, karena default browser dapat berbeda.
-    Konten default dimasukkan di antara tag pembuka dan penutup. <textarea> tidak mendukung atribut nilai.
+- Atribut id untuk memungkinkan <textarea> dikaitkan dengan elemen <label> untuk tujuan aksesibilitas
+- Atribut nama untuk mengatur nama titik data terkait yang dikirimkan ke server saat formulir dikirimkan.
+- Baris dan Cols Attribute untuk memungkinkan Anda menentukan ukuran yang tepat untuk <textarea> yang akan diambil. Mengatur ini adalah ide yang bagus untuk konsistensi, karena default browser dapat berbeda.
+- Konten default dimasukkan di antara tag pembuka dan penutup. <textarea> tidak mendukung atribut nilai.
 
 Elemen <textarea> juga menerima beberapa atribut yang umum untuk membentuk <input>, seperti pelengkapan otomatis, fokus otomatis, dinonaktifkan, placeholder, hanya baca, dan diperlukan.
 

@@ -2,7 +2,7 @@
 
 ### Apa itu tag `<textarea>` ?
 
-Elemen HTML <textarea> mewakili kontrol pengeditan teks biasa multi-baris, berguna saat Anda ingin mengizinkan pengguna memasukkan teks bentuk bebas dalam jumlah yang cukup besar, misalnya komentar pada ulasan atau formulir umpan balik.
+Elemen HTML `<textarea>` mewakili kontrol pengeditan teks biasa multi-baris, berguna saat Anda ingin mengizinkan pengguna memasukkan teks bentuk bebas dalam jumlah yang cukup besar, misalnya komentar pada ulasan atau formulir umpan balik.
 
 Fitur <textarea> antara lain:
 

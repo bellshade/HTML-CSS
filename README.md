@@ -112,3 +112,4 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Media Query](CSS/055%20CSS%20Media%20Query/README.md)
 - [Flexbox](CSS/056%20CSS%20Flexbox/README.md)
 - [Grid](CSS/057%20CSS%20Grid/README.md)
+- [Text Stoke](CSS/058%20CSS%20Text%20Stroke/README.md)

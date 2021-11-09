@@ -22,7 +22,7 @@ Informasi: gunakan [*issue*](https://github.com/bellshade/HTML-CSS/issues) apabi
 - Setelah menjelaskan perubahan anda di [*issue*](https://github.com/bellshade/HTML-CSS/issues) kemudian lakukan *fork* pada repositori kami.
 - Setelah melakukan *fork*, anda dibebaskan untuk mengubah atau menambah kode.
 - Untuk *pull request* merubah atau memperbaiki, diusahakan kamu menerapkan kode yang lebih baik dan lebih mudah serta memeberikan penjelasan lebih detail alasan dari perubahaan tersebut lebih baik dari sebelumnya.
-- Diusahakan untuk membuat branch baru setelah fork. 
+- Diusahakan untuk membuat branch baru setelah fork. Untuk membuat branch baru lihat tulisan kode dibawah ini :
   ```bash
   git checkout -b <branch_name>
   git add . # atau git add nama_perubahan_kamu

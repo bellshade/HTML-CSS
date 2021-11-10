@@ -5,7 +5,7 @@ Dalam HTML, tipe tautan menunjukkan hubungan antara dua dokumen, di mana satu ta
 ### Daftar jenis tautan yang ditentukan dan signifikansinya dalam HTML
 
 |  Tipe Link  |                                Deskripsi                                  |  Elemen yang diijinkan | Elemen yang tidak diizinkan |
-|-------------|---------------------------------------------------------------------------|------------------------|-----------------------------|  
+|:-----------:|:-------------------------------------------------------------------------:|:----------------------:|:---------------------------:|  
 |  Alternate  |  - Jika elemennya adalah <link> dan atribut rel juga berisi tipe          |        <a>             |          <form>             |
 |             |    stylesheet, link akan mendefinisikan style sheet alternatif; dalam hal |        <area>          |                             |
 |             |    ini atribut judul harus ada dan bukan string kosong.                   |        <link>          |                             |

@@ -6,9 +6,9 @@ Dalam HTML, tipe tautan menunjukkan hubungan antara dua dokumen, di mana satu ta
 
 |  Tipe Link  |                                Deskripsi                                  |  Elemen yang diijinkan | Elemen yang tidak diizinkan |
 |:-----------:|:-------------------------------------------------------------------------:|:----------------------:|:---------------------------:|  
-|  Alternate  |  - Jika elemennya adalah <link> dan atribut rel juga berisi tipe          |        <a>             |          <form>             |
-|             |    stylesheet, link akan mendefinisikan style sheet alternatif; dalam hal |        <area>          |                             |
-|             |    ini atribut judul harus ada dan bukan string kosong.                   |        <link>          |                             |
+|  Alternate  |  - Jika elemennya adalah <link> dan atribut rel juga berisi tipe          |        a               |          form               |
+|             |    stylesheet, link akan mendefinisikan style sheet alternatif; dalam hal |        area            |                             |
+|             |    ini atribut judul harus ada dan bukan string kosong.                   |        link            |                             |
 |             |                                                                           |                        |                             |
 |             |  - Jika jenisnya diatur ke application/rss+xml atau application/atom+xml, |                        |                             |
 |             |    tautan akan menentukan umpan sindikasi. Yang pertama ditentukan pada   |                        |                             |
@@ -20,19 +20,29 @@ Dalam HTML, tipe tautan menunjukkan hubungan antara dua dokumen, di mana satu ta
 |             |      o dalam bahasa lain (jika atribut hreflang disetel),                 |                        |                             |
 |             |      o dalam format lain, seperti PDF (jika atribut type diatur)          |                        |                             |
 |             |      o kombinasi dari ini                                                 |                        |                             |
-|  Archives   |  Mendefinisikan hyperlink ke dokumen yang berisi link arsip ke dokumen    |         <a>            |            <form>           |
-|             |  ini. Misalnya, entri blog dapat ditautkan ke halaman indeks bulanan      |         <area>         |                             |
-|             |  dengan cara ini.                                                         |         <link>         |                             |
+|             |                                                                           |                        |                             |
+|  Archives   |  Mendefinisikan hyperlink ke dokumen yang berisi link arsip ke dokumen    |         a              |            form             |
+|             |  ini. Misalnya, entri blog dapat ditautkan ke halaman indeks bulanan      |         area           |                             |
+|             |  dengan cara ini.                                                         |         link           |                             |
 |             |                                                                           |                        |                             |
 |             |  Catatan: Meskipun dikenali, arsip tunggal tidak benar dan harus          |                        |                             | 
 |             |  dihindari.                                                               |                        |                             |
-|   Author    |  Mendefinisikan hyperlink ke halaman yang menjelaskan penulis atau        |          <a>           |            <form>           |
-|             |  menyediakan cara untuk menghubungi penulis.                              |          <area>        |                             |
-|             |                                                                           |          <link>        |                             |
+|             |                                                                           |                        |                             |
+|   Author    |  Mendefinisikan hyperlink ke halaman yang menjelaskan penulis atau        |          a             |            form             |
+|             |  menyediakan cara untuk menghubungi penulis.                              |          area          |                             |
+|             |                                                                           |          link          |                             |
 |             |  Catatan: Ini mungkin hyperlink mailto:, tetapi ini tidak disarankan di   |                        |                             |
 |             |  halaman publik karena pemanen robot akan dengan cepat menyebabkan banyak |                        |                             |
 |             |  spam yang dikirim ke alamat tersebut. Dalam hal ini, lebih baik mengarah |                        |                             |
 |             |  ke halaman yang berisi formulir kontak.                                  |                        |                             |
+|             |                                                                           |                        |                             |
+|             |  Meskipun dikenali, atribut rev pada elemen <a>, <area> atau<link> dengan |                        |                             |
+|             |  jenis tautan yang dibuat salah dan harus diganti dengan atribut rel      |                        |                             |
+|             |  dengan jenis tautan ini.                                                 |                        |                             |
+|             |                                                                           |                        |                             |
+  
+  
+  
   
   
 ### Syntax

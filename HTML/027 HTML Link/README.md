@@ -39,7 +39,7 @@ Dalam HTML, tipe tautan menunjukkan hubungan antara dua dokumen, di mana satu ta
 |             |  Meskipun dikenali, atribut rev pada elemen <a>, <area> atau<link> dengan |                        |                             |
 |             |  jenis tautan yang dibuat salah dan harus diganti dengan atribut rel      |                        |                             |
 |             |  dengan jenis tautan ini.                                                 |                        |                             |
-|             |                                                                           |                        |                             |
+|             |  s                                                                         |                        |                             |
   
   
   

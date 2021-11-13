@@ -1,56 +1,23 @@
 # HTML Link
 
-Dalam HTML, tipe tautan menunjukkan hubungan antara dua dokumen, di mana satu tautan ke dokumen lain menggunakan elemen <a>, <area>, <form>, atau <link>.
+Tautan HTML adalah hyperlink.  
   
-### Daftar jenis tautan yang ditentukan dan signifikansinya dalam HTML
+Kamu bisa klik link ini dan akan berpindah ke dokumen lain.  
 
-|  Tipe Link  |                                Deskripsi                                  |  Elemen yang diijinkan | Elemen yang tidak diizinkan |
-|:-----------:|:-------------------------------------------------------------------------:|:----------------------:|:---------------------------:|  
-|  Alternate  |  - Jika elemennya adalah <link> dan atribut rel juga berisi tipe          |        a               |          form               |
-|             |    stylesheet, link akan mendefinisikan style sheet alternatif; dalam hal |        area            |                             |
-|             |    ini atribut judul harus ada dan bukan string kosong.                   |        link            |                             |
-|             |                                                                           |                        |                             |
-|             |  - Jika jenisnya diatur ke application/rss+xml atau application/atom+xml, |                        |                             |
-|             |    tautan akan menentukan umpan sindikasi. Yang pertama ditentukan pada   |                        |                             |
-|             |     halaman adalah default.                                               |                        |                             |
-|             |  - Jika tidak, tautan menentukan halaman alternatif, dari salah satu jenis|                        |                             | 
-|             |    berikut:                                                               |                        |                             |
-|             |      o untuk media lain, seperti perangkat genggam                        |                        |                             |
-|             |        (jika atribut media disetel)                                       |                        |                             |
-|             |      o dalam bahasa lain (jika atribut hreflang disetel),                 |                        |                             |
-|             |      o dalam format lain, seperti PDF (jika atribut type diatur)          |                        |                             |
-|             |      o kombinasi dari ini                                                 |                        |                             |
-|             |                                                                           |                        |                             |
-|  Archives   |  Mendefinisikan hyperlink ke dokumen yang berisi link arsip ke dokumen    |         a              |            form             |
-|             |  ini. Misalnya, entri blog dapat ditautkan ke halaman indeks bulanan      |         area           |                             |
-|             |  dengan cara ini.                                                         |         link           |                             |
-|             |                                                                           |                        |                             |
-|             |  Catatan: Meskipun dikenali, arsip tunggal tidak benar dan harus          |                        |                             | 
-|             |  dihindari.                                                               |                        |                             |
-|             |                                                                           |                        |                             |
-|   Author    |  Mendefinisikan hyperlink ke halaman yang menjelaskan penulis atau        |          a             |            form             |
-|             |  menyediakan cara untuk menghubungi penulis.                              |          area          |                             |
-|             |                                                                           |          link          |                             |
-|             |  Catatan: Ini mungkin hyperlink mailto:, tetapi ini tidak disarankan di   |                        |                             |
-|             |  halaman publik karena pemanen robot akan dengan cepat menyebabkan banyak |                        |                             |
-|             |  spam yang dikirim ke alamat tersebut. Dalam hal ini, lebih baik mengarah |                        |                             |
-|             |  ke halaman yang berisi formulir kontak.                                  |                        |                             |
-|             |                                                                           |                        |                             |
-|             |  Meskipun dikenali, atribut rev pada elemen <a>, <area> atau<link> dengan |                        |                             |
-|             |  jenis tautan yang dibuat salah dan harus diganti dengan atribut rel      |                        |                             |
-|             |  dengan jenis tautan ini.                                                 |                        |                             |
-|             |  s                                                                         |                        |                             |
+Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil.
   
-  
-  
-  
-  
-### Syntax
+### HTML Links - Syntax
+
+Tag HTML <a> mendefinisikan hyperlink. Ini memiliki sintaks berikut:
+
+  **HTML**
 
 ```html
-Link: <uri-reference>; param1=value1; param2="value2"</uri-reference>
-```
 
+<a href="url">link text</a>
+
+```
+  
 <uri-referensi>
 Referensi URI, harus diapit di antara < dan >.
 
@@ -62,11 +29,7 @@ Tajuk tautan berisi parameter, yang dipisahkan dengan ; dan setara dengan atribu
 
 URI (absolut atau relatif) harus diapit di antara < dan >
 
-**HTML**
 
-```html
-Link: <https://example.com>; rel="preconnect" True. Link: https://bad.example; rel="preconnect" False
-```
 
 Menentukan beberapa tautan
 Anda dapat menentukan beberapa tautan yang dipisahkan dengan koma, misalnya:

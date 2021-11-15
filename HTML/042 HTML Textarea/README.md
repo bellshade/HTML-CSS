@@ -1,21 +1,21 @@
 # HTML Textarea
 
-### Apa itu tag `<textarea>` ?
+## Apa itu tag `<textarea>`?
 
-Elemen HTML `<textarea>` mewakili kontrol pengeditan teks biasa multi-baris, berguna saat Anda ingin mengizinkan pengguna memasukkan teks bentuk bebas dalam jumlah yang cukup besar, misalnya komentar pada ulasan atau formulir umpan balik.
+Elemen HTML `<textarea>` mewakili kontrol pengeditan teks multi-baris, berguna saat Anda ingin mengizinkan pengguna memasukkan teks bentuk bebas dalam jumlah yang cukup besar, misalnya komentar pada ulasan atau formulir umpan balik.
 
 Fitur `<textarea>` antara lain:
 
-- Attribute id untuk memungkinkan `<textarea>` dikaitkan dengan elemen `<label>` untuk tujuan aksesibilitas
-- Attribute nama untuk mengatur nama titik data terkait yang dikirimkan ke server saat formulir dikirimkan.
-- Baris dan Cols Attribute untuk memungkinkan Anda menentukan ukuran yang tepat untuk `<textarea>` yang akan diambil. Mengatur ini adalah ide yang bagus untuk konsistensi, karena default browser dapat berbeda.
-- Konten default dimasukkan di antara tag pembuka dan penutup. `<textarea>` tidak mendukung attribute nilai.
+- Atribut `id` untuk memungkinkan `<textarea>` dikaitkan dengan elemen `<label>` untuk tujuan aksesibilitas.
+- Atribut `name` untuk mengatur _name_ titik data terkait yang dikirimkan ke server saat formulir dikirimkan.
+- Atribut `rows` dan `cols` untuk memungkinkan Anda menentukan ukuran yang tepat untuk `<textarea>` yang akan diambil. Mengatur ini adalah ide yang bagus untuk konsistensi, karena default browser dapat berbeda.
+- Konten default dimasukkan di antara tag pembuka dan penutup. `<textarea>` tidak mendukung atribut `value`.
 
-Elemen `<textarea>` juga menerima beberapa attribute yang umum untuk membentuk `<input>`, seperti pelengkapan otomatis, fokus otomatis, dinonaktifkan, placeholder, hanya baca, dan diperlukan.
+Elemen `<textarea>` juga menerima beberapa atribut yang umum digunakan untuk tag `<input>`, seperti `autocomplete`, `autofocus`, `disabled`, `placeholder`, `readonly`, dan `required`.
 
 ### Contoh kode
 
-**HTML**
+#### HTML
 
 ```html
 <label for="story">Tell us your story:</label>
@@ -25,7 +25,7 @@ It was a dark and stormy night...
 </textarea>
 ```
 
-**CSS**
+#### CSS
 
 ```css
 label,
@@ -45,57 +45,45 @@ textarea {
 
 ### Contoh Lain
 
-### Contoh Basic
+#### Contoh Basic
 
-Contoh berikut menunjukkan area teks yang sangat sederhana, dengan sejumlah baris dan kolom dan beberapa konten default.
-
-```HTML
-<textarea name="textarea"
-   rows="10" cols="50">Write something here
-</textarea>
-```
-
-### Panjang minimal dan maksimal
-
-Contoh ini memiliki jumlah karakter minimum dan maksimum — masing-masing 10 dan 20. Cobalah dan lihat.
+Contoh berikut menunjukkan penggunaan `<textarea>` yang sangat sederhana, dengan sejumlah `rows` dan `columns` dan beberapa konten default.
 
 ```HTML
-<textarea name="textarea"
-   rows="5" cols="30"
-   minlength="10" maxlength="20">Write something here
-</textarea>
+<textarea name="textarea" rows="10" cols="50">Write something here</textarea>
 ```
 
-Perhatikan bahwa minlength tidak menghentikan pengguna untuk menghapus karakter sehingga angka yang dimasukkan melewati batas minimum, tetapi itu membuat nilai yang dimasukkan ke dalam `<textarea>` tidak valid. Perhatikan juga bahwa meskipun Anda memiliki set nilai minlength (3, misalnya), `<textarea>` kosong masih dianggap valid kecuali Anda juga memiliki set atribut yang diperlukan.
+#### Panjang minimal dan maksimal
 
-### Placeholder
-
-Contoh ini memiliki set placeholder. Perhatikan bagaimana itu menghilang ketika Anda mulai mengetik ke dalam kotak.
+Contoh berikut menunjukkan penggunaan `<textarea>` dengan jumlah karakter minimum dan maksimum menggunakan atribut `minlength` untuk panjang minimum dan `maxlength` untuk panjang maksimum karakter.
 
 ```HTML
-<textarea name="textarea"
-   rows="5" cols="30"
-   placeholder="Comment text.">
-</textarea>
+<textarea name="textarea" rows="5" cols="30" minlength="10" maxlength="20">Write something here</textarea>
 ```
 
-Catatan: Placeholder hanya boleh digunakan untuk memperlihatkan contoh tipe data yang harus dimasukkan ke dalam formulir, mereka bukan pengganti elemen `<label>` yang tepat yang terikat pada input. Lihat Label dan placeholder di `<input>`: Elemen Input (Form Input) untuk penjelasan lengkapnya.
+> Perhatikan bahwa minlength tidak menghentikan pengguna untuk menghapus karakter sehingga angka yang dimasukkan melewati batas minimum, tetapi itu membuat nilai yang dimasukkan ke dalam `<textarea>` tidak valid. Perhatikan juga bahwa meskipun Anda memiliki set nilai minlength (3, misalnya), `<textarea>` kosong masih dianggap valid kecuali Anda juga memiliki set atribut `required`.
 
-### Dinonaktifkan dan hanya dapat dibaca
+#### Placeholder
 
-Contoh ini menunjukkan dua `<textarea>`, salah satunya dinonaktifkan, dan salah satunya hanya bisa dibaca. Mainkan keduanya dan Anda akan melihat perbedaan perilaku, elemen yang dinonaktifkan tidak dapat dipilih dengan cara apa pun (dan nilainya tidak dikirimkan), sedangkan elemen hanya-baca dapat dipilih dan isinya dapat disalin (dan nilainya dikirimkan), Anda hanya tidak dapat mengedit isinya.
-
-Catatan: Di browser selain firefox, seperti chrome, konten textarea yang dinonaktifkan dapat dipilih dan disalin.
+Contoh berikut menunjukkan penggunaan `<textarea>` yang memiliki `placeholder`. Perhatikan `placeholder` itu menghilang ketika Anda mulai mengetik ke dalam `<textarea>`.
 
 ```HTML
-<textarea name="textarea"
-   rows="5" cols="30"
-   disabled>I am a disabled textarea
-</textarea>
-<textarea name="textarea"
-   rows="5" cols="30"
-   readonly>I am a readonly textarea
-</textarea>
+<textarea name="textarea" rows="5" cols="30" placeholder="Comment text."></textarea>
 ```
 
-Referensi: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea
+> Catatan: Placeholder hanya boleh digunakan untuk memperlihatkan contoh tipe data yang harus dimasukkan ke dalam formulir, mereka bukan pengganti elemen `<label>` yang tepat yang terikat pada input.
+
+### Disabled dan readonly
+
+Contoh ini menunjukkan dua `<textarea>` yang salah satunya menggunakan atribut `disabled` dan satunya lagi menggunakan atribut `readonly`. Mainkan keduanya dan Anda akan melihat perbedaan perilaku, elemen yang `disabled` tidak dapat dipilih dengan cara apa pun (dan _valuenya_ tidak dikirimkan), sedangkan elemen `readonly` dapat dipilih dan isinya dapat disalin (dan _valuenya_ dikirimkan), Anda hanya tidak dapat mengedit isinya.
+
+> Catatan: Di browser selain firefox, seperti chrome, konten textarea yang `disabled` dapat dipilih dan disalin.
+
+```HTML
+<textarea name="textarea" rows="5" cols="30" disabled>I am a disabled textarea</textarea>
+<textarea name="textarea" rows="5" cols="30" readonly>I am a readonly textarea</textarea>
+```
+
+## Referensi
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)

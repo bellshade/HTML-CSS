@@ -1,84 +1,55 @@
 # HTML Link
 
-Tautan HTML adalah hyperlink.  
-  
-Kamu bisa klik link ini dan akan berpindah ke dokumen lain.  
+Tautan HTML adalah _hyperlink_. Kamu bisa klik link ini dan akan berpindah ke dokumen lain. Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil.
 
-Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil.
-  
-### HTML Links - Syntax
+## Sintaks
 
-Tag HTML <a> mendefinisikan hyperlink. Ini memiliki sintaks berikut:
-
-  **HTML**
+Tag HTML `<a>` mendefinisikan _hyperlink_ yang memiliki sintaks seperti berikut ini:
 
 ```html
-
-<a href="url">link text</a>
-
+<a href="url">Teks tautan</a>
 ```
-  
-Atribut terpenting dari elemen <a> adalah atribut href, yang menunjukkan tujuan tautan.
-  
-Teks tautan adalah bagian yang akan terlihat oleh pembaca.
-  
-Mengklik teks tautan, akan mengirim pembaca ke alamat URL yang ditentukan.
-  
-### Contoh
-Contoh ini menunjukkan cara membuat link ke Bellshade:
-  
-  **HTML**
+
+Atribut terpenting dari elemen `<a>` adalah atribut `href`, yang menunjukkan tujuan tautan. _Teks tautan_ adalah bagian yang akan terlihat oleh pembaca. Mengklik _teks tautan_, akan mengirim pembaca ke alamat URL yang ditentukan.
+
+Contoh di bawah ini menunjukkan cara membuat link ke website Bellshade:
 
 ```html
-
- <a href="https://bellshade.org/">Visit Bellshade!</a> 
-
+<a href="https://bellshade.org/">Visit Bellshade!</a>
 ```  
 
 Secara default, tautan akan muncul sebagai berikut di semua browser:
 
-- Tautan yang belum dikunjungi digarisbawahi dan berwarna biru
-- Tautan yang dikunjungi digarisbawahi dan berwarna ungu
-- Tautan aktif digarisbawahi dan merah
+- Tautan yang belum dikunjungi digarisbawahi dan berwarna biru.
+- Tautan yang telah dikunjungi digarisbawahi dan berwarna ungu.
+- Tautan aktif digarisbawahi dan merah.
 
-Tip: Tautan tentu saja dapat ditata dengan CSS, untuk mendapatkan tampilan lain!
+> Tip: Tautan tentu saja dapat ditata dengan CSS, untuk mendapatkan tampilan lain!
 
-### HTML Links - Target Atribut
+### Atribut Target
 
-Secara default, halaman tertaut akan ditampilkan di jendela browser saat ini. Untuk mengubahnya, Anda harus menentukan target lain untuk tautan tersebut.
-  
-Atribut target menentukan tempat untuk membuka dokumen tertaut.
+Secara default, halaman tertaut akan ditampilkan di jendela browser saat ini. Untuk mengubahnya, Anda harus menentukan target lain untuk tautan tersebut. Atribut `target` menentukan tempat untuk membuka dokumen tertaut. Atribut `target` dapat memiliki salah satu dari nilai berikut:
 
-Atribut target dapat memiliki salah satu dari nilai berikut:
+- `_self` - Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik.
+- `_blank` - Membuka dokumen di jendela atau tab baru.
+- `_parent` - Membuka dokumen dalam bingkai induk.
+- `_top` - Membuka dokumen di seluruh badan jendela.
 
-- _self - Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik
-- _blank - Membuka dokumen di jendela atau tab baru
-- _parent - Membuka dokumen dalam bingkai induk
-- _top - Membuka dokumen di seluruh badan jendela
-  
-### Contoh
-Gunakan target "_blank" untuk membuka link dokumen di halaman browser baru atau di tab:
-  
-  **HTML**
+Gunakan target `_blank` untuk membuka link dokumen di halaman browser baru atau di tab:
+
+Contoh:
 
 ```html
-
-  <a href="https://bellshade.org/" target="_blank">Visit Bellshade!</a>  
-
+<a href="https://bellshade.org/" target="_blank">Visit Bellshade!</a>  
 ```
-  
-### URL Absolut vs URL Relatif
-  
-Kedua contoh di atas menggunakan URL absolut (alamat web lengkap) di atribut href.
-  
-Tautan lokal (tautan ke halaman dalam situs web yang sama) ditentukan dengan URL relatif (tanpa bagian "https://www"):  
 
-### Contoh
-  
-**HTML**
+### URL Absolut vs URL Relatif
+
+Kedua contoh di atas menggunakan **URL absolut** (alamat web lengkap) di atribut `href`. Tautan lokal (tautan ke halaman dalam situs web yang sama) ditentukan dengan **URL relatif** (tanpa bagian "https://www"):
+
+Contoh:
 
 ```html
-
 <h2>Absolute URLs</h2>
 <p><a href="https://bellshade.org/">Bellshade</a></p>
 <p><a href="https://www.google.com/">Google</a></p>
@@ -86,66 +57,50 @@ Tautan lokal (tautan ke halaman dalam situs web yang sama) ditentukan dengan URL
 <h2>Relative URLs</h2>
 <p><a href="html_images.asp">HTML Images</a></p>
 <p><a href="/css/default.asp">CSS Tutorial</a></p> 
+```
 
-``` 
+### Menggunakan Gambar Sebagai Link
 
-### HTML Links - Menggunakan Gambar sebagai Link
-  
-Untuk menggunakan gambar sebagai Link, cukup ketik tag <img> didalam tag <a> :
-  
-### Contoh
-  
-**HTML**
+Untuk menggunakan gambar sebagai Link, cukup ketik tag `<img>` didalam tag `<a>` :
+
+Contoh:
 
 ```html
-
- <a href="default.asp">
-<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+<a href="default.asp">
+   <img src="smiley.gif" alt="HTML tutorial" style="width:42px; height:42px;">
 </a> 
-
-``` 
-  
-### HTML Links - Link ke Alamat Email
-  
-Gunakan mailto: di dalam atribut href untuk membuat tautan yang membuka program email pengguna (agar mereka dapat mengirim email baru):
-  
-### Contoh
-  
-**HTML**
-
-```html
-
- <a href="mailto:someone@example.com">Send email</a> 
-
 ```
-  
-### HTML Links - Tombol sebagai Link
-  
-Untuk menggunakan Tombol HTML sebagai link, Anda harus membuat kode Javascript terlebih dahulu.
-  
-JavaScript memungkinkan Anda untuk menentukan apa yang terjadi pada peristiwa tertentu, seperti mengklik tombol:
 
-### Contoh
-  
-**HTML**
+### Link ke Alamat Email
+
+Gunakan `mailto:` di dalam atribut `href` untuk membuat tautan yang membuka program email pengguna (agar mereka dapat mengirim email baru):
+
+Contoh:
 
 ```html
-
- <button onclick="document.location='default.asp'">HTML Tutorial</button>  
-
+<a href="mailto:someone@example.com">Send email</a>
 ```
-  
-### HTML Links - Link Judul
-  
-Atribut judul menentukan informasi tambahan tentang suatu elemen. Informasi ini paling sering ditampilkan sebagai teks tooltip ketika mouse bergerak di atas elemen.
-  
-### Contoh
-  
-**HTML**
+
+### Tombol sebagai Link
+
+Untuk menggunakan tombol HTML sebagai link, Anda harus membuat kode Javascript terlebih dahulu. JavaScript memungkinkan Anda untuk menentukan apa yang terjadi pada _event_ tertentu, contohnya saat mengklik tombol.
+
+Contoh :
 
 ```html
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+```
 
- <a href="https://bellshade.org/html/" title="Go to Bellshade HTML section">Visit our HTML Tutorial</a>  
+### Link Title
 
-```    
-Referensi: https://www.w3schools.com/html/html_links.asp
+Atribut `title` menentukan informasi tambahan tentang suatu elemen. Informasi ini paling sering ditampilkan sebagai teks tooltip ketika mouse bergerak di atas elemen.
+
+Contoh:
+
+```html
+<a href="https://bellshade.org/html/" title="Go to Bellshade HTML section">Visit our HTML Tutorial</a>
+```
+
+## Referensi
+
+- [W3School](https://www.w3schools.com/html/html_links.asp)

@@ -11,6 +11,9 @@
   
 </p>
 
+## 🎉🎉 Selamat Datang di HTML-CSS 🎉🎉
+HTML (Hyper Text Markup Language) yaitu Bahasa pemrograman standar yang digunakan untuk membuat sebuah halaman web, yang kemudian dapat diakses untuk menampilkan berbagai informasi di dalam sebuah penjelajah web Internet(Browser). Sedangkan CSS (Cascading Style Sheets) berisi rangkaian instruksi yang menentukan bagaimana suatu text akan tertampil di halaman web. 
+
 ## :books: Daftar isi
 
 - [Peraturan dan Pedoman Kontribusi](#pushpin-peraturan-dan-pedoman-kontribusi)

@@ -35,7 +35,7 @@ Secara default, halaman tertaut akan ditampilkan di jendela browser saat ini. Un
 - `_parent` - Membuka dokumen dalam bingkai induk.
 - `_top` - Membuka dokumen di seluruh badan jendela.
 
-Gunakan target `_blank` untuk membuka link dokumen di halaman browser baru atau di tab:
+Gunakan target `_blank` untuk membuka link dokumen di halaman browser baru atau di tab.
 
 Contoh:
 
@@ -93,7 +93,7 @@ Contoh :
 
 ### Link Title
 
-Atribut `title` menentukan informasi tambahan tentang suatu elemen. Informasi ini paling sering ditampilkan sebagai teks tooltip ketika mouse bergerak di atas elemen.
+Atribut `title` menentukan informasi tambahan tentang suatu elemen. Informasi ini paling sering ditampilkan sebagai teks _tooltip_ ketika mouse bergerak di atas elemen.
 
 Contoh:
 

@@ -1,6 +1,6 @@
 # HTML Link
 
-Tautan HTML adalah _hyperlink_. Kamu bisa klik link ini dan akan berpindah ke dokumen lain. Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil.
+HTML Link adalah _hyperlink_. Kamu bisa klik link ini dan akan berpindah ke dokumen lain. Saat Anda menggerakkan mouse di atas tautan, panah mouse akan berubah menjadi tangan kecil.
 
 ## Sintaks
 

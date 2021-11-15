@@ -50,18 +50,18 @@ Kedua contoh di atas menggunakan **URL absolut** (alamat web lengkap) di atribut
 Contoh:
 
 ```html
-<h2>Absolute URLs</h2>
+<h2>URL Absolut</h2>
 <p><a href="https://bellshade.org/">Bellshade</a></p>
 <p><a href="https://www.google.com/">Google</a></p>
 
-<h2>Relative URLs</h2>
+<h2>URL Relatif</h2>
 <p><a href="html_images.asp">HTML Images</a></p>
 <p><a href="/css/default.asp">CSS Tutorial</a></p> 
 ```
 
 ### Menggunakan Gambar Sebagai Link
 
-Untuk menggunakan gambar sebagai Link, cukup ketik tag `<img>` didalam tag `<a>` :
+Untuk menggunakan gambar sebagai Link, cukup ketik tag `<img>` di dalam tag `<a>` :
 
 Contoh:
 

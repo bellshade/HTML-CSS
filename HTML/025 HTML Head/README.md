@@ -41,16 +41,16 @@ hasilnya :
 ## `<meta>`
 
 `<meta>` digunakan untuk menentukan karakter set, deskripsi halaman, pembuat halaman, dan lainnya. Selebihnya,
-lihat [materi ini](https://github.com/bellshade/HTML-CSS/tree/main/HTML/008%20HTML%20Style) untuk penjelasan lebih detail tentang `<meta>`
+lihat [materi ini](https://github.com/bellshade/HTML-CSS/tree/main/HTML/026%20HTML%20Meta) untuk penjelasan lebih detail tentang `<meta>`
 
 ## `<script>`
 
-`<script>` digunakan untuk menyisipkan script, biasanya menggunakan Javascript. Coba lihat [materi ini](https://github.com/bellshade/HTML-CSS/tree/main/HTML/008%20HTML%20Style) karena sudah pernah dibahas sebelumnya.
+`<script>` digunakan untuk menyisipkan script, biasanya menggunakan Javascript. Coba lihat [materi ini](https://github.com/bellshade/HTML-CSS/tree/main/HTML/023%20HTML%20Script) karena sudah pernah dibahas sebelumnya.
 
 ## `<base>`
 
 `<base>` digunakan untuk menentukkan URL dasar sebuah dokumen, artinya kita akan membuat sebuah alamat URL
 sebagai sandaran untuk semua relative URL. Kalian hanya boleh satu element `<base>`. di dalam element kalian
 harus `href`, `target`, atapun keduanya. Jika kita menambahkan attribute `target` pada element ini, maka
-default semua [hyperlink](https://github.com/bellshade/HTML-CSS/tree/main/HTML/008%20HTML%20Style) akan memiliki
+default semua [hyperlink](https://github.com/bellshade/HTML-CSS/tree/main/HTML/014%20HTML%20Hyperlink) akan memiliki
 attribute yang diberikan pada element `<base>`.

@@ -52,5 +52,5 @@ lihat [materi ini](https://github.com/bellshade/HTML-CSS/tree/main/HTML/026%20HT
 `<base>` digunakan untuk menentukkan URL dasar sebuah dokumen, artinya kita akan membuat sebuah alamat URL
 sebagai sandaran untuk semua relative URL. Kalian hanya boleh satu element `<base>`. di dalam element kalian
 harus `href`, `target`, atapun keduanya. Jika kita menambahkan attribute `target` pada element ini, maka
-default semua [hyperlink](https://github.com/bellshade/HTML-CSS/tree/main/HTML/014%20HTML%20Hyperlink) akan memiliki
+default semua [hyperlink](https://github.com/bellshade/HTML-CSS/tree/main/HTML/014%20HTML%20HyperLink) akan memiliki
 attribute yang diberikan pada element `<base>`.

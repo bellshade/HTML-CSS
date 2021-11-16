@@ -35,7 +35,8 @@ kalian bisa menggunakan tag `<link>` seperti ini.
 ```
 
 hasilnya :
-![Hasil favicon](img/favicon.png)
+
+- ![Hasil favicon](img/favicon.png)
 
 ## `<meta>`
 

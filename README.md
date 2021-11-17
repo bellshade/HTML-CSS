@@ -1,29 +1,39 @@
 # HTML-CSS
 
 <p align="center">
+    <img width="20%" src="https://i.imgur.com/EfBl8Hs.png"><br/><br/>
+    Part of Bellshade Project, managed by <a href="http://discord.gg/S4rrXQU"> WPU Discord Community</a> <br/>
+    WPU Community is the fastest growing software developer forum initiated by <a href="https://www.youtube.com/c/WebProgrammingUNPAS"> Mr. Sandhika Galih</a> <br/><br/>
     <a href="http://discord.gg/S4rrXQU"><img src="https://img.shields.io/discord/722002048643497994?logo=discord&logoColor=white&style=for-the-badge"></a>
     <img src="https://img.shields.io/github/workflow/status/bellshade/PHP/CI%20PHP%20PSR-12%20Linting?style=for-the-badge">
-    <img src="https://img.shields.io/github/license/bellshade/PHPAlgorithm?style=for-the-badge">
+    <img src="https://img.shields.io/github/license/bellshade/PHPAlgorithm?style=for-the-badge"> <br/> <br/>
+    Repositori ini berisi pembelajaran dan contoh-contoh dari impelementasi HTML dan CSS.
+  
 </p>
 
-Repositori ini berisi pembelajaran dan contoh-contoh dari impelementasi HTML dan CSS.
+## 🎉🎉 Selamat Datang di HTML-CSS 🎉🎉
+HTML (Hyper Text Markup Language) yaitu Bahasa pemrograman standar yang digunakan untuk membuat sebuah halaman web, yang kemudian dapat diakses untuk menampilkan berbagai informasi di dalam sebuah penjelajah web Internet(Browser). Sedangkan CSS (Cascading Style Sheets) berisi rangkaian instruksi yang menentukan bagaimana suatu text akan tertampil di halaman web. 
 
-## Daftar isi
+> ### Baru Belajar? Mulai dari [sini]() 🌟
+> Untuk menggunakan repositori dengan maksimal, kalian perlu belajar programming dasar dahulu. Silahkan ikuti alur belajar berikut untuk mempelajari dasar - dasar pemograman langsung menggunakan HTML dan CSS. 
 
-- [Peraturan dan Pedoman Kontribusi](#peraturan-dan-pedoman-kontribusi)
-- [Quick Access (Akses Cepat)](#quick-access-akses-cepat)
-  - [HTML](#html)
-  - [CSS](#css)
 
-## Peraturan dan Pedoman Kontribusi
+## :books: Daftar isi
+
+- [Peraturan dan Pedoman Kontribusi](#pushpin-peraturan-dan-pedoman-kontribusi)
+- [Quick Access (Akses Cepat)](#bookmark_tabs-quick-access-akses-cepat)
+  - [HTML](#blue_book-html)
+  - [CSS](#orange_book-css)
+
+## :pushpin: Peraturan dan Pedoman Kontribusi
 
 Dipersilahkan bila ingin melakukan open pull request atau kontribusi pada repositori **HTML-CSS**. Sebelum itu, bacalah terlebih dahulu [peraturan dan pedomannya](CONTRIBUTING.md) yang dapat ditemukan pada `CONTRIBUTING.md`.
 
-## Quick Access (Akses Cepat)
+## :bookmark_tabs: Quick Access (Akses Cepat)
 
 Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat link berikut:
 
-### HTML
+### :blue_book: HTML
 
 - [Introduction](HTML/001%20HTML%20Introduction/README.md)
 - [Definisi](HTML/000%20Definisi%20HTML/README.md)
@@ -64,7 +74,7 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 
 ---
 
-### CSS
+### :orange_book: CSS
 
 - [Basic](CSS/002%20CSS%20Basic/README.md)
 - [Syntax](CSS/003%20CSS%20Syntax/README.md)

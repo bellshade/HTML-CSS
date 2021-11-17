@@ -18,7 +18,6 @@ pull_request_rules:
       label:
         add:
           - html files
-          - request tim html untuk review
   - name: css label
     conditions:
       - files~=\.css$
@@ -26,7 +25,6 @@ pull_request_rules:
       label:
         add:
           - css files
-          - request tim html-css untuk review
   - name: markdown label
     conditions:
       - files~=\.md$
@@ -34,15 +32,6 @@ pull_request_rules:
       label:
         add:
           - markdown files
-          - request docs team untuk review
-  - name: review docs team untuk file markdown
-    conditions:
-      - label=markdown files
-    actions:
-      request_reviews:
-        teams:
-          - "@bellshade/docs-team"
-
   - name: review tim htmlcss untuk review file html
     conditions:
       - label=html files
@@ -50,7 +39,6 @@ pull_request_rules:
       request_reviews:
         teams:
           - "@bellshade/htmlcss-team"
-
   - name: review tim htmlcss untuk review file css
     conditions:
       - label=css files

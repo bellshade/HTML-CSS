@@ -46,7 +46,7 @@ Secara default, tautan akan muncul sebagai berikut di semua browser:
 Secara default, halaman tertaut akan ditampilkan di jendela browser saat ini. Untuk mengubahnya, Anda harus menentukan target lain untuk tautan tersebut. Atribut `target` menentukan tempat untuk membuka dokumen tertaut. Atribut `target` dapat memiliki salah satu dari nilai berikut:
 
 - `_self` - Bawaan. Membuka dokumen di jendela/tab yang sama dengan yang diklik.
-- `_blank` - Membuka dokumen di jendela atau tab baru.
+- `_blank` untuk membuka link dokumen ke halaman atau tab browser yang baru.
 - `_parent` - Membuka dokumen dalam bingkai induk.
 - `_top` - Membuka dokumen di seluruh badan jendela.
 

@@ -1,6 +1,6 @@
 # HTML Link
 
-Bidang header entitas Tautan HTTP menyediakan sarana untuk membuat serial satu atau beberapa tautan di header HTTP. Secara semantik setara dengan elemen <link> HTML.
+Header tautan HTTP menyediakan sarana untuk membuat serial satu atau beberapa tautan di header HTTP. Secara semantik setara dengan elemen <link> HTML.
 
 ### Syntax
 

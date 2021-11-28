@@ -2,7 +2,7 @@
 
 ## Apa itu CSS border?
 
-Property css border ini adalah untuk memberikan efek garis ke sekitar elemen yang diterapkan.
+Property CSS border ini adalah untuk memberikan efek garis ke sekitar elemen yang diterapkan property ini.
 
 ## Nilai-nilai dalam CSS Border ini
 
@@ -21,7 +21,7 @@ Contoh:
     }
 ```
 
-`border-style:` mengatur bagaimana garis border digambar disekitar elemen.
+`border-style:` mengatur bagaimana bentuk garis border digambar disekitar elemen.
 
 - `none` tidak ada garis border yang akan digambar dan ditunjukan.
 - `solid` garis yang terus menerus atau solid.
@@ -52,12 +52,31 @@ Berikut ini adalah cara penggunaan style border yang efektif.
     }
 ```
 
-## Properti unik untuk memberikan efek border kepada elemen
+## Border sides
 
-`border-collapse:` property memberikan jarak terhadapborder dalam sebuah elemen.
+Di CSS ada juga property yang bisa kita gunakan untuk mengatur style border pada setiap sisi elemen kita.
 
-- `collapse`
-- `separate`
+- `border-top:` untuk mengatur style border bagian atas
+- `border-bottom:` untuk mengatur style border bagian bawah
+- `border-left:` untuk mengatur style border sebelah kiri
+- `border-right:` untuk mengatur style border bagian kanan
+
+Untuk cara penggunaan masih sama seperti sebelumnya yaitu
+
+```css
+    #border {
+        border-top: border-width / border-style / color;
+        border-bottom: border-width / border-style / color;
+        border-left: border-width / border-style / color;
+        border-right: border-width / border-style / color;
+    }
+```
+## Property unik untuk memberikan efek border kepada elemen
+
+`border-collapse:` property menentukan apakah border dalam setiap sel yang ada pada `</table>` akan digabung atau dipisah pada setiap selnya.
+
+- `:collapse`
+- `:separate`
 
 ```css
     #border {
@@ -65,7 +84,7 @@ Berikut ini adalah cara penggunaan style border yang efektif.
     }
 ```
 
-`border-image:` property ini memberikan efek garis border gambar.
+`border-image:` selain memberikan warna kepada garis border, ada juga property yang bisa digunakan untuk membuat border menjadi bergambar.
 
 Contoh penggunaan:
 
@@ -75,7 +94,7 @@ Contoh penggunaan:
     }
 ```
 
-`border-radius:` property ini memberikan efek sudut elemen menjadi lebih melingkar.
+`border-radius:` property ini memberikan efek pada setiap sudut elemen menjadi lebih melingkar.
 
 ```css
     #border {

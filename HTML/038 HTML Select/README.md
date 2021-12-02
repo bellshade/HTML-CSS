@@ -6,7 +6,6 @@ Buat daftar drop-down dengan empat opsi:
 
 ```html
 <label for="cars">Choose a car:</label>
-
 <select name="cars" id="cars">
   <option value="volvo">Volvo</option>
   <option value="saab">Saab</option>

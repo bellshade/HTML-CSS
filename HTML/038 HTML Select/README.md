@@ -37,7 +37,7 @@ Tag <link> juga masuk dalam kategori tabel Atribut Event HTML
 
 ## Contoh Lain
 
-Gunakan <select> dengan tag <optgroup>:
+Gunakan Select dengan tag <optgroup>:
 
 ```html
 <label for="cars">Choose a car:</label>

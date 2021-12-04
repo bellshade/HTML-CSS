@@ -29,11 +29,11 @@ Buat daftar drop-down dengan empat opsi:
 
 ## Atribut Global HTML
 
-Tag <link> juga masuk dalam kategori tabel Atribut Global HTML
+Tag <select> juga masuk dalam kategori tabel Atribut Global HTML
 
 ## Atribut Event HTML
 
-Tag <link> juga masuk dalam kategori tabel Atribut Event HTML
+Tag <select> juga masuk dalam kategori tabel Atribut Event HTML
 
 ## Contoh Lain
 

@@ -75,7 +75,7 @@ Emoji pun juga karakter dari alpabet UTF-8 :
 </html>
 ```
 
-Sejak Emoji adalah karakter, Emoji bisa disalin, ditampilkan, dan diukur seperti karakter lain di HTML.
+Karena Emoji adalah karakter, Emoji bisa disalin, ditampilkan, dan diukur seperti karakter lain di HTML.
 
 # Contoh
 

@@ -16,7 +16,7 @@ Lalu datang Browser yang mendukung untuk warna, font tulisan, gambar, dan multim
 
 ## Format Multimedia
 
-Elemen Multimedia(seperti audio atau video) disimpan dalam file media.
+Elemen Multimedia (seperti audio atau video) disimpan dalam file media.
 
 Cara paling umum untuk menemukan jenis file, adalah dengan melihat ekstensi file.
 

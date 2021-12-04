@@ -4,7 +4,7 @@ Multimedia dalam web adalah suara, musik, video, film, dan animasi.
 
 ## Apa itu Multimedia?
 
-Multimedia datang dari banyak format yang berbeda. Bisa dalam apapun yang anda dengar dan lihat, seperti gambar, musik, suara,video, rekaman, film, animasi, dan banyak lagi.
+Multimedia datang dari banyak format yang berbeda. Bisa dalam apapun yang anda dengar dan lihat, seperti gambar, musik, suara, video, rekaman, film, animasi, dan banyak lagi.
 
 Halaman Web seringkali berisi tentang elemen multimedia dalam format dan tipe yang berbeda.
 
@@ -20,7 +20,7 @@ Elemen Multimedia(seperti audio atau video) disimpan dalam file media.
 
 Cara paling umum untuk menemukan jenis file, adalah dengan melihat ekstensi file.
 
-File multimedia punya format dan ekstensiyang berbeda beda. seperti: .wav, .mp3, .mp4, .mpg, .wmv, dan .avi .
+File multimedia punya format dan ekstensiyang berbeda beda. seperti: `.wav`, `.mp3`, `.mp4`, `.mpg`, `.wmv`, dan `.avi` .
 
 ## Format Video Umum
 

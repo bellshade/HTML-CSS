@@ -1,4 +1,4 @@
-### HTML Tag Select
+### HTML Tag `<select>`
 
 ## Contoh
 
@@ -16,8 +16,8 @@ Buat daftar drop-down dengan empat opsi:
 
 ## Definisi dan Penggunaan
 
-- Elemen <select> digunakan untuk membuat daftar drop-down.
-- Elemen <select> paling sering digunakan dalam formulir, untuk mengumpulkan input user.
+- Elemen `<select>` digunakan untuk membuat daftar drop-down.
+- Elemen `<select>` paling sering digunakan dalam formulir, untuk mengumpulkan input user.
 - Atribut name diperlukan untuk mereferensikan data formulir setelah formulir dikirimkan (jika Anda menghilangkan atribut nama, tidak ada data dari daftar drop-down yang akan dikirimkan).
 - Atribut id diperlukan untuk mengaitkan daftar drop-down dengan label.
 
@@ -29,15 +29,15 @@ Buat daftar drop-down dengan empat opsi:
 
 ## Atribut Global HTML
 
-Tag select juga masuk dalam kategori tabel Atribut Global HTML
+Tag `<select>` juga masuk dalam kategori tabel Atribut Global HTML
 
 ## Atribut Event HTML
 
-Tag select juga masuk dalam kategori tabel Atribut Event HTML
+Tag `<select>` juga masuk dalam kategori tabel Atribut Event HTML
 
 ## Contoh Lain
 
-Gunakan Select dengan tag <optgroup>:
+Gunakan `<select>` dengan tag <optgroup>:
 
 ```html
 <label for="cars">Choose a car:</label>
@@ -52,9 +52,5 @@ Gunakan Select dengan tag <optgroup>:
   </optgroup>
 </select>
 ```
-
-## Pengaturan CSS Bawaan
-
-tidak ada.
 
 Sumber : https://www.w3schools.com/tags/tag_select.asp

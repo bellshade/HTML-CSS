@@ -1,4 +1,4 @@
-# HTML Tag <link>
+# HTML Tag `<link>`
 
 ### Contoh
 
@@ -12,9 +12,9 @@ Tautan ke external style sheet:
 
 ### Definisi dan Penggunaan
 
-- Tag <link> mendefinisikan hubungan antara dokumen saat ini dan sumber daya eksternal.
-- Tag <link> paling sering digunakan untuk menautkan ke external style sheet atau untuk menambahkan favicon ke situs web Anda.
-- Elemen <link> adalah elemen kosong, hanya berisi atribut.
+- Tag `<link>` mendefinisikan hubungan antara dokumen saat ini dan sumber daya eksternal.
+- Tag `<link>` paling sering digunakan untuk menautkan ke external style sheet atau untuk menambahkan favicon ke situs web Anda.
+- Elemen `<link>` adalah elemen kosong, hanya berisi atribut.
 
 ### Browser Pendukung
 
@@ -24,15 +24,15 @@ Tautan ke external style sheet:
 
 ### Atribut Global HTML
 
-Tag <link> juga masuk dalam kategori tabel Atribut Global HTML
+Tag `<link>` juga masuk dalam kategori tabel Atribut Global HTML
 
 ### Atribut Event HTML
 
-Tag <link> juga masuk dalam kategori tabel Atribut Event HTML
+Tag `<link>` juga masuk dalam kategori tabel Atribut Event HTML
 
 ## Pengaturan CSS Bawaan
 
-Sebagian besar browser akan menampilkan elemen <link> dengan nilai bawaan berikut:
+Sebagian besar browser akan menampilkan elemen `<link>` dengan nilai bawaan berikut:
 
 ```css
 link {

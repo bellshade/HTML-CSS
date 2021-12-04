@@ -1,8 +1,8 @@
-### HTML Symbols
+### HTML Simbol
 
 Simbol yang tidak ada di keyboard Anda juga dapat ditambahkan dengan menggunakan entitas.
 
-## Entitas HTML Symbols
+## Entitas HTML Simbol
 
 Banyak simbol matematika, teknis, dan mata uang, tidak ada pada keyboard normal.
 

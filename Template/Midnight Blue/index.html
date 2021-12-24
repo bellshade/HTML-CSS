@@ -1,0 +1,520 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" data-color-mode="light">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Tab Icon -->
+    <link rel="icon" href="img/LV-logo-1.webp">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <title>Levianth Portfolio</title>
+
+</head>
+
+<body id="onTop">
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top z-10 navs-borders">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="/"><img src="img/LV-logo-1.webp" alt="logo" title="YourName" width="100%"
+                    height="36"></a> -->
+            <div class="nav-logos"></div>
+            <button class="navbar-toggler border-0 pr-0" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <img src="img/burger-expand-3.webp" alt="option" title="Expand Navigation" width="26"></span> -->
+                <div class="nav-menu" onclick="openNavMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto navbarLinks">
+                    <a class="nav-item nav-link mx-2" href="#portfolio" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">Portfolio</a>
+                    <a class="nav-item nav-link mx-2" href="#skill" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">Skill</a>
+                    <a class="nav-item nav-link mx-2" href="#about" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">About</a>
+                    <a class="nav-item nav-link mx-2" href="#history" data-toggle="collapse"
+                        data-target=".navbar-collapse.show">History</a>
+                </div>
+                <a class="nav-item nav-link mx-2" href="#contactme" data-toggle="collapse"
+                    data-target=".navbar-collapse.show"><i class="fas fa-paper-plane mr-2"></i>Contact me!</a>
+                <button
+                    class="btnChangeTheme btn btn-outline-dark btn-sm border-0 ml-3 shadow-none d-block mx-auto mx-lg-0 nav-link"
+                    data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <i class="far fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- End of static navbar -->
+
+    <!-- Go top button -->
+    <div class="row">
+        <div class="col">
+            <a class="goTop btn btn-secondary fixed-bottom mr-3 mb-3 ml-auto border-0 d-none" href="#onTop"
+                style="width: 50px; height: 50px;">
+                <i class="fas fa-chevron-up h4 pt-2"></i>
+            </a>
+        </div>
+    </div>
+    <!-- End of go top button -->
+
+    <!-- Jumbotron section -->
+    <div id="jumbotron" class="container mb-lg-5 mb-0">
+        <div class="row">
+
+            <div class="col-md-4 text-center order-md-2">
+                <img class="jumbotronImg shadow-lg bg-white" height="380" src="img/profile-3.webp" alt="Your Photo">
+            </div>
+
+            <div class="col-md-6 offset-lg-1 jumbotronTitle">
+                <small class="mb-0">Hello, my name is</small>
+                <h1>Levianth </h1>
+                <p class="mb-2 font-weight-lighter">Front-end Engineer | Audio Engineer Enthusiast</p>
+                <a href="https://github.com/LevianthProject" class="h4 mx-1 text-secondary" title="Github"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.youtube.com/channel/UC-q2q0fTVFCNLs4zrca-P8A" class="h4 mx-1 text-secondary"
+                    title="Youtube"><i class="fab fa-youtube"></i></a>
+                <br>
+                <a href="#about" class="btn btn-dark nav-item mt-4 py-2">About me</a>
+            </div>
+        </div>
+    </div>
+    <!-- End of jumbotron section -->
+
+    <!-- About me section -->
+    <div id="about" class="container mb-5 containers-border-1 p-lg-3">
+        <div class="row">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col-md">
+                        <h3 class="mb-3 text-center containers-border-1 py-2">About me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col offset-lg-2">
+                        <div class="card p-3 containers-border-1 shadow">
+                            <div class="card-body">
+                                <p class="card-text text-justify">Hello, my name is Levianth a.k.a GrZ, my friends
+                                    called me Levi. I'm a Front-end Engineer who love CSS so Much as I love My
+                                    girlfriend and I like how audio works as an Audio Engineer </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of about me section -->
+
+    <!-- Hobby section -->
+    <div id="hobby" class="container mb-5 containers-border-1 p-lg-3">
+        <div class="row mb-4">
+            <div class="col-md">
+                <h3 class="text-center containers-border-1 py-2">My Hobbies</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="card hobbys-borders border-0 p-2 bg-transparent mb-3" style="max-width: 50%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <img src="img/hobby/coding.webp" class="card-img shadow-lg"
+                                title="Photo bt Luca Bravo on Unsplash" alt="hobby">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body p-0 pl-3 mt-2 mb-3">
+                                <h5 class="card-title">Coding</h5>
+                                <p class="card-text">Find project inspirations, try something new</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="card hobbys-borders border-0 p-2 bg-transparent mb-3 float-right" style="max-width: 50%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 order-md-2 d-flex align-items-center">
+                            <img src="img/hobby/music.webp" class="card-img shadow-lg"
+                                title="Photo bt Luca Bravo on Unsplash" alt="hobby">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body p-0 pr-md-3 pl-3 mt-2 mb-3 text-md-right">
+                                <h5 class="card-title">Music</h5>
+                                <p class="card-text">EDM, POP, Hip Hop Trap.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="card hobbys-borders border-0 p-2 bg-transparent mb-3" style="max-width: 50%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <img src="img/hobby/community.webp" class="card-img shadow-lg"
+                                title="Photo bt Luca Bravo on Unsplash" alt="hobby">
+                        </div>
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="card-body p-0 pl-3 mt-2 mb-3">
+                                <h5 class="card-title">Community</h5>
+                                <p class="card-text">Discord Community Lovers!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of hobby section -->
+
+    <!-- Skill section -->
+    <div id="skill" class="container mb-5 containers-border p-lg-3">
+        <div class="row mb-4">
+            <div class="col-md text-center">
+                <h3 class="containers-border-1 py-2">My Skills</h3>
+            </div>
+        </div>
+
+        <div class="content-skills mb-2">
+            <!-- card -->
+            <div class="card-skills containers-border-1">
+
+                <div class="icon-skills">
+                    <i class="fas fa-laptop-code fonts-icons-2 text-center"></i>
+                </div>
+                <p class="title-skills">Programming</p>
+                <p class="text-skills">HTML, CSS, JavaScript</p>
+
+            </div>
+            <!-- end card -->
+            <!-- card -->
+            <div class="card-skills containers-border-1">
+
+                <div class="icon-skills">
+                    <i class="fas fa-music fonts-icons-2 text-center"></i>
+                </div>
+                <p class="title-skills">Music</p>
+                <p class="text-skills">Music Producer, Audio Engineer</p>
+
+            </div>
+            <!-- end card -->
+            <!-- card -->
+            <div class="card-skills containers-border-1">
+
+                <div class="icon-skills">
+                    <i class="fas fa-bezier-curve fonts-icons-2 text-center"></i>
+                </div>
+                <p class="title-skills">Others</p>
+                <p class="text-skills">Web Design, Product Manager, Community Enthusiast</p>
+
+            </div>
+            <!-- end card -->
+
+        </div>
+    </div>
+    <!-- End of skill section -->
+
+    <!-- Portfolio section -->
+    <div id="portfolio" class="container containers-border-1 p-lg-3 mb-5">
+        <div class="row mb-4">
+            <div class="col-md text-center">
+                <h3 class="containers-border-1 py-2">My Portfolio</h3>
+            </div>
+        </div>
+        <ul class="cards">
+            <li>
+                <a target="_blank" href="https://manh21.github.io/LumiFanpage/" class="card-main">
+                    <img src="img/portfolio/LumiN0VA.webp" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path /></svg>
+                            <img class="card__thumb" src="img/profile-2.webp" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">LumiFanPage</h3>
+                                <span class="card__status">2 years ago</span>
+                            </div>
+                        </div>
+                        <p class="card__description">A fansite for vtuber from miHoYo called LumiN0VA Desktop which made
+                            me a content creator on the official server</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://levianthproject.github.io/wedding-invitation/" class="card-main">
+                    <img src="img/portfolio/weddings.webp" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path /></svg>
+                            <img class="card__thumb" src="img/profile-1.webp" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Wedding Invitation</h3>
+                                <span class="card__status">5 months ago</span>
+                            </div>
+                        </div>
+                        <p class="card__description">A simple online invitation made for someone who is suitable for
+                            making online invitations today</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://shopperly.netlify.app/" class="card-main">
+                    <img src="img/portfolio/shopperly.webp" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path /></svg>
+                            <img class="card__thumb" src="img/profile-2.webp" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Shopperly</h3>
+                                <span class="card__status">1 year ago</span>
+                            </div>
+                        </div>
+                        <p class="card__description">A simple online e-commerce website with no other function other
+                            than just displaying the UI</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://bellshade.org/" class="card-main">
+                    <img src="img/portfolio/bellshades.webp" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path /></svg>
+                            <img class="card__thumb" src="img/profile-1.webp" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Bellshade Website</h3>
+                                <span class="card__status">2 months ago</span>
+                            </div>
+                        </div>
+                        <p class="card__description">A community for a place to learn programming languages in
+                            Indonesian</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://github.com/LevianthProject/Bellshade-Social-Media" class="card-main">
+                    <img src="img/portfolio/bmedia.webp" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                <path /></svg>
+                            <img class="card__thumb" src="img/profile-1.webp" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Bellshade Media</h3>
+                                <span class="card__status">Coming soon</span>
+                            </div>
+                        </div>
+                        <p class="card__description">An upcoming project that looks like Instagram and more attractive
+                        </p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of portfolio section -->
+
+    <!-- History section -->
+    <div id="history" class="container mb-5 containers-border">
+        <div class="row">
+            <div class="col-md align-self-center text-center mt-3 mb-0">
+                <h3 class="containers-border-1 py-2">My Journey</h3>
+            </div>
+        </div>
+        <div class="timeline">
+
+            <h2 class="timeline__item timeline__item--year">2016</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Learn how to Produce a Music</h3>
+                <p class="timeline__blurb">Started to learn a music from basic using FL Studio DAW.</p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">2017</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Self Released Songs</h3>
+                <p class="timeline__blurb">Create and Collaborate with my friends on Youtube.</p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">2018</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Learn Mixing & Mastering</h3>
+                <p class="timeline__blurb">After experiments with a lot of songs created by myself and my friends I
+                    started to learn audio engineering stuff more deeply.</p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">2019</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Start to Learn a Web Development</h3>
+                <p class="timeline__blurb">Started to watch and learn a lot of Web development on youtube especially at
+                    <a href="https://www.youtube.com/c/WebProgrammingUNPAS">WPU.</a></p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">2020</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Created Front-end Project </h3>
+                <p class="timeline__blurb">I really like CSS so I created a lot of Front-end projects on my
+                    <a href="https://github.com/LevianthProject">Github.</a> </p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">2021</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Become a Staff and Owner At <a href="https://discord.gg/S4rrXQU">WPU
+                        Server</a> & <a href="https://bellshade.org/">Bellshade</a> </h3>
+                <p class="timeline__blurb">Recruited by Mr. Sandhika Galih and became WPU Discord Staff for 1 year ago
+                    and i created and collaborated with other moderators on the discord server to create a
+                    "Bellshade".</a>
+                </p>
+            </div>
+
+            <h2 class="timeline__item timeline__item--year">Current</h2>
+
+            <div class="timeline__item">
+                <h3 class="timeline__title">Working as a Front-end Engineer and Audio Engineering</h3>
+                <p class="timeline__blurb">Freelance as a Front-end engineer and Audio engineering on internet!
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- End of history section -->
+
+    <!-- Contact me section -->
+    <form action="mailto:levianthproject@gmail.com" enctype="text/plain">
+        <div id="contactme" class="container containers-border p-lg-3">
+            <div class="row">
+                <div class="col-md align-self-center text-center mb-3">
+                    <h3 class="containers-border-1 py-2">Contact me!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <form>
+                        <div class="form-group containers-border-1">
+                            <input type="text" class="form-control shadow-sm" id="name" name="name" placeholder="name"
+                                required autocomplete="off">
+                        </div>
+                        <div class="form-group containers-border-1">
+                            <input type="email" class="form-control shadow-sm" id="email" name="email"
+                                placeholder="email" required autocomplete="off">
+                        </div>
+                        <div class="form-group containers-border-1">
+                            <textarea class="form-control shadow-sm" id="messages" name="messages" rows="10"
+                                placeholder="message" required autocomplete="off"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-dark px-3 py-2 font-weight-bold btn-send containers-border-1">Send</button>
+                        <button class="btn btn-dark px-3 py-2 font-weight-bold btn-loading d-none" type="button"
+                            disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
+                    </form>
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert mt-3" role="alert">
+                        <strong>Yeay!</strong> The messages has been sent :)
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- End of contact me section -->
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 myFooter" style="margin-top: 140px;">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-md-6 mb-3">
+                    <h6 class="mb-2">Contributions</h6>
+                    <ul>
+                        <li><a class="small d-block" href="https://discord.gg/S4rrXQU">WPU Discord Server</a></li>
+                        <li><a class="small d-block" href="https://bellshade.org/">Bellshade</a></li>
+                        <li><a class="small d-block" href="https://manh21.github.io/LumiFanpage/">Object
+                                Lumi Fansite</a><a class="small d-block" href="https://discord.gg/n0vadesktop">For
+                                LumiN0VA Desktop</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <h6 class="mb-2">Github Profile</h6>
+                    <ul>
+                        <li><a class="small d-block" href="https://github.com/LevianthProject">Github</a></li>
+                    </ul>
+                    <h6 class="mb-3">Buy Me a Coffee</h6>
+                    <a href="https://www.buymeacoffee.com/levianthproject">
+                        <button type="button" class="btn btn-dark px-3 py-2 font-weight-bold containers-border-1">
+                            <i class="fas fa-coffee"></i>
+                            Coffee
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="row pt-3 border-top border-light">
+                <div class="col-md-6 text-center text-md-left pb-3">
+                    <small class="mr-2">© 2021. Made with ❤ By Levianth x Bellshade</small>
+                </div>
+                <div class="col-md-6 text-center text-md-right pb-3">
+
+                    <a href="https://github.com/LevianthProject" class="h4 mx-1 text-secondary" title="Github"><i
+                            class="fab fa-github"></i></a>
+
+                    <a href="https://www.youtube.com/channel/UC-q2q0fTVFCNLs4zrca-P8A" class="h4 mx-1 text-secondary"
+                        title="Youtube"><i class="fab fa-youtube"></i></a>
+
+                    <a href="https://www.instagram.com/soundart_music/" class="h4 mx-1 text-secondary"
+                        title="Instagram"><i class="fab fa-instagram"></i></a>
+
+                    <a href="https://discordapp.com/users/738959539251970048/" class="h4 mx-1 text-secondary"
+                        title="Discord"><i class="fab fa-discord"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/jquery/jquery.easing.1.3.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- My own script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

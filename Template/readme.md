@@ -5,3 +5,4 @@
 - [Devrich Template](https://devrich.netlify.app/)
 - [Bxtre Template](https://bxtre.netlify.app/)
 - [Login Form Template](https://loginformtemplate.netlify.app/)
+- [Midnight Blue Template ](http://www.levianthz.xyz/)

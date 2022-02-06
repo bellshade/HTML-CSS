@@ -104,9 +104,9 @@ Selanjutnya, elemen yang memiliki property  `display: inline;` juga hanya memili
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis <span>cupiditate numquam</span> ipsum, doloribus architecto, praesentium, animi itaque eaque expedita eius.</p>
 
 <style>
-	span {
-		border: 1px solid red;
-	}
+    span {
+        border: 1px solid red;
+    }
 </style>
 ```
 
@@ -120,11 +120,11 @@ Terlihat bahwa elemen tersebut hanya memiliki  [lebar dan tinggi](https://github
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis <span>cupiditate numquam</span> ipsum, doloribus architecto, praesentium, animi itaque eaque expedita eius.</p>
 
 <style>
-	span {
-		border: 1px solid red;
-		width: 200px;
-		height: 200px;
-	}
+    span {
+        border: 1px solid red;
+        width: 200px;
+        height: 200px;
+    }
 </style>
 ```
 
@@ -138,11 +138,11 @@ Elemen `inline` akan menerima [margin](https://github.com/bellshade/HTML-CSS/tre
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis <span>cupiditate numquam</span> ipsum, doloribus architecto, praesentium, animi itaque eaque expedita eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
 <style>
-	span {
-		border: 1px solid red;
-		padding: 1rem;
-		margin: 1rem;
-	}
+    span {
+        border: 1px solid red;
+        padding: 1rem;
+        margin: 1rem;
+    }
 </style>
 ```
 
@@ -182,9 +182,9 @@ Secara default elemen ini akan membentang dari kiri ke kanan mengisi penuh [leba
 <p>Hi! Aku adalah elemen block</p>
 
 <style>
-	p {
-		background-color: violet;
-	}
+    p {
+        background-color: violet;
+    }
 </style>
 ```
 
@@ -198,21 +198,21 @@ Contoh lain jika saya memasukkan elemen `<p>` tersebut ke dalam sebuah `<div>` y
 
 ```html
 <div>
-	<p>Hi! Aku adalah elemen block</p>
+    <p>Hi! Aku adalah elemen block</p>
 </div>
 
 <style>
-	div {
-		width: 30rem;
-	}
+    div {
+        width: 30rem;
+    }
 
-	p {
-		background-color: violet;
-	}
+    p {
+        background-color: violet;
+    }
 </style>
 ```
 
-Maka hasil yang saya dapatkan adalah seperti ini: 
+Maka hasil yang saya dapatkan adalah seperti ini:
 
 ![Hasil display inline 3](https://i.ibb.co/0jDqCb7/Screenshot-46.png)
 
@@ -225,13 +225,13 @@ Selanjutnya kita dapat memanipulasi banyak hal pada elemen `block` ini, baik men
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, minima.</p>
 
 <style>
-	p {
-		width: 50%;
-		height: 200px;
-		padding: 2rem;
-		margin: 2rem;
-		background-color: violet;
-	}
+    p {
+        width: 50%;
+        height: 200px;
+        padding: 2rem;
+        margin: 2rem;
+        background-color: violet;
+    }
 </style>
 ```
 
@@ -243,18 +243,19 @@ Hasil:
 > lain menjauh secara horizontal dan juga vertikal.
 
 ### Inline-Block
+
 Display yang memiliki *value* `inline-block` ini memiliki karakteristik gabungan dari dua *value* sebelumnya yaitu, `inline` dan `block`. Jadi, elemen ini akan tampil secara menyamping seperti `display: inline` namun tetap bisa diatur [lebar, tinggi](https://github.com/bellshade/HTML-CSS/tree/main/CSS/012%20CSS%20Size), [margin](https://github.com/bellshade/HTML-CSS/tree/main/CSS/010%20CSS%20Margin), dan [padding](https://github.com/bellshade/HTML-CSS/tree/main/CSS/011%20CSS%20Padding)nya seperti `display: block`. Perhatikan contoh dibawah ini, saya sudah menambahkan `display: inline-block;` pada contoh sebelumnya seperti ini:
 
 ```html
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae perspiciatis <span>cupiditate numquam</span> ipsum, doloribus architecto, praesentium, animi itaque eaque expedita eius. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
 <style>
-	span {
-		border: 1px solid red;
-		display: inline-block;
-		width: 200px;
-		height: 200px;
-	}
+    span {
+        border: 1px solid red;
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+    }
 </style>
 ```
 
@@ -288,25 +289,25 @@ Sebagai contoh, kita akan membuat tabel dengan dan tanpa menggunakan elemen `<ta
 
 ```html
 <table border="1">
-	<thead>
-		<tr>
-			<th>Materi</th>
-			<th>Dibuat oleh</th>
-			<th>Tanggal</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>CSS Display</td>
-			<td>Abi Noval Fauzi</td>
-			<td>06 Februari 2022</td>
-		</tr>
-	</tbody>
-	<tfoot>
-		<tr>
-			<td colspan="3">Ini adalah tabel yang dibuat meggunakan elemen <code>&lt;table&gt;</code< /td>
-		</tr>
-	</tfoot>
+    <thead>
+        <tr>
+            <th>Materi</th>
+            <th>Dibuat oleh</th>
+            <th>Tanggal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CSS Display</td>
+            <td>Abi Noval Fauzi</td>
+            <td>06 Februari 2022</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Ini adalah tabel yang dibuat meggunakan elemen <code>&lt;table&gt;</code< /td>
+        </tr>
+    </tfoot>
 </table>
 ```
 
@@ -318,27 +319,27 @@ Selanjutnya, bagaimana cara kita membuat tabel tanpa menggunakan `<table>`? Pert
 
 ```html
 <div class="table">
-	<div class="thead">
-		<div class="tr">
-			<div class="th">Materi</div>
-			<div class="th">Dibuat Oleh</div>
-			<div class="th">Tanggal</div>
-		</div>
-	</div>
-	<div class="tbody">
-		<div class="tr">
-			<div class="td">CSS Display</div>
-			<div class="td">Abi Noval Fauzi</div>
-			<div class="td">06 Februari 2022</div>
-		</div>
-	</div>
-	<div class="tfoot">
-		<div class="tr">
-			<div class="td colspan-3">
-				Ini adalah tabel yang dibuat tanpa meggunakan elemen <code>&lt;table&gt;</code>
-			</div>
-		</div>
-	</div>
+    <div class="thead">
+        <div class="tr">
+            <div class="th">Materi</div>
+            <div class="th">Dibuat Oleh</div>
+            <div class="th">Tanggal</div>
+        </div>
+    </div>
+    <div class="tbody">
+        <div class="tr">
+            <div class="td">CSS Display</div>
+            <div class="td">Abi Noval Fauzi</div>
+            <div class="td">06 Februari 2022</div>
+        </div>
+    </div>
+    <div class="tfoot">
+        <div class="tr">
+            <div class="td colspan-3">
+                Ini adalah tabel yang dibuat tanpa meggunakan elemen <code>&lt;table&gt;</code>
+            </div>
+        </div>
+    </div>
 </div>
 ```
 
@@ -350,7 +351,7 @@ Tidak terlihat seperti tabel bukan? Maka dari itu, sekarang kita akan bermain me
 
 ```css
 .table {
-	display: table;
+    display: table;
 }
 ```
 
@@ -358,15 +359,15 @@ Lalu kita akan membuat `section` tabel seperti elemen `<thead>`, `<tbody>`, dan 
 
 ```css
 .thead {
-	display: table-header-group;
+    display: table-header-group;
 }
 
 .tbody {
-	display: table-row-group;
+    display: table-row-group;
 }
 
 .tfoot {
-	display: table-footer-group;
+    display: table-footer-group;
 }
 ```
 
@@ -376,7 +377,7 @@ Untuk membuat kolom (`<tr>`), kita akan menggunakan `display: table-row;` sepert
 
 ```css
 .tr {
-	display: table-row;
+    display: table-row;
 }
 ```
 
@@ -384,7 +385,7 @@ Untuk membuat baris (`<td>` / `<th>`), kita akan menggunakan `display: table-cel
 
 ```css
 .td, .th {
-	display: table-cell;
+    display: table-cell;
 }
 ```
 
@@ -392,8 +393,8 @@ Supaya `.th` kita mirip dengan elemen `<th>` milik `<table>`, maka kita harus me
 
 ```css
 .th {
-	font-weight: 700;
-	text-align: center;
+    font-weight: 700;
+    text-align: center;
 }
 ```
 
@@ -407,15 +408,15 @@ Sekarang kita tambahkan border dulu pada tabel dan kolom kita seperti ini:
 
 ```css
 .table {
-	display: table;
-	border: 1px solid #2c2c2c;
-	border-spacing: 2px;
+    display: table;
+    border: 1px solid #2c2c2c;
+    border-spacing: 2px;
 }
 
 .td,
 .th {
-	display: table-cell;
-	border: 1px solid #2c2c2c;
+    display: table-cell;
+    border: 1px solid #2c2c2c;
 }
 ```
 
@@ -429,7 +430,7 @@ Sekarang kita coba pakai properti `column-span` seperti dibawah ini:
 
 ```css
 .colspan-3 {
-	column-span: 3;
+    column-span: 3;
 }
 ```
 
@@ -437,7 +438,7 @@ Ternyata tidak ada perubahan, bagaimana kalau kita pakai *value* `all` seperti i
 
 ```css
 .colspan-3 {
-	column-span: all;
+    column-span: all;
 }
 ```
 
@@ -445,7 +446,7 @@ Ternyata tidak bisa juga, karena bukan seperti itu cara menggunakan `column-span
 
 ```css
 .colspan-3 {
-	width: 300%;
+    width: 300%;
 }
 ```
 
@@ -457,8 +458,8 @@ Karena dia adalah kolom, jadi dia akan terus melebar di kolom yang sama, jadi mu
 
 ```css
 .colspan-3 {
-	display: table;
-	width: 300%;
+    display: table;
+    width: 300%;
 }
 ```
 
@@ -472,11 +473,11 @@ Ada satu properti CSS bernama `table-layout` yang memiliki 2 *value*, yaitu `aut
 
 ```css
 .table {
-	display: table;
-	border: 1px solid #2c2c2c;
-	border-spacing: 2px;
-	table-layout: fixed;
-	width: 500px;
+    display: table;
+    border: 1px solid #2c2c2c;
+    border-spacing: 2px;
+    table-layout: fixed;
+    width: 500px;
 }
 ```
 
@@ -488,8 +489,8 @@ Tapi sayangnya [lebar](https://github.com/bellshade/HTML-CSS/tree/main/CSS/012%2
 
 ```css
 .colspan-3 {
-	display: table;
-	width: calc(300% + 2px);
+    display: table;
+    width: calc(300% + 2px);
 }
 ```
 
@@ -501,16 +502,16 @@ Sepertinya sampai sini kita sudah selesai, tapi nyatanya ada kesalahan kecil yan
 
 ```css
 .table {
-	display: table;
-	border: 1px solid #2c2c2c;
-	border-spacing: 4px;
-	table-layout: fixed;
-	width: 500px;
+    display: table;
+    border: 1px solid #2c2c2c;
+    border-spacing: 4px;
+    table-layout: fixed;
+    width: 500px;
 }
 
 .colspan-3 {
-	display: table;
-	width: calc(300% + 4px);
+    display: table;
+    width: calc(300% + 4px);
 }
 ```
 
@@ -518,70 +519,70 @@ Setelah dilihat, ternyata hasilnya tidak sesuai dengan yang kita harapkan:
 
 ![Hasil display table 8](https://i.ibb.co/1J1Jxb4/Screenshot-56.png)
 
-Masalah yang sama seperti sebelumnya datang kembali, kira-kira kenapa? Padahal kita sudah tambah lebarnya sama dengan `border-spacing`. 
+Masalah yang sama seperti sebelumnya datang kembali, kira-kira kenapa? Padahal kita sudah tambah lebarnya sama dengan `border-spacing`.
 
 Setelah saya utak-atik kodenya, ternyata ada rumus agar [lebar](https://github.com/bellshade/HTML-CSS/tree/main/CSS/012%20CSS%20Size) `.colspan-3`nya pas, kita harus menjumlahkan 2 `border-width` kita yang ada di `.table` (`1px`) dan di `.td, .th` (`1px`) dalam kasus ini kita punya `2px`, lalu kita kurangi `border-spacing` kita (`4px`) dengan hasil tambah `border-width` tadi (`2px`), `4px - 2px = 2px`, jadi kita punya `2px` sekarang, lalu kita tambahkan lagi dengan jumlah `border-spacing` kita (`4px`), `2px + 4px = 6px`, nah hasil tersebutlah yang harusnya kita tambah kedalam [lebar](https://github.com/bellshade/HTML-CSS/tree/main/CSS/012%20CSS%20Size) dari `.colspan-3` itu. Jika kita coba, maka hasilnya akan sesuai dengan yang kita inginkan:
 
 ```css
 .table {
-	display: table;
-	border: 1px solid #2c2c2c;
-	border-spacing: 4px;
-	table-layout: fixed;
-	width: 500px;
+    display: table;
+    border: 1px solid #2c2c2c;
+    border-spacing: 4px;
+    table-layout: fixed;
+    width: 500px;
 }
 
 .colspan-3 {
-	display: table;
-	width: calc(300% + 6px);
+    display: table;
+    width: calc(300% + 6px);
 }
 ```
 
 ![Hasil display table 9](https://i.ibb.co/pWR8jHH/Screenshot-57.png)
 
-Masih bingung? Coba baca ulang saja. Untuk mempermudah, kita sebenarnya bisa menggunakan custom property seperti ini: 
+Masih bingung? Coba baca ulang saja. Untuk mempermudah, kita sebenarnya bisa menggunakan custom property seperti ini:
 
 ```css
 .table {
-	--border-spacing: 4px;
-	--border-width: 1px;
-	display: table;
-	table-layout: fixed;
-	border: var(--border-width) solid #2c2c2c;
-	border-spacing: var(--border-spacing);
-	width: 500px;
+    --border-spacing: 4px;
+    --border-width: 1px;
+    display: table;
+    table-layout: fixed;
+    border: var(--border-width) solid #2c2c2c;
+    border-spacing: var(--border-spacing);
+    width: 500px;
 }
 
 .thead {
-	display: table-header-group;
+    display: table-header-group;
 }
 
 .tbody {
-	display: table-row-group;
+    display: table-row-group;
 }
 
 .tfoot {
-	display: table-footer-group;
+    display: table-footer-group;
 }
 
 .tr {
-	display: table-row;
+    display: table-row;
 }
 
 .td,
 .th {
-	display: table-cell;
-	border: var(--border-width) solid #2c2c2c;
+    display: table-cell;
+    border: var(--border-width) solid #2c2c2c;
 }
 
 .th {
-	font-weight: 700;
-	text-align: center;
+    font-weight: 700;
+    text-align: center;
 }
 
 .colspan-3 {
-	display: table;
-	width: calc(300% + (var(--border-spacing) - (var(--border-width) * 2) + var(--border-spacing)));
+    display: table;
+    width: calc(300% + (var(--border-spacing) - (var(--border-width) * 2) + var(--border-spacing)));
 }
 ```
 
@@ -595,27 +596,27 @@ Display ini mungkin akan susah dimengerti oleh sebagian besar pemula termasuk sa
 
 ```html
 <div>
-	<img src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80" width="200">
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae eum veritatis consequatur amet inventore facilis quae unde accusantium.
-	</p>
+    <img src="https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80" width="200">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae eum veritatis consequatur amet inventore facilis quae unde accusantium.
+    </p>
 </div>
 <br>
 <div>
-	<p>
-		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ducimus nisi reprehenderit sit tenetur aperiam dolorem pariatur quibusdam molestias vitae necessitatibus qui ratione magni, ullam tempore fugiat atque nobis error!
-	</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit ducimus nisi reprehenderit sit tenetur aperiam dolorem pariatur quibusdam molestias vitae necessitatibus qui ratione magni, ullam tempore fugiat atque nobis error!
+    </p>
 </div>
 
 <style>
-	div {
-		padding: 1rem;
-		background-color: pink;
-	}
-	
-	img {
-		float: left;
-	}
+    div {
+        padding: 1rem;
+        background-color: pink;
+    }
+    
+    img {
+        float: left;
+    }
 </style>
 ```
 
@@ -627,9 +628,9 @@ Kita coba tambahkan `display: flow-root;` pada div kita:
 
 ```css
 div {
-	padding: 1rem;
-	background-color: pink;
-	display: flow-root;
+    padding: 1rem;
+    background-color: pink;
+    display: flow-root;
 }
 ```
 
@@ -653,13 +654,13 @@ Masih banyak sekali *value* display yang belum kita bahas, bukan karena tidak ma
 
 Saya tidak akan bisa membuat materi ini tanpa membaca referensi-referensi ini:
 
- - https://sixv.com/cascading-style-sheets/css-display-inline-block-dan-inline-block/
- - https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
- - https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
- - https://medium.com/@elelvyra/learn-css-display-property-1-9ddc9e5f3fb0
- - https://css-tricks.com/almanac/properties/d/display/
- - https://developer.mozilla.org/en-US/docs/Web/CSS/display
- - https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/ 
- - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
- - https://stackoverflow.com/questions/2403990/html-colspan-in-css
- - https://css-tricks.com/almanac/properties/t/table-layout/
+- [https://sixv.com/cascading-style-sheets/css-display-inline-block-dan-inline-block/](https://sixv.com/cascading-style-sheets/css-display-inline-block-dan-inline-block/)
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)
+- [https://medium.com/@elelvyra/learn-css-display-property-1-9ddc9e5f3fb0](https://medium.com/@elelvyra/learn-css-display-property-1-9ddc9e5f3fb0)
+- [https://css-tricks.com/almanac/properties/d/display/](https://css-tricks.com/almanac/properties/d/display/)
+- [https://developer.mozilla.org/en-US/docs/Web/CSS/display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+- [https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/](https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/)
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
+- [https://stackoverflow.com/questions/2403990/html-colspan-in-css](https://stackoverflow.com/questions/2403990/html-colspan-in-css)
+- [https://css-tricks.com/almanac/properties/t/table-layout/](https://css-tricks.com/almanac/properties/t/table-layout/)

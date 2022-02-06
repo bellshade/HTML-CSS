@@ -648,7 +648,7 @@ Dikarenakan materi tentang `display: grid;` sendiri sangatlah banyak, jadi kami 
 
 ## Kesimpulan
 
-Masih banyak sekali *value* display yang belum kita bahas, bukan karena tidak mau, tapi karena keterbatasan informasi yang saya dapatkan dan pemahaman materi saya yang masih belum menyeluruh, jadi saya membahas apa saja yang sering digunakan dan tentunya yang sudah saya mengerti. Tapi dari materi yang sudah dibahas diatas, saya rasa cukup untuk memahami apa itu display di CSS. Mungkin di lain waktu saya akan tambah materinya lagi.
+Masih banyak sekali *value* display yang belum kita bahas, bukan karena tidak mau, tapi karena keterbatasan informasi yang didapat dan kemungkinan untuk saat ini materi tersebut belum terlalu Penting. Tapi dari materi yang sudah dibahas diatas, saya rasa cukup untuk memahami apa itu display di CSS. Mungkin di lain waktu saya akan tambah materinya lagi.
 
 ### Referensi
 

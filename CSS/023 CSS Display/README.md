@@ -66,7 +66,7 @@ display: revert;
 display: unset;
 ```
 
-Ada banyak sekali bukan? Maka dari itu disini kami tidak akan membahas semua *value* tersebut. Kami akan membahas value yang sering digunakan saja. Jika ingin mengetahui apakah *value* tersebut sudah didukung oleh browser apa saja kalian bisa lihat di [mozila developer network](https://developer.mozilla.org/en-US/docs/Web/CSS/display#browser_compatibility).
+Ada banyak sekali bukan? Maka dari itu disini kami tidak akan membahas semua *value* tersebut. Kami akan membahas value yang sering digunakan saja. Jika ingin mengetahui apakah *value* tersebut sudah didukung oleh browser apa saja kalian bisa lihat di [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/display#browser_compatibility).
 
 ### Inline
 
@@ -76,7 +76,7 @@ Elemen yang secara default memiliki `display: inline;`:
 - `<a>`
 - `<img>`
 
-Lebih lengkap bisa dilihat di [mozila developer network](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements).
+Lebih lengkap bisa dilihat di [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements).
 
 Sesuai namanya, `display: inline;` artinya memanjang ke samping, sehingga elemen ini akan memenuhi tempat yang ada di sampingnya dan jika tidak ada ruang lagi, maka elemen tersebut akan turun kebawah. Bingung? Coba kita lihat contoh yang telah saya buat di bawah ini.
 
@@ -160,7 +160,7 @@ Elemen yang secara default memiliki `display: block;`:
 - `<p>`
 - `<form>`
 
-Lebih lengkap bisa dilihat di [mozila developer network](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements).
+Lebih lengkap bisa dilihat di [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#elements).
 
 Elemen yang memiliki properti `display: block;` selalu membuat blok baru setiap kali dipanggil. Contoh jika saya punya kode seperti ini:
 

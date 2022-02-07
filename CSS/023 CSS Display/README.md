@@ -588,7 +588,7 @@ Masih bingung? Coba baca ulang saja. Untuk mempermudah, kita sebenarnya bisa men
 
 Jadi kita tinggal ubah variabel `--border-spacing` dan `--border-width` saja, tanpa perlu pusing-pusing menghitung ulang semuanya. Jika masih belum mengerti custom property atau variabel dalam CSS, bisa membaca materi [053 CSS Custom Property](https://github.com/bellshade/HTML-CSS/tree/main/CSS/053%20CSS%20Custom%20Property).
 
-Ribet bukan? Untuk sekarang sepertinya kurang direkomendasikan menggunakan display *table* ini, untuk mengatur layout sudah ada flexbox dan grid dan untuk membuat tabel lebih baik menggunakan `<table>` saja.
+Ribet bukan? Untuk sekarang sepertinya kurang direkomendasikan menggunakan display *table* ini, untuk mengatur layout sudah ada [flexbox](https://github.com/bellshade/HTML-CSS/tree/main/CSS/056%20CSS%20Flexbox) dan [grid](https://github.com/bellshade/HTML-CSS/tree/main/CSS/057%20CSS%20Grid) dan untuk membuat tabel lebih baik menggunakan `<table>` saja.
 
 ### Flow-Root
 

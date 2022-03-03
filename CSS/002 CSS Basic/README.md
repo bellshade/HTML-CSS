@@ -15,7 +15,7 @@ Inline CSS adalah code css yang ditulis secara langsung, pada elemen HTML. Cara 
 Contoh Inline CSS:
 
 ```html
-<p style="color= red;">Text warna merah</p>
+<p style="color:red;">Text warna merah</p>
 ```
 
 ### Internal CSS

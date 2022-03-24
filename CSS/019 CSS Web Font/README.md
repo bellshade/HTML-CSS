@@ -26,6 +26,8 @@ CSS WEB FONT adalah sebuah font untuk web yang digunakan jika font pada web ingi
   /* Penjelasan */
   /* Untuk menggunakan web font harus menggunakan src */
   src: url(namafontnya.(nama formatnya));
+  /* Definisikan juga namanya */
+  font-family: "Nama Fontnya";
 }
 ```
 
@@ -34,6 +36,14 @@ CSS WEB FONT adalah sebuah font untuk web yang digunakan jika font pada web ingi
 ```css
 @font-face {
   src: url(sansation_light.woff);
+  font-family: "Font Pertamaku";
+}
+```
+
+### Penggunaan
+```css
+body {
+  font-family: "Font Pertamaku";
 }
 ```
 
@@ -43,4 +53,5 @@ Untuk mendapatkan font sebenarnya bisa dimana saja, tetapi saya sarankan untuk m
 
 ## Referensi materi dan font
 
-[W3SCHOOLS](https://www.w3schools.com/css/css3_fonts.asp)
+- [W3SCHOOLS](https://www.w3schools.com/css/css3_fonts.asp)
+- [StackOverflow](https://stackoverflow.com/questions/12812441/how-do-i-use-woff-fonts-for-my-website)

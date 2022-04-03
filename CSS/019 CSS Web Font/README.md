@@ -38,12 +38,10 @@ CSS WEB FONT adalah sebuah font untuk web yang digunakan jika font pada web ingi
   src: url(sansation_light.woff);
   font-family: "Font Pertamaku";
 }
-```
 
-### Penggunaan
-```css
 body {
   font-family: "Font Pertamaku";
+}
 }
 ```
 

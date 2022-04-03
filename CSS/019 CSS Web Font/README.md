@@ -42,7 +42,6 @@ CSS WEB FONT adalah sebuah font untuk web yang digunakan jika font pada web ingi
 body {
   font-family: "Font Pertamaku";
 }
-}
 ```
 
 ## NOTE

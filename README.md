@@ -20,10 +20,10 @@ HTML (Hyper Text Markup Language) yaitu Bahasa pemrograman standar yang digunaka
 
 ## :books: Daftar isi
 
-- [Peraturan dan Pedoman Kontribusi](#pushpin-peraturan-dan-pedoman-kontribusi)
-- [Quick Access (Akses Cepat)](#bookmark_tabs-quick-access-akses-cepat)
-  - [HTML](#blue_book-html)
-  - [CSS](#orange_book-css)
+- [:pushpin: Peraturan dan Pedoman Kontribusi](#pushpin-peraturan-dan-pedoman-kontribusi)
+- [:bookmark_tabs: Quick Access (Akses Cepat)](#bookmark_tabs-quick-access-akses-cepat)
+  - [:blue_book: HTML](#blue_book-html)
+  - [:orange_book: CSS](#orange_book-css)
 
 ## :pushpin: Peraturan dan Pedoman Kontribusi
 
@@ -57,16 +57,16 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Classes](HTML/020%20HTML%20Classes/README.md)
 - [Iframe](HTML/022%20HTML%20Iframe/README.md)
 - [File Path](HTML/024%20HTML%20FilePath/README.md)
-- [Meta](HTML/028%20HTML%20Meta/README.md)
-- [Responsive](HTML/030%20HTML%20Responsive/README.md)
-- [Computer Code](HTML/031%20HTML%20Computer%20Code/README.md)
-- [Semantic](HTML/032%20HTML%20Semantic/README.md)
-- [Entity](HTML/033%20HTML%20Entity/README.md)
-- [Forms](HTML/036%20HTML%20Forms/README.md)
-- [Input Types](HTML/037%20HTML%20Input%20Types/README.md)
-- [Button](HTML/041%20HTML%20Button/README.md)
-- [Data](HTML/043%20HTML%20Data/README.md)
-- [Canvas](HTML/044%20HTML%20Canvas/README.md)
+- [Meta](HTML/027%20HTML%20Meta/README.md)
+- [Responsive](HTML/029%20HTML%20Responsive/README.md)
+- [Computer Code](HTML/030%20HTML%20Computer%20Code/README.md)
+- [Semantic](HTML/031%20HTML%20Semantic/README.md)
+- [Entity](HTML/032%20HTML%20Entity/README.md)
+- [Forms](HTML/035%20HTML%20Forms/README.md)
+- [Input Types](HTML/036%20HTML%20Input%20Types/README.md)
+- [Button](HTML/040%20HTML%20Button/README.md)
+- [Data](HTML/042%20HTML%20Data/README.md)
+- [Canvas](HTML/043%20HTML%20Canvas/README.md)
 - [Video](HTML/047%20HTML%20Video/README.md)
 - [Audio](HTML/048%20HTML%20Audio/README.md)
 - [Lang Code](HTML/049%20HTML%20Lang%20Code/README.md)

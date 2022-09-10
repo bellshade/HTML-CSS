@@ -14,6 +14,14 @@ Metadata digunakan oleh browser (cara menampilkan konten atau memuat ulang halam
 Ada metode untuk membiarkan web desainer untuk mengambil kendali atas viewport (area yang terlihat oleh pengguna dari halaman web),
 melalui tag ```<meta>```.
 
+### Emmet Abbreviation
+
+Untuk beberapa IDE seperti Visual Studio Code, sudah tersedia emmet yang berguna untuk mempermudah pembuatan tag template HTML termasuk ```<meta>```. Yaitu dengan mengetik tanda `!` lalu tekan `Enter`.
+
+![preview](./img/emmet.png)
+
+![emmetoutput](./img/output-emmet.png)
+
 #### Contoh kode
 
 ```html

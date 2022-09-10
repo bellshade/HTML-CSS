@@ -26,6 +26,12 @@ Setelah menambahkan tag `<meta>` beserta attributnya, seharusnya di dalam tag `<
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
+Untuk beberapa IDE seperti Visual Studio Code, sudah tersedia emmet yang berguna untuk mempermudah langkah-langkah diatas. Yaitu dengan mengetik tanda `!` lalu tekan `Enter`.
+
+### Preview
+
+![preview](./emmet.png)
+
 ## Contoh sebelum dan sesudah menambahkan viewport
 
 ### Sebelum

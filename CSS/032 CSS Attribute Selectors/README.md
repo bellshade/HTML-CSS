@@ -52,7 +52,7 @@ Berikut adalah contoh untuk memilih seluruh elemen dengan `attribute` `title` ya
 }
 ```
 
-Contoh diatas akan mencocokkan elemen dengan `title="flower"`, `title="summer flower"`, `title="flower new"`, tapi tidak akan mencocokkan elemen dengan `title="my-flower"` atau `title="flowers"`.
+Contoh di atas akan mencocokkan elemen dengan `title="flower"`, `title="summer flower"`, `title="flower new"`, tapi tidak akan mencocokkan elemen dengan `title="my-flower"` atau `title="flowers"`.
 
 
 ### CSS `[attribute|="value"]` Selector
@@ -101,7 +101,7 @@ Berikut adalah contoh untuk memilih seluruh elemen dengan `value` yang diakhiri 
 
 `[attribute*="value"]` selector digunakan untuk memilih elemen HTML yang `value` `attribute`nya berisi `value` tertentu.
 
-Berikut adalah contoh untuk memilih seluru elemen dengan `value` yang mengandung kata `"te"` untuk `attribute` `class`nya:
+Berikut adalah contoh untuk memilih seluruh elemen dengan `value` yang mengandung kata `"te"` untuk `attribute` `class`nya:
 
 **Catatan**: `value` tidak harus berupa keseluruhan kata.
 ```css

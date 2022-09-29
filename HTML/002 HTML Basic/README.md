@@ -5,7 +5,7 @@
 * Dokumen **HTML** harus dimulai dengan deklarasi tipe dokumen `<!DOCTYPE html>`
 * Dokumen **HTML** harus mempunyai tag `html`. Dimulai dengan tag pembuka `<html>` dan diakhiri dengan tag penutup  `</html>`
 * Dokumen **HTML** harus mempunyai tag `head`. Dimulai dengan tag pembuka `<head>` dan diakhiri dengan tag penutup `</head>`
-* Dokumen **HTML** harus mempunyai tag `body`. Dimulai dengan tag pembuka  `<body` dan di akhiri dengan tag penutup `</body>`
+* Dokumen **HTML** harus mempunyai tag `body`. Dimulai dengan tag pembuka  `<body>` dan di akhiri dengan tag penutup `</body>`
 * Element **HTML** harus terletak di dalam tag `body`
 
     Contoh Dokumen HTML:

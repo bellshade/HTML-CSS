@@ -30,3 +30,11 @@
 #### Hasil
 
 ![hasil](img/hello_.png)
+
+## Emmet Abbreviation
+
+Untuk beberapa IDE seperti Visual Studio Code, sudah tersedia emmet yang berguna untuk mempermudah pembuatan dokumen HTML diatas. Yaitu dengan mengetik tanda `!` lalu tekan `Enter`.
+
+![preview](./img/emmet.png)
+
+![emmetoutput](./img/output-emmet.png)

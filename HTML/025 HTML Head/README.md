@@ -6,6 +6,14 @@ dan metadata tidak akan ditampilkan ketika kode dijalankan. Metadata biasanya di
 style, script, dan informasi meta lainnya. Element yang biasa dimasukkan pada tag `<head>` adalah
 `<title>`, `<style>`, `<meta>`, `<link>`, `<script>`, dan `<base>`.
 
+## Emmet Abbreviation
+
+Untuk beberapa IDE seperti Visual Studio Code, sudah tersedia emmet yang berguna untuk mempermudah pembuatan tag template HTML. Yaitu dengan mengetik tanda `!` lalu tekan `Enter`.
+
+![preview](./img/emmet.png)
+
+![emmetoutput](./img/output-emmet.png)
+
 ## `<title>`
 
 `<title>` digunakan untuk memberikan judul pada halaman website. `<title>` hanya boleh berisi teks dan

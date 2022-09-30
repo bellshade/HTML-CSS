@@ -17,4 +17,4 @@ Keterangan:
 | Paragraf |    `<p>`    |   `</p>`    |
 | Divisi   |   `<div>`   |  `</div>`   |
 
-Jadi di sini ada dua elemen HTML yaitu, elemen `<p>...</p>` dan elemen `<div>...</div>`. Ada beberapa elemen yang tidak memerlukan tag __penutup__ seperti `<img>`, `<br>`, `<hr>`, `<input>`, dll.
+Jadi di sini ada dua elemen HTML yaitu, elemen `<p>...</p>` dan elemen `<div>...</div>`. Ada beberapa elemen yang tidak memerlukan tag __penutup__ seperti `<img>`, `<br>`, `<hr>`, `<input>`, `<area>`, `<meta>`, `<link>` dll.

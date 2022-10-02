@@ -18,13 +18,13 @@ Daftar emojis dapat kamu lihat disini https://unicode.org/emoji/charts/full-emoj
 
 Beberapa emoji memiliki tone warna kulit yang berbeda beda, berikut contoh tone warna kulitnya,
 
-|  Decimal  |         Warna          |
-| :-------: | :--------------------: |
-| &#127999; |     Dark skin tone     |
-| &#127998; | Medium Dark skin tone  |
-| &#127997; |    Medium skin tone    |
-| &#127996; | Medium Light skin tone |
-| &#127995; |    Light skin tone     |
+|   Decimal   |         Warna          | Preview   |
+| :---------: | :--------------------: | --------- |
+| `&#127999;` |     Dark skin tone     | &#127999; |
+| `&#127998;` | Medium Dark skin tone  | &#127998; |
+| `&#127997;` |    Medium skin tone    | &#127997; |
+| `&#127996;` | Medium Light skin tone | &#127996; |
+| `&#127995;` |    Light skin tone     | &#127995; |
 
 Penggunaan warna kulit dapat ditambahkan setelah kode emoji, sebagai contoh
 

@@ -1,6 +1,6 @@
 # HTML Emojis
 
-HTML dapat menampilakan sebuah emojis dengan menggunakan _decimal_ atau _hexadecimal_
+HTML dapat menampilakan sebuah emojis dengan menggunakan _decimal_ atau _hexadecimal_, dan agar browser memahami kalau kita sedang menampilkan _character_ kita harus mengawali dengan `&#` dan diakhiri dengan `;`.
 
 sebagai contoh
 

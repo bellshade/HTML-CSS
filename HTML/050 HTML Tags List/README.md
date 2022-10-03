@@ -5,8 +5,8 @@ Dalam file ini berisi semua tag HTML dengan deskripsi (mencakup tag HTML5 terbar
 Catatan:
 
 - `Baru` - Tag baru diperkenalkan di HTML5
-- `Hapus` - Tidak suport di HTML5
-- `Baru/Hapus` - Tag baru diperkenalkan di HTML5, tapi sekarang tidak suport di HTML5
+- `Hapus` - Tidak support di HTML5
+- `Baru/Hapus` - Tag baru diperkenalkan di HTML5, tapi sekarang tidak support di HTML5
 
 | Tag                | Deskripsi                                                                                                                                 | Dalam HTML5? |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | :----------: |
@@ -97,8 +97,8 @@ Catatan:
 | `<pre>`            | Digunakan untuk merepresentasikan teks yang telah diformat sebelumnya                                                                     |              |
 | `<progress>`       | Mewakili kemajuan tugas                                                                                                                   |    `Baru`    |
 | `<q>`              | Merupakan kutipan singkat                                                                                                                 |              |
-| `<rp>`             | Digunakan untuk memberikan tanda kurung di sekitar konten fall-back ke browser yang tidak mendukung anotasi ruby                          |    `Baru`    |
-| `<rt>`             | Menentukan teks ruby dari anotasi ruby                                                                                                    |    `Baru`    |
+| `<rp>`             | Digunakan untuk memberikan tanda kurung di sekitar konten fall-back ke browser yang tidak mendukung anotasi Ruby                          |    `Baru`    |
+| `<rt>`             | Menentukan teks Ruby dari anotasi Ruby                                                                                                    |    `Baru`    |
 | `<s>`              | Menampilan teks dalam gaya coret                                                                                                          |              |
 | `<samp>`           | Mewakili teks yang harus ditafsirkan sebagai contoh keluaran dari program komputer                                                        |              |
 | `<script>`         | Mendefinisikan JavaScript sisi klien                                                                                                      |              |

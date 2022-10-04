@@ -62,4 +62,4 @@ Contoh:
 Hasil:
 ![Penggunaan Beberapa Google Fonts](https://i.ibb.co/QmmtTgw/Screenshot-2022-10-03-232919.png)
 
-Catatan: menggunakan beberapa font sekaligus bisa memperlabat web kamu. Perhatikan hal ini.
+Catatan: Menggunakan beberapa font sekaligus bisa memperlambat web kamu. Perhatikan hal ini.

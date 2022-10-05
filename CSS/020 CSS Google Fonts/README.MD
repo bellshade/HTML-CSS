@@ -34,7 +34,7 @@ Hasil:
 
 ## Menggunakan Beberapa Google Fonts
 
-Jika kamu ingin menggunakan beberapa Google Fonts, cukup paste semua link dari Google Fonts di <head>. Atau, gunakan link style sheet dan sebutkan semua nama font dengan dipisahkan oleh tanda ( | ).
+Jika kamu ingin menggunakan beberapa Google Fonts, cukup paste semua link dari Google Fonts di `<head>`. Atau, gunakan link style sheet dan sebutkan semua nama font dengan dipisahkan oleh tanda ( | ).
 
 Contoh:
 ```HTML

@@ -6,10 +6,7 @@ Google Fonts gratis dan bebas untuk digunakan untuk apa saja. Selain itu, koleks
 
 ## Cara Menggunakan Google Fonts
 
-Ada dua cara untuk menggunakan Google Fonts:
-
-Pertama, menggunakan link yang sudah disediakan Google Fonts:
-1. Copy link style sheet dari Google Fonts dan paste link tersebut di bagian <head> pada file HTML.
+1. Copy link style sheet dari Google Fonts dan paste link tersebut di bagian `<head>` pada file HTML.
 
 ![Link Style Sheet Google Fonts](https://i.ibb.co/CHt7DKk/Screenshot-2022-10-03-224721.png)
 
@@ -24,20 +21,6 @@ Misalnya, kita ingin menggunakan font "Silkscreen" dari Google Fonts:
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: "Silkscreen", cursive;
-    }
-  </style>
-</head>
-```
-
-Cara kedua, menggunakan link style sheet khusus di mana kamu cukup mengganti nama font di akhir link. Tempatkan link tersebut pada <head> dan panggil nama font pada CSS. 
-
-``` HTML 
-<head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-
   <style>
     body {
       font-family: "Silkscreen", cursive;
@@ -62,3 +45,5 @@ Hasil:
 ![Penggunaan Beberapa Google Fonts](https://i.ibb.co/QmmtTgw/Screenshot-2022-10-03-232919.png)
 
 Catatan: Menggunakan beberapa font sekaligus bisa memperlambat web kamu. Perhatikan hal ini.
+
+Referensi: [w3schools](https://www.w3schools.com/css/css_font_google.asp)

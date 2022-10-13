@@ -3,6 +3,7 @@
 ## Apa itu HTML Figure?
 
 HTML Figure merupakan semantic HTML5 yang digunakan untuk menandai atau menjelaskan sebuah konten. element `<figure>` juga dapat memberitahukan kepada browser bahwa dia adalah sebuah wadah yang menampung beberapa element yang memiliki hubungan satu sama lain.
+
 Konten yang di dalam `<figure>` biasanya terdiri dari gambar dan `<figcaption>` sebagai keterangan.
 
 ```html
@@ -12,14 +13,15 @@ Konten yang di dalam `<figure>` biasanya terdiri dari gambar dan `<figcaption>` 
 </figure>
 ```
 
-maka hasilnya seperti ini:
+Maka hasilnya seperti ini:
+
 ![HTML Figure](contoh-gambar.png)
 
 ## Contoh kode
 
-selain gambar element `<figure>` juga dapat menyimpan video, barisan kode, kutipan dan lain-lain :
+Selain gambar element `<figure>` juga dapat menyimpan video, barisan kode, kutipan dan lain-lain.
 
-contoh barisan kode :
+Contoh barisan kode:
 
 ```html
 <figure>
@@ -32,7 +34,7 @@ contoh barisan kode :
 </figure>
 ```
 
-contoh kutipan :
+Contoh kutipan:
 
 ```html
 <figure>

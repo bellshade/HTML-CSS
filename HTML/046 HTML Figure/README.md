@@ -47,5 +47,3 @@ Contoh kutipan:
   </blockquote>
 </figure>
 ```
-
-<!-- HTML Figure adalah element yang dapat mempresentasikan konten tersendiri (self-contained) seperti ) seperti ilustrasi, gambar ,video, table, dereten kode dan merupakan semantic HTML5 -->

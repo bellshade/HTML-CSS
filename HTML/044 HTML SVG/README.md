@@ -13,12 +13,12 @@ Ada beberapa alasan mengapa harus menggunakan SVG, di antaranya :
 - Ketika diperbesar gambar svg tidak pecah.
 - Bisa dibuat dan dimodifikasi dengan text editor.
 - Bisa dijadikan animasi.
-- File SVG lebih kecil dan scalable.
+- File SVG lebih kecil dan _scalable_.
 - Mudah untuk dikompres dibandingkan format lain.
 
 ## Bagaimana cara menggunakan SVG?
 
-1. Menggunakan SVG pada tag `<img>`
+1. **Menggunakan SVG pada tag `<img>`**
 
    Cara yang paling mudah untuk menerapkan gambar SVG pada sebuah web adalah cukup sisipkan svg pada element `<img>` dan berikan penjelasan dengan atribut `alt`, seperti ini :
 
@@ -26,15 +26,17 @@ Ada beberapa alasan mengapa harus menggunakan SVG, di antaranya :
    <img src="./html-icon.svg" src="icon html" />
    ```
 
+   ![contoh svg img](./img/contoh-html.png)
+
    karena ukurannya cukup besar maka kita atur lebarnya seperti ini :
 
    ```html
    <img src="./html-icon.svg" src="icon html" width="300" />
    ```
 
-   ![contoh svg img](contoh-1.png)
+   ![contoh svg img](./img/contoh-html-2.png)
 
-2. Menggunakan SVG pada inline html
+2. **Menggunakan SVG pada inline html**
 
    Langsung ditulis pada document html dengan memberikan tag `<svg>`.
 
@@ -63,15 +65,15 @@ Ada beberapa alasan mengapa harus menggunakan SVG, di antaranya :
    </body>
    ```
 
-3. Menggunakan SVG pada tag `<iframe>`
+3. **Menggunakan SVG pada tag `<iframe>`**
 
 ```html
 <iframe src="html-icon.svg" width="800" height="1200"></iframe>
 ```
 
-Tidak disarankan untuk menggunakan cara ini karena akan sulit untuk di maintain dan dampak buruk bagi SEO.
+Tidak disarankan untuk menggunakan cara ini karena akan sulit untuk di _maintain_ dan dampak buruk bagi SEO.
 
-4. Menggunakan SVG pada CSS
+4. **Menggunakan SVG pada CSS**
 
 Hampir mirip caranya seperti tag `<img>`, hanya saja kali ini diterapkan pada CSS.
 
@@ -87,11 +89,13 @@ SVG memiliki banyak element di antaranya :
 
 - `<circle>`
 
-  ```html
-  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="50" r="50" />
-  </svg>
-  ```
+```html
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="50" />
+</svg>
+```
+
+![contoh circle](./img/circle.png)
 
 - `<ellipse>`
 
@@ -100,6 +104,8 @@ SVG memiliki banyak element di antaranya :
   <ellipse cx="100" cy="50" rx="100" ry="50" />
 </svg>
 ```
+
+![contoh ellipse](./img/ellipse.png)
 
 - `<line>`
 
@@ -112,6 +118,8 @@ SVG memiliki banyak element di antaranya :
 </svg>
 ```
 
+![contoh line](./img/line.png)
+
 - `<rect>`
 
 ```html
@@ -119,5 +127,7 @@ SVG memiliki banyak element di antaranya :
   <rect width="100" height="100" />
 </svg>
 ```
+
+![contoh rect](./img/rect.png)
 
 Untuk selengkapnya kunjungi [MDN - SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#svg_elements_a_to_z)

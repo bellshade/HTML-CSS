@@ -131,3 +131,10 @@ SVG memiliki banyak element di antaranya :
 ![contoh rect](./img/rect.png)
 
 Untuk selengkapnya kunjungi [MDN - SVG element reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element#svg_elements_a_to_z)
+
+## Sumber :
+
+- [How to Use SVG Images in CSS and HTML – A Tutorial for Beginners](https://www.freecodecamp.org/news/use-svg-images-in-css-html/)
+- [MDN - What is SVG?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web#what_is_svg)
+- [Medium - Membuat Peta Geografis HTML dengan SVG](https://medium.com/@dede.brahma2/membuat-peta-geografis-html-dengan-svg-c03e04987552)
+- [Codepolitan - Membuat UI Website Modern dengan SVG](https://codepolitan.com/blog/membuat-ui-website-modern-dengan-svg-5b5980354860b)

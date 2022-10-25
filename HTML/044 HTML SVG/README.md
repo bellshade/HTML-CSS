@@ -71,7 +71,7 @@ Ada beberapa alasan mengapa harus menggunakan SVG, di antaranya :
 <iframe src="html-icon.svg" width="800" height="1200"></iframe>
 ```
 
-Tidak disarankan untuk menggunakan cara ini karena akan sulit untuk di _maintain_ dan dampak buruk bagi SEO.
+> Tidak disarankan untuk menggunakan tag `<iframe>` karena akan sulit untuk di _maintain_ dan dampak buruk bagi SEO.
 
 4. **Menggunakan SVG pada CSS**
 
@@ -112,9 +112,6 @@ SVG memiliki banyak element di antaranya :
 ```html
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
   <line x1="0" y1="80" x2="100" y2="20" stroke="black" />
-
-  <!-- If you do not specify the stroke
-       color the line will not be visible -->
 </svg>
 ```
 

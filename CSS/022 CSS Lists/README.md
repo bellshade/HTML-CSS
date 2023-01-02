@@ -18,37 +18,60 @@ Ada perbedaan antara elemen `ul` dan `ol`, Elemen `ul` digunakan untuk membuat d
 
 Daftar bullet:
 
-```
-- Coffee
-- Tea
-- Coca Cola
-```
+![list bullet](list-bullet.png)
 
 Daftar numerik:
 
-```
-1. Coffee
-2. Tea
-3. Coca Cola
-```
+![list bullet](list-numerik.png)
 
 Ada beberapa properti yang bisa kamu gunakan untuk men-style list
 
-## list-style
+## list-style-type
 
-contoh penggunanan list pada CSS:
+Properti `list-style-type` untuk mengatur tanda pada daftar.
+
+Contoh:
 
 ```css
 ul {
-  list-style-type: circle;
+  list-style-type: japanese-formal;
 }
 ```
 
+Hasil:
+![list-type](list-type.png)
+
+## list-image
+
+Anda juga dapat meng-custom tanda dengan gambar menggunakan properti `list-image`.
+
+Contoh:
+
 ```css
-ol {
-  list-style-type: upper-roman;
+ul {
+  list-style-image: url("icons8-beef-burger-24.png");
 }
 ```
+
+Hasil:
+![list-image](list-image.png)
+
+## list-position
+
+Porperti `list-position` untuk mengatur posisi tanda list dan hanya memiliki dua value yaitu `inside` dan `outside`.
+
+Contoh:
+
+```css
+ul {
+  list-style-position: inside;
+}
+```
+
+Hasil:
+![list-position](list-position.png)
+
+Jika diperhatikan lebih dalam melalui _inspect_ di browser, kamu akan menemukan bahwa `list` tersebut berada dalam content yang mana secara default list berada di luar content.
 
 Untuk membuat List, kamu bisa menggunakan elemen seperti `ul` (untuk daftar bullet), ol (untuk daftar numerik), dan li (untuk setiap item pada daftar).
 

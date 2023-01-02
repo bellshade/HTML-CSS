@@ -2,7 +2,7 @@
 
 Pada CSS, List adalah sebuah elemen yang digunakan untuk membuat daftar item yang tersusun. List biasa digunakan untuk menampilkan daftar barang semacam _to-do list_.
 
-Untuk membuat List, kamu bisa menggunakan elemen seperti `ul` atau `ol` sebagai wadahnya di HTML dan untuk membuat daftar-daftarnya kamu bisa menggunakan elemen `li`.
+Untuk membuat List di HTML, kamu bisa menggunakan elemen seperti `ul` atau `ol` sebagai wadahnya dan untuk membuat item-item yang didaftar kamu bisa menggunakan elemen `li`.
 
 ```html
 <ul>
@@ -14,7 +14,7 @@ Untuk membuat List, kamu bisa menggunakan elemen seperti `ul` atau `ol` sebagai 
 
 ## Perbedaan `ul` dan `ol`
 
-Perbedaan elemen `ul` dan `ol` adalah Elemen `ul` digunakan untuk membuat daftar bullet, sedangkan elemen `ol` digunakan untuk membuat daftar numerik.
+Ada perbedaan antara elemen `ul` dan `ol`, Elemen `ul` digunakan untuk membuat daftar bullet, sedangkan elemen `ol` digunakan untuk membuat daftar numerik.
 
 Daftar bullet:
 
@@ -31,6 +31,10 @@ Daftar numerik:
 2. Tea
 3. Coca Cola
 ```
+
+Ada beberapa properti yang bisa kamu gunakan untuk men-style list
+
+## list-style
 
 contoh penggunanan list pada CSS:
 

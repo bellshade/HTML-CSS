@@ -14,7 +14,7 @@ Untuk membuat List di HTML, kamu bisa menggunakan elemen seperti `ul` atau `ol` 
 
 ## Perbedaan `ul` dan `ol`
 
-Ada perbedaan antara elemen `ul` dan `ol`, Elemen `ul` digunakan untuk membuat daftar bullet, sedangkan elemen `ol` digunakan untuk membuat daftar numerik.
+Ada perbedaan antara elemen `ul` dan `ol`, Elemen `ul` digunakan untuk membuat daftar bullet, sedangkan elemen `ol` digunakan untuk membuat daftar numerik atau tiap-tiap item diwakili dengan angka secara berurutan.
 
 Daftar bullet:
 
@@ -24,7 +24,7 @@ Daftar numerik:
 
 ![list bullet](list-numerik.png)
 
-Ada beberapa properti yang bisa kamu gunakan untuk men-style list
+Ada beberapa properti yang bisa kamu gunakan untuk men-style list.
 
 ## list-style-type
 
@@ -38,12 +38,14 @@ ul {
 }
 ```
 
+Seperti yang kamu lihat, list bisa diiubah dengan tulisan angka jepang. Kamu juga bisa memberikan value lain seperti `ethiopic-numeric` dan `square`.
+
 Hasil:
 ![list-type](list-type.png)
 
 ## list-image
 
-Anda juga dapat meng-custom tanda dengan gambar menggunakan properti `list-image`.
+Kamu juga dapat meng-custom tanda dengan gambar menggunakan properti `list-image`.
 
 Contoh:
 
@@ -71,23 +73,19 @@ ul {
 Hasil:
 ![list-position](list-position.png)
 
-Jika diperhatikan lebih dalam melalui _inspect_ di browser, kamu akan menemukan bahwa `list` tersebut berada dalam content yang mana secara default list berada di luar content.
+Jika diperhatikan lebih dalam melalui _inspect_ di browser, kamu akan menemukan bahwa tanda `list` berada dalam sebuah content yang mana secara default tanda `list` seharusnya berada di luar content. Jika kamu ingin memberikan nilai `outside` sebaiknya tidak perlu ditulis karena tanpa di tulis pun tanda list memang posisinya `outside` atau di luar content.
 
-Untuk membuat List, kamu bisa menggunakan elemen seperti `ul` (untuk daftar bullet), ol (untuk daftar numerik), dan li (untuk setiap item pada daftar).
+Dari semua properti di atas bisa ditulis sekaligus dalam properti `list-style`.
 
-Contoh penggunaan list pada CSS adalah sebagai berikut:
+```css
+list-style: georgian inside url("icons8-beef-burger-24.png");
+```
 
-Copy code
-ul {
-list-style-type: square;
-margin: 0;
-padding: 0;
-}
+```css
+list-style: square inside url("sqpurple.gif");
+```
 
-li {
-margin: 10px 0;
-}
+### Referensi:
 
->
-
-Dengan menggunakan kode di atas, kita dapat membuat daftar bullet yang menggunakan symbol kotak sebagai tanda pemisah antar item pada daftar. Margin dan padding pada elemen ul dan li juga dapat diatur sesuai kebutuhan.
+- https://www.w3schools.com/css/css_list.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/list-style

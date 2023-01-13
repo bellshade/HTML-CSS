@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bellshade | CSS Object Position</title>
+    <style>
+      body {
+        margin-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4rem;
+      }
+
+      .caption {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 800;
+      }
+
+      .example {
+        width: 460px;
+        height: 460px;
+        border: 2px solid blue;
+        object-fit: none;
+      }
+
+      .image-1 {
+        object-fit: fill;
+        object-position: center; /* default position */
+      }
+      .image-2 {
+        object-position: 50% 50%; /* default position */
+      }
+      .image-3 {
+        object-position: right top;
+      }
+      .image-4 {
+        object-position: 20px 95px;
+      }
+      .image-5 {
+        object-position: center 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <img
+        class="example image-1"
+        src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd060fe209b4a56733a1dcc9b5aea53a"
+        alt="contoh gambar css object position"
+      />
+      <p class="caption">Original image</p>
+    </div>
+    <div class="contain">
+      <img
+        class="example image-2"
+        src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd060fe209b4a56733a1dcc9b5aea53a"
+        alt="contoh gambar css object position"
+      />
+      <p class="caption">object-position: 50% 50%</p>
+    </div>
+
+    <div class="contain">
+      <img
+        class="example image-3"
+        src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd060fe209b4a56733a1dcc9b5aea53a"
+        alt="contoh gambar css object position"
+      />
+      <p class="caption">object-position: right top</p>
+    </div>
+    <div class="contain">
+      <img
+        class="example image-4"
+        src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd060fe209b4a56733a1dcc9b5aea53a"
+        alt="contoh gambar css object position"
+      />
+      <p class="caption">object-position: 20px 95px</p>
+    </div>
+
+    <div class="contain">
+      <img
+        class="example image-5"
+        src="https://images.unsplash.com/5/unsplash-kitsune-4.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd060fe209b4a56733a1dcc9b5aea53a"
+        alt="contoh gambar css object position"
+      />
+      <p class="caption">object-position: center 20px</p>
+    </div>
+  </body>
+</html>

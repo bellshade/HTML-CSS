@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bellshade | CSS Border Image</title>
+    <style>
+      .card {
+        margin: 20px auto;
+        padding: 10px;
+        display: grid;
+        width: 140px;
+        height: 140px;
+        place-items: center;
+        border: 10px solid orange;
+        border-image: url(./border.png) 30 30 round;
+        /* border-image: url(./border.png) 27 23 / 50px 30px / 1rem round; */
+
+        /* border-image-source: url(./border.png); */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Bellshade</h2>
+    </div>
+  </body>
+</html>

@@ -1,7 +1,5 @@
 # HTML Multimedia
 
-Multimedia itu adalah seperti yang sering kita jumpai berupa musik, suara, video, film dan animasi.
-
 ## Apa itu Multimedia
 
 Multimedia memiliki banyak macam format. Hampir semua hal yang dapat Anda dengar atau lihat, seperti gambar, musik, suara, video, rekaman, film, animasi, dan banyak lagi.
@@ -28,20 +26,20 @@ Ada banyak sekali format video pada multimedia, hanya saja `MP4`,` WebM,` dan `O
 |      WebM       |   .webm    | WebM. Dikembangkan oleh Mozilla, Opera, Adobe, dan Google. Didukung oleh HTML.                                                                                                                  |
 | MPEG-4 atau MP4 |    .mp4    | MP4. Dikembangkan oleh Moving Pictures Expert Group. Biasa digunakan di kamera video dan perangkat keras TV. Didukung oleh semua browser dan direkomendasikan oleh YouTube.                     |
 
-### contoh penulisan pada HTML:
+### Contoh penulisan pada HTML:
 
-```
+```html
 <video width="320" height="240" controls autoplay>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
+  <source src="movie.mp4" type="video/mp4" />
+  <source src="movie.ogg" type="video/ogg" />
+  Your browser does not support the video tag.
 </video>
 ```
 
-**penjelasan**
+#### penjelasan
 
 - controls : merupakan atribute video seperti tombol _play_, _pause_ dan _volume_.
-- autoplay : agar video berjalan secara otomatis.
+- autoplay : untuk memulai video secara otomatis.
 
 ## Format audio
 
@@ -60,13 +58,13 @@ Berikut dibawah ini adalah jenis-jenis format musik selain `MP3`.
 |    MP3    |    .mp3    | MP3 adalah format paling populer untuk pemutar musik. Menggabungkan kompresi yang baik (file kecil) dengan kualitas tinggi. Didukung oleh semua browser.                                                                                                                                                                                               |
 |    MP4    |    .mp4    | MP4 adalah format video, tetapi juga dapat digunakan untuk audio. Didukung oleh semua browser.                                                                                                                                                                                                                                                         |
 
-### contoh penulisan pada HTML:
+### Contoh penulisan pada HTML:
 
-```
+```html
 <audio controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+  <source src="horse.ogg" type="audio/ogg" />
+  <source src="horse.mp3" type="audio/mpeg" />
+  Your browser does not support the audio element.
 </audio>
 ```
 

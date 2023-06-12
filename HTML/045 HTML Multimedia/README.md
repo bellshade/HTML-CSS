@@ -36,7 +36,7 @@ Ada banyak sekali format video pada multimedia, hanya saja `MP4`,` WebM,` dan `O
 </video>
 ```
 
-#### penjelasan
+#### Penjelasan
 
 - controls : merupakan atribute video seperti tombol _play_, _pause_ dan _volume_.
 - autoplay : untuk memulai video secara otomatis.

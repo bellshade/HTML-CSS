@@ -26,6 +26,8 @@ Biasanya tag `<section>` digunakan pada :
         <h3>Sub Judul</h3>
         <p>Ini paragraf 1</p>
         <p>Ini paragraf 2</p>
+        <p>Ini paragraf 3</p>
+
     </div>
 </section>
 ```

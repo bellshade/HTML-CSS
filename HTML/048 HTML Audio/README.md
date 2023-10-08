@@ -55,4 +55,26 @@ Ada juga untuk atribut tag audio
 </audio>
 ```
 
+
+```example
+
+<video
+  controls
+  width="400"
+  height="400"
+  autoplay
+  loop
+  muted
+  preload="auto"
+  poster="poster.png">
+  <source src="rabbit320.mp4" type="video/mp4" />
+  <source src="rabbit320.webm" type="video/webm" />
+  <p>
+    Your browser doesn't support this video. Here is a
+    <a href="rabbit320.mp4">link to the video</a> instead.
+  </p>
+</video>
+
+```
+
 ## Referensi untuk audio dan materi [W3SCHOOLS](https://www.w3schools.com/html/html5_audio.asp)

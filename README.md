@@ -85,7 +85,7 @@ Semua _script_ yang ada pada repositori ini, dapat diakses dengan cepat lewat li
 - [Audio](HTML/048%20HTML%20Audio/README.md)
 - [Lang Code](HTML/049%20HTML%20Lang%20Code/README.md)
 - [Tags List](HTML/050%20HTML%20Tags%20List/README.md)
-- [Section](HTML/051%20HTML%20Tags%20Section/README.md)
+- [Section](HTML/051%20HTML%20Section/README.md)
 
 ---
 

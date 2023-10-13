@@ -40,18 +40,18 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
 ```html
 <!DOCTYPE  html>
 <html>
-	<head>
-		<link  rel="stylesheet"  type="text/css"  href="style.css">
-	</head>
-	<body>
-		<div  class="counter">
-			<ol>
-				<li>List Item 1</li>
-				<li>List Item 2</li>
-				<li>List Item 3</li>
-			</ol>
-		</div>
-	</body>
+    <head>
+        <link  rel="stylesheet"  type="text/css"  href="style.css">
+    </head>
+    <body>
+        <div  class="counter">
+            <ol>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                <li>List Item 3</li>
+            </ol>
+        </div>
+    </body>
 </html>
 ```
   

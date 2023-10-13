@@ -71,9 +71,12 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
 ```
 
 Hasilnya akan menjadi daftar terurut seperti ini:
-1. 1. List Item 1
-2. 2. List Item 2
-3. 3. List Item 3
+
+```text
+1. List Item 1
+2. List Item 2
+3. List Item 3
+```
 
 ### Referensi
 - [MDN Web Docs - CSS Counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters)

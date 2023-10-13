@@ -16,7 +16,7 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
   
 ```css
 .counter {
-	counter-reset: my-counter;
+    counter-reset: my-counter;
 }
 ```
   
@@ -24,7 +24,7 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
 
  ```css
 .counter  li {
-	counter-increment: my-counter;
+    counter-increment: my-counter;
 }
 ```
 
@@ -32,11 +32,10 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
 3.  **Menampilkan Hasil Counter**: Kamu dapat menampilkan hasil counter dalam elemen-elemen HTML dengan properti `content` dan `counter()`. Contoh, menampilkan nomor urut pada daftar:
 ```css
 .counter  li::before {
-	content: counter(my-counter) ". ";
+    content: counter(my-counter) ". ";
 }
 ```
 
-  
 ### Contoh Penggunaan
 ```html
 <!DOCTYPE  html>
@@ -58,27 +57,24 @@ Counters digunakan dalam CSS untuk menghitung elemen-elemen HTML, seperti `<li>`
   
 ```css
 /* style.css */
-
 .counter {
-	counter-reset: my-counter;
+    counter-reset: my-counter;
 }
 
 .counter  li {
-	counter-increment: my-counter;
+    counter-increment: my-counter;
 }
 
 .counter  li::before {
-	content: counter(my-counter) ". ";
+    content: counter(my-counter) ". ";
 }
 ```
 
- 
 Hasilnya akan menjadi daftar terurut seperti ini:
-1.  1. List Item 1
-2.  2. List Item 2
-3.  3. List Item 3
+1. 1. List Item 1
+2. 2. List Item 2
+3. 3. List Item 3
 
 ### Referensi
-
 - [MDN Web Docs - CSS Counters](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters)
 - [W3Schools - CSS Counters](https://www.w3schools.com/css/css_counters.asp)

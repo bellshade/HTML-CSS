@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        #body #heading1 {
+            color: indigo !important;
+        }
+
+        #body.container.dark-mode #heading1.impact {
+            color: violet;
+        }
+
+        body#body.container.dark-mode section div h1#heading1.impact {
+            color: red;
+        }
+
+        #body #section #heading1 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body id="body" class="container dark-mode">
+    <section id="section">
+        <div>
+            <h1 id="heading1" class="impact" style="color: black;">Warna apakah aku?</h1>
+        </div>
+    </section>
+</body>
+
+</html>

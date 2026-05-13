@@ -157,7 +157,7 @@ artinya, kita akan memberikan 3 buah _baris_ pada element class `container`.
 ```css
 .container {
   display: grid;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
 }
 ```
@@ -172,7 +172,7 @@ Cara Penulisan Kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 3px auto;
+  grid-template-columns: 3px auto;
   grid-auto-columns: 100px;
 }
 ```
@@ -202,7 +202,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 30px 30px;
+  grid-template-columns: 30px 30px;
   grid-auto-flow: column;
 }
 ```
@@ -223,7 +223,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 30px 30px;
+  grid-template-columns: 30px 30px;
   grid-template-areas: "nav nav nav" "side main main" "side footer footer";
 }
 ```
@@ -237,7 +237,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 30px 30px;
+  grid-template-columns: 30px 30px;
   grid-template-areas: "nav nav nav" "side main main" "side footer footer";
 }
 
@@ -273,7 +273,7 @@ Cara penulisan kodenya adalah:
 ```
 
 artinya, kita akan membuat 2 buah baris berukuran masing-masing 30px dan 3 buah kolom berukuran masing-masing 1fr.
-Ingat, dalam penulisan `grid-template` ini urutan pertama harus `grid-template-rows` baru `grid-template-column`.
+Ingat, dalam penulisan `grid-template` ini urutan pertama harus `grid-template-rows` baru `grid-template-columns`.
 
 - `grid-column-gap`
   **adalah properti untuk mengatur jarak (gap) antar kolom**.
@@ -283,7 +283,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-column-gap: 10px;
 }
 ```
@@ -298,7 +298,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
@@ -314,7 +314,7 @@ Cara penulisan kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -322,7 +322,7 @@ Cara penulisan kodenya adalah:
 
 artinya, anda akan memberikan jarak antar kolom dan baris sebesar `10px`, namun dengan penulisan yang lebih mudah dan singkat dibandingkan dengan kedua properti sebelumnya.
 
-- `jusify-items`
+- `justify-items`
   **Yaitu properti untuk _mensejajarkan items_ secara _horizontal_ (dari kanan ke kiri), dimana properti ini memiliki 4 yaitu `start`, `end`, `center` dan `stretch` dimana `stretch` adalah nilai defaultnya.**
 
 PENJELASAN:
@@ -337,7 +337,7 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   justify-items: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -360,7 +360,7 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   align-items: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -383,13 +383,13 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   place-items: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
 ```
 
-- `jusify-content`
+- `justify-content`
   **Yaitu properti untuk _mengatur_ seluruh _grid-container_ secara _horizontal_ (dari kanan ke kiri) namun dengan _syarat_ ukuran total _grid_ nya harus lebih kecil dari ukuran _container_ nya dan ketika grid _items_ nya menggunakan ukuran fixed (px). Properti ini memiliki 7 value yaitu `start`, `end`, `center`, `stretch`, `space-around`, `space-between` dan `space-evenly` dimana `stretch` adalah nilai defaultnya.**
 
 PENJELASAN:
@@ -407,7 +407,7 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   justify-content: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -433,7 +433,7 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   align-content: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -459,7 +459,7 @@ Cara penulisan kodenya adalah:
 .container {
   display: grid;
   place-content: center;
-  grid-template-column: 3px auto 30%;
+  grid-template-columns: 3px auto 30%;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
 }
@@ -541,8 +541,7 @@ yang artinya adalah item tersebut dimulai dari _baris_ 2, berakhir di _kolom_ 1,
 - `align-self`
   **Yaitu untuk mengatur posisi item pada sebuah _cell_ terhadap sumbu _vertical_ dengan value `start`, `end`, `center` dan `stretch`.**
 
-- `align-self`
-  **Yaitu untuk mengatur posisi item pada sebuah _cell_ terhadap sumbu _vertical dan horizontal_ dengan value `start`, `end`, `center` dan `stretch`.**
+- `place-self`
 
 ### MATERI TAMBAHAN
 
@@ -565,7 +564,7 @@ _sebelum menggunakan repeat()_
 ```css
 .container {
   display: grid;
-  grid-template-colums: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 ```
 
@@ -574,7 +573,7 @@ _sesudah menggunakan repeat()_
 ```css
 .container {
   display: grid;
-  grid-template-colums: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 ```
 
@@ -588,7 +587,7 @@ Contoh kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-colums: 1fr min-content 3fr;
+  grid-template-columns: 1fr min-content 3fr;
 }
 ```
 
@@ -600,7 +599,7 @@ Contoh kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-colums: repeat(auto-fit, 3fr);
+  grid-template-columns: repeat(auto-fit, 3fr);
 }
 ```
 
@@ -612,7 +611,7 @@ Contoh kodenya adalah:
 ```css
 .container {
   display: grid;
-  grid-template-colums: minmax(200px, 500px);
+  grid-template-columns: minmax(200px, 500px);
 }
 ```
 
